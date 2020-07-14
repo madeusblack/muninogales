@@ -1,0 +1,57 @@
+.footerMunicipalidad{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+}
+.footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2em;
+    column-gap: 2em;
+    grid-template-rows: 3fr 1fr;
+    color:white;
+    align-items: flex-end;
+    background-color: teal;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.highlighted{
+    color: rgb(214, 169, 163);
+    text-decoration: none;
+}
+.phoneContainer{
+    padding: 1em;
+    display: grid;
+    align-content: flex-end;
+    grid-template-columns: 1fr 3fr;
+}
+.phoneNumbers{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.phoneImage{
+    height: auto;
+    min-height: 1em;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+  .phoneImageContainer{
+      display: flex;
+      align-items: flex-end;
+  }
+  @media (max-width: 800px) {
+    .footer {
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        row-gap: 1em;
+        grid-template-rows: repeat(4,0.5fr) repeat(4,1fr);
+
+    }
+
+  }
