@@ -1,10 +1,18 @@
 import React from 'react';
 import '../assets/styles/Home.scss';
 import Carrousel from '../components/Carrousel';
+import Highlighted from '../components/Highlighted';
+import Links from '../components/Links';
+import News from '../components/News';
 
 const Home = () => (
   <div className='main'>
-    <Carrousel />
+    <div className='CarouselCont'>
+      <Carrousel />
+    </div>
+    <Highlighted />
+    <Links />
+    <News />
   </div>
 );
 export default Home;

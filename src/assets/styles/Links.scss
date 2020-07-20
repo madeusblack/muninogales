@@ -1,0 +1,22 @@
+.links{
+  background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
+  color: black;
+  padding: 0.3em;
+  border-radius: 5px;
+  grid-column: span 3;
+
+}
+.linksContainer{
+  margin: 0.5em;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+
+}
+#cuenta{
+  grid-column: span 2;
+}
+.linkImage{
+  margin: 2px;
+  width: 97%;
+}

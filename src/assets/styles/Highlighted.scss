@@ -1,0 +1,22 @@
+.highlightedTitle{
+  background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
+  color: black;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+.highlightedContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+}
+.highlightedImage{
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  border-radius: 8px;
+  margin: 2px;
+  transition: 450ms;
+}
+.highlightedImage:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
