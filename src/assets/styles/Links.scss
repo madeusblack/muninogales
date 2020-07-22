@@ -1,6 +1,8 @@
 .links{
-  background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
-  color: black;
+  background: linear-gradient(90deg, #5e5bff 50%, #9998ff 50%);
+  color: white;
+  font-weight: lighter;
+
   padding: 0.3em;
   border-radius: 5px;
   grid-column: span 3;
@@ -19,4 +21,10 @@
 .linkImage{
   margin: 2px;
   width: 97%;
+}
+@media (max-width: 800px) {
+  .linksContainer{
+  margin: 0.2em;
+  }
+
 }

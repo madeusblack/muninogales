@@ -59,6 +59,7 @@ img{
     margin: 1em 0.2em 2em 0.2em;
 }
 .lowerHeader{
+    box-sizing: border-box;
     background-color: #767C03;
     color:white;
     display: flex;
@@ -76,4 +77,25 @@ img{
 }
 .lowerHeader a:hover{
     color: darkgray;
+}
+@media (max-width: 800px) {
+    .upperHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lowerHeader{
+        display: none;
+    }
+    .Left{
+        grid-row: span 2;
+        align-self: center;
+    }
+    .upperRight{
+        margin: 0;
+    }
+    .lowerRight{
+        margin: 0;
+    }
 }

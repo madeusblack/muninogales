@@ -1,6 +1,7 @@
 .highlightedTitle{
   background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
-  color: black;
+  color: white;
+  font-weight: lighter;
   border-radius: 5px;
   padding: 0.3em;
 }
@@ -19,4 +20,10 @@
 .highlightedImage:hover{
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+@media (max-width: 800px) {
+  .highlightedContainer{
+  margin: 0.2em;
+  }
+
 }

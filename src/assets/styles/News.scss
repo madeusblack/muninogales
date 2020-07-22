@@ -1,8 +1,10 @@
 .news{
-  background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
-  color: black;
+  background: linear-gradient(90deg, #7471ff 50%, #abaafc 50%);
+  color: white;
   border-radius: 5px;
   padding: 0.3em;
+  font-weight: lighter;
+
 
   grid-column: span 4;
 
@@ -55,6 +57,8 @@
 @media (max-width: 800px) {
   .newsContainer{
       display: flex;
+      margin: 0.2em;
+
       flex-direction: column;
   }
 }
