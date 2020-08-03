@@ -1,0 +1,28 @@
+.contenedorIframes{
+display: grid; 
+grid-template-columns: repeat(4, 1fr); 
+}
+.containerYoutube{
+  display: flex;
+  padding: 1em;
+}
+.youtubeTitle{
+  background: linear-gradient(90deg, #ff7171 50%, #fcaaaa 50%);
+  color: white;
+  border-radius: .25rem;
+  padding: 0.3em;
+  margin: 3px;
+  font-weight: lighter;
+  grid-column: span 2;
+
+}
+.mainContainerYoutube{
+  grid-column: span 2;
+
+}
+@media (max-width: 800px) {
+  .contenedorIframes{
+      display: flex;
+      flex-direction: column;
+  }
+}

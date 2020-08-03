@@ -8,12 +8,12 @@
 .highlightedContainer{
   display: flex;
   flex-direction: column;
-  margin: 0.5em;
 }
 .highlightedImage{
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%);
-  border-radius: 8px;
+  height: 60%;
+  border-radius: .25rem;
   margin: 2px;
   transition: 450ms;
 }

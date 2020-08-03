@@ -2,18 +2,15 @@
   background: linear-gradient(90deg, #5e5bff 50%, #9998ff 50%);
   color: white;
   font-weight: lighter;
-
   padding: 0.3em;
-  border-radius: 5px;
+  height: 1.2em;
+  border-radius: .25rem;
   grid-column: span 3;
 
 }
 .linksContainer{
-  margin: 0.5em;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-
-
 }
 #cuenta{
   grid-column: span 2;

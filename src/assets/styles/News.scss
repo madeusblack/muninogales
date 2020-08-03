@@ -1,18 +1,16 @@
 .news{
   background: linear-gradient(90deg, #7471ff 50%, #abaafc 50%);
   color: white;
-  border-radius: 5px;
+  border-radius: .25rem;
   padding: 0.3em;
   font-weight: lighter;
-
-
-  grid-column: span 4;
+  grid-column: span 2;
 
 }
 .newsContainer{
   margin: 0.5em 2em 0.5em 0.5em;
-  grid-column: span 2;
-  grid-template-columns: repeat(4, 25%);
+  grid-row: span 2;
+  grid-template-columns: repeat(2, 50%);
   display: grid;
   row-gap: 0.5em;
   column-gap: 0.3em;

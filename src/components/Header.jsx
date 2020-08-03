@@ -8,6 +8,7 @@ import youtube from '../assets/static/youtube.png';
 import lobby from '../assets/static/lobby.png';
 import sai from '../assets/static/sai.png';
 import tai from '../assets/static/tai.png';
+import LinksServicios from './LinksServicios';
 
 const Header = () => (
   <>
@@ -46,6 +47,7 @@ const Header = () => (
         <Link to='/'>INICIO</Link>
         <Link to='/vision'>MUNICIPIO</Link>
         <Link to='/historia'>COMUNA</Link>
+        <LinksServicios />
       </div>
       <div className='lowerHeadeRight'>
         <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
