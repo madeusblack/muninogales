@@ -23,7 +23,7 @@ const JuzgadoSide = () => (
     </h4>
     <h4 className='juzgadoInfob'>
       Mas informacion sobre tipos de faltas al reglamento de transito
-      <a target='_blank' className='linkJuzgado' rel='noreferrer noopener' href="https://practicatest.cl/blog/tramites-y-renovaciones/tipos-de-multas-transito-en-chile-valores#gsc.tab=0"> click aquí</a>
+      <a target='_blank' className='linkJuzgado' rel='noreferrer noopener' href='https://practicatest.cl/blog/tramites-y-renovaciones/tipos-de-multas-transito-en-chile-valores#gsc.tab=0'> click aquí</a>
     </h4>
   </div>
 

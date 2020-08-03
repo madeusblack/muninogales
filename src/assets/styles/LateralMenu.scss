@@ -1,4 +1,23 @@
 .lateralMenu{
-  display: grid;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 25em;
 }
+.lateralMenu a{
+  padding: 1em;
+  width: 50%;
+  color: black;
+  text-decoration: none;
+  transition: 250ms;
+  margin-left: 4em;
+  font-size: larger;
+  background-color: white;
+  border-radius: .235rem;
+}
+.lateralMenu a:hover{
+  text-decoration: underline;
+  background-color: lightgrey;
+}
+
