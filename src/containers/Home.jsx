@@ -5,6 +5,7 @@ import Highlighted from '../components/Highlighted';
 import Links from '../components/Links';
 import News from '../components/News';
 import ContenedorYoutube from '../components/ContenedorYoutube';
+import Informaciones from '../components/Informaciones';
 
 const Home = () => (
   <div className='main'>
@@ -13,8 +14,12 @@ const Home = () => (
     </div>
     <ContenedorYoutube />
     <News />
-    <Highlighted />
     <Links />
+    <Highlighted />
+
+    <Informaciones />
+
+
   </div>
 );
 export default Home;

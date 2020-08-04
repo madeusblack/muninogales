@@ -21,6 +21,9 @@
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+.informacionesContainer{
+  grid-column: span 2;
+}
 @media (max-width: 800px) {
   .highlightedContainer{
   margin: 0.2em;

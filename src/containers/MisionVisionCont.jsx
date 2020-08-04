@@ -1,7 +1,7 @@
 import React from 'react';
 import LateralMenu from '../components/LateralMenu';
-import MisionVision from '../components/MisionVision';
-import MunicipioHeader from '../components/MunicipioHeader';
+import MisionVision from '../components/municipalidad/MisionVision';
+import MunicipioHeader from '../components/municipalidad/MunicipioHeader';
 import '../assets/styles/MunicipioLayout.scss';
 
 const MisionVisionCont = () => (

@@ -9,6 +9,9 @@ import ConsejoMunicipal from '../containers/ConsejoMunicipal';
 import Escalafon from '../containers/Escalafon';
 import CuentaPublica from '../containers/CuentaPublica';
 import ComunaContainer from '../containers/ComunaContainer';
+import PoblacionContainer from '../containers/PoblacionContainer';
+import TurismoContainer from '../containers/TurismoContainer';
+import FomentoProductivoContainer from '../containers/FomentoProductivoContainer';
 
 const App = () => (
   <BrowserRouter>
@@ -21,6 +24,9 @@ const App = () => (
         <Route exact path='/escalafon' component={Escalafon} />
         <Route exact path='/cuentapublica' component={CuentaPublica} />
         <Route exact path='/historia' component={ComunaContainer} />
+        <Route exact path='/poblacion' component={PoblacionContainer} />
+        <Route exact path='/turismo' component={TurismoContainer} />
+        <Route exact path='/fomentoproductivo' component={FomentoProductivoContainer} />
         <Route exact path='/juzgado' component={JuzgadoPoliciaLocal} />
 
       </Switch>

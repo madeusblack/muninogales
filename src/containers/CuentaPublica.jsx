@@ -1,8 +1,8 @@
 import React from 'react';
 import LateralMenu from '../components/LateralMenu';
 import '../assets/styles/MunicipioLayout.scss';
-import MunicipioHeader from '../components/MunicipioHeader';
-import CuentaPublicaBody from '../components/CuentaPublicaBody';
+import MunicipioHeader from '../components/municipalidad/MunicipioHeader';
+import CuentaPublicaBody from '../components/municipalidad/CuentaPublicaBody';
 
 const CuentaPublica = () => (
   <div className='MainMunicipio'>

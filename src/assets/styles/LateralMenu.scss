@@ -2,18 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
-  height: 25em;
+  justify-content: center;
+  text-align: center;
+  height: 30em;
 }
 .lateralMenu a{
-  padding: 1em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
   width: 50%;
   color: black;
+  border: 1px solid gray;
   text-decoration: none;
   transition: 250ms;
   margin-left: 4em;
   font-size: larger;
-  background-color: white;
   border-radius: .235rem;
 }
 .lateralMenu a:hover{
