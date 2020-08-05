@@ -98,3 +98,16 @@
 #enBlanco{
   background-color: white;
 }
+.alcaldesa{
+  height: 25em;
+}
+.escalafonContainer{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .grupoConsejales{
+  display: flex;
+  flex-direction: column;
+  }
+}

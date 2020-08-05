@@ -12,6 +12,20 @@ import LinksServicios from './LinksServicios';
 
 const Header = () => (
   <>
+    <div className='lowerHeader'>
+      <div className='lowerHeaderLeft'>
+        <Link to='/'>INICIO</Link>
+        <LinksServicios tipo='muni' />
+        <LinksServicios tipo='comuna' />
+        <LinksServicios />
+      </div>
+      <div className='lowerHeadeRight'>
+        <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
+        <a target='blank' href='http://www.indap.gob.cl/'>PRODESAL</a>
+        <a target='blank' href='http://www.nogaleschile.cl/'>EDUCACIÓN</a>
+        <a target='blank' href='http://site.saludnogales.cl/'>SALUD</a>
+      </div>
+    </div>
     <div className='upperHeader'>
       <div className='Left'>
         <Link to='/'>
@@ -42,20 +56,7 @@ const Header = () => (
         </a>
       </div>
     </div>
-    <div className='lowerHeader'>
-      <div className='lowerHeaderLeft'>
-        <Link to='/'>INICIO</Link>
-        <Link to='/vision'>MUNICIPIO</Link>
-        <Link to='/historia'>COMUNA</Link>
-        <LinksServicios />
-      </div>
-      <div className='lowerHeadeRight'>
-        <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
-        <a target='blank' href='http://www.indap.gob.cl/'>PRODESAL</a>
-        <a target='blank' href='http://www.nogaleschile.cl/'>EDUCACIÓN</a>
-        <a target='blank' href='http://site.saludnogales.cl/'>SALUD</a>
-      </div>
-    </div>
+
   </>
 );
 export default Header;

@@ -36,8 +36,7 @@ img{
     justify-content: flex-end;
 }
 .upperRight p{
-        font-size: normal;
-        color: rgb(117, 117, 117);
+    color: rgb(117, 117, 117);
 }
 .upperRight a{
     margin: 0 0 0 0.5em;
@@ -58,9 +57,14 @@ img{
 .lowerRight a{
     margin: 1em 0.2em 2em 0.2em;
 }
+.lowerRight img{
+    width: 13vw;
+    height: 8vh ;
+}
 .lowerHeader{
     box-sizing: border-box;
-    background-color: #767C03;
+    background: rgb(36,161,156);
+    background: linear-gradient(90deg, rgba(36,161,156,1) 0%, rgba(78,215,109,1) 100%);
     color:white;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +79,7 @@ img{
     font-size: larger;
 }
 .lowerHeader a:hover{
-    color: darkgray;
+    color: #5D7972;
 }
 @media (max-width: 800px) {
     .upperHeader{
@@ -96,5 +100,9 @@ img{
     }
     .lowerRight{
         margin: 0;
+    }
+    .lowerRight img{
+        width: 30vw;
+        height: 8vh ;
     }
 }

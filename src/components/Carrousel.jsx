@@ -8,9 +8,9 @@ import mail from '../assets/static/carousel/56.jpg';
 const Carrousel = () => {
   return (
     <Carousel autoPlay showThumbs={false} infiniteLoop className='carouselLink'>
-      <div>
+      <a href='www.google.com'>
         <img src={phone} alt='' className='carrouselImage' />
-      </div>
+      </a>
       <div>
         <img src={mail} alt='' className='carrouselImage' />
       </div>

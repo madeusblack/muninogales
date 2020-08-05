@@ -17,28 +17,25 @@
 {
     display: none;
     position: absolute;
-    background: #767C03 ;
+    background: #0f4c75 ;
+    opacity: 0.9;
     color:white;
  
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     top: 32px;
 }
-.dropdown-content a {
 
-
-
-}
 .dropdown-content a:hover {
-  background-color: #9ba304;
   color: white;
+  font-weight: bolder;
+  background-color: rgba(36,161,156,1);
 
 }
-
 .dropdown:hover .dropdown-content 
 {
     display: flex;
-    transition: ease-in;
-    width: 20em;
+    transition: 450ms;
+    width: 35em;
     flex-direction: column;
 }

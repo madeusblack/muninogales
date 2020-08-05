@@ -11,9 +11,7 @@ import Cuenta2015 from '../../assets/static/pdf/cuenta publica/cp15.pdf';
 import Cuenta2014 from '../../assets/static/pdf/cuenta publica/cp14.pdf';
 import Cuenta2013 from '../../assets/static/pdf/cuenta publica/cp13.pdf';
 
-
 import '../../assets/styles/LayoutContenidoMuniComuna.scss';
-
 
 const CuentaPublicaBody = () => (
   <div className='muniContainer'>
