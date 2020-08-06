@@ -28,49 +28,42 @@ const CuentaPublicaBody = () => (
       Municipalidad de Nogales
     </p>
     <div className='cuentaPublicaMainContainer'>
-      <div className='cuentaPublicaSubCont'>
-        <a name='2019' href={Cuenta2019}>
-          <img src={pdfImg} alt='' />
-          2019
-        </a>
-        <a name='2018' href={Cuenta2018}>
-          <img src={pdfImg} alt='' />
-          2018
-        </a>
-        <a name='2017' href={Cuenta2017}>
-          <img src={pdfImg} alt='' />
-          2017
-        </a>
-        <a name='2016' href={Cuenta2016}>
-          <img src={pdfImg} alt='' />
-          2016
-        </a>
-      </div>
-      <div className='cuentaPublicaSubCont'>
-        <a name='2015' href={Cuenta2015}>
-          <img src={pdfImg} alt='' />
-          2015
-        </a>
-        <a name='2014' href={Cuenta2014}>
-          <img src={pdfImg} alt='' />
-          2014
-        </a>
-        <a name='2013' href={Cuenta2013}>
-          <img src={pdfImg} alt='' />
-          2013
-        </a>
-        <a name='2012' href='#'>
-          <img src={pdfImg} alt='' />
-          2012
-        </a>
-      </div>
-      <div className='cuentaPublicaSubCont'>
-        <a name='2011' href='#'>
-          <img src={pdfImg} alt='' />
-          2011
-        </a>
-      </div>
-
+      <a name='2019' href={Cuenta2019}>
+        <img src={pdfImg} alt='' />
+        2019
+      </a>
+      <a name='2018' href={Cuenta2018}>
+        <img src={pdfImg} alt='' />
+        2018
+      </a>
+      <a name='2017' href={Cuenta2017}>
+        <img src={pdfImg} alt='' />
+        2017
+      </a>
+      <a name='2016' href={Cuenta2016}>
+        <img src={pdfImg} alt='' />
+        2016
+      </a>
+      <a name='2015' href={Cuenta2015}>
+        <img src={pdfImg} alt='' />
+        2015
+      </a>
+      <a name='2014' href={Cuenta2014}>
+        <img src={pdfImg} alt='' />
+        2014
+      </a>
+      <a name='2013' href={Cuenta2013}>
+        <img src={pdfImg} alt='' />
+        2013
+      </a>
+      <a name='2012' href={Cuenta2013}>
+        <img src={pdfImg} alt='' />
+        2012
+      </a>
+      <a name='2011' href={Cuenta2013}>
+        <img src={pdfImg} alt='' />
+        2011
+      </a>
     </div>
   </div>
 );

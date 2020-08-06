@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../assets/styles/LinksServicios.scss';
 
 const LinksServicios = ({ tipo }) => {
-  console.log(tipo);
   switch (tipo) {
     case 'muni':
       return (
@@ -28,6 +27,19 @@ const LinksServicios = ({ tipo }) => {
             <Link to='/poblacion'>POBLACIÓN</Link>
             <Link to='/turismo'>TURISMO</Link>
             <Link to='/fomentoproductivo'>FOMENTO PRODUCTIVO</Link>
+          </div>
+        </div>
+      );
+    case 'beneficios':
+      return (
+        
+        <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
+          <span className='services'>BENEFICIOS</span>
+          <div className='dropdown-content'>
+            <Link to='/retiroafp'>Retiro 10% AFP</Link>
+            <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>Bono Clase Media</a>
+            <Link to='/turismo'>Beneficios Municipales</Link>
+            <a href='http://www.registrosocial.gob.cl/beneficios-sociales' target='_blank' rel='noopener noreferrer'>Beneficios Sociales Estatales</a>
           </div>
         </div>
       );

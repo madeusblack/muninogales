@@ -8,6 +8,7 @@ import youtube from '../assets/static/youtube.png';
 import lobby from '../assets/static/lobby.png';
 import sai from '../assets/static/sai.png';
 import tai from '../assets/static/tai.png';
+import comisaria from '../assets/static/header/comisaria.jpg';
 import LinksServicios from './LinksServicios';
 
 const Header = () => (
@@ -17,13 +18,15 @@ const Header = () => (
         <Link to='/'>INICIO</Link>
         <LinksServicios tipo='muni' />
         <LinksServicios tipo='comuna' />
+        <LinksServicios tipo='beneficios'/>
+
         <LinksServicios />
       </div>
       <div className='lowerHeadeRight'>
         <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
-        <a target='blank' href='http://www.indap.gob.cl/'>PRODESAL</a>
-        <a target='blank' href='http://www.nogaleschile.cl/'>EDUCACIÓN</a>
-        <a target='blank' href='http://site.saludnogales.cl/'>SALUD</a>
+        <a target='_blank' rel='noopener noreferrer' href='http://www.indap.gob.cl/'>PRODESAL</a>
+        <a target='_blank' rel='noopener noreferrer' href='http://www.nogaleschile.cl/'>EDUCACIÓN</a>
+        <a target='_blank' rel='noopener noreferrer' href='http://site.saludnogales.cl/'>SALUD</a>
       </div>
     </div>
     <div className='upperHeader'>
@@ -34,25 +37,28 @@ const Header = () => (
       </div>
       <div className='upperRight'>
         <p>Siguenos en:</p>
-        <a target='blank' className='icon' href='https://www.youtube.com/channel/UCpURFVn_rEYNePMMhw_-fWw'>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.youtube.com/channel/UCpURFVn_rEYNePMMhw_-fWw'>
           <img src={youtube} alt='Canal de Youtube' />
         </a>
-        <a target='blank' className='icon' href='https://twitter.com/muninogales'>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='https://twitter.com/muninogales'>
           <img src={twitter} alt='Twitter' />
         </a>
-        <a target='blank' className='icon' href='http://mail.google.com/a/muninogales.cl'>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
           <img src={mail} alt='Inicio de sesion de correo de Funcionarios' />
         </a>
       </div>
       <div className='lowerRight'>
-        <a target='blank' href='https://www.leylobby.gob.cl/instituciones/MU183'>
+        <a target='_blank' rel='noopener noreferrer' href='https://www.leylobby.gob.cl/instituciones/MU183'>
           <img src={lobby} alt='Lobby y gestion de intereses particulares' />
         </a>
-        <a target='blank' href='http://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0078b82e8b3606aa549688114c54effe'>
+        <a target='_blank' rel='noopener noreferrer' href='http://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0078b82e8b3606aa549688114c54effe'>
           <img src={sai} alt='Solicitar informacion ley de transparencia' />
         </a>
-        <a target='blank' href='http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU183'>
+        <a target='_blank' rel='noopener noreferrer' href='http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU183'>
           <img src={tai} alt='transparencia activa ley de transparencia' />
+        </a>
+        <a target='_blank' rel='noopener noreferrer' href='https://comisariavirtual.cl/'>
+          <img src={comisaria} alt='transparencia activa ley de transparencia' />
         </a>
       </div>
     </div>

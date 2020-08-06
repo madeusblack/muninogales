@@ -12,6 +12,7 @@ import ComunaContainer from '../containers/ComunaContainer';
 import PoblacionContainer from '../containers/PoblacionContainer';
 import TurismoContainer from '../containers/TurismoContainer';
 import FomentoProductivoContainer from '../containers/FomentoProductivoContainer';
+import RetiroAfp from '../containers/RetiroAfp';
 
 const App = () => (
   <BrowserRouter>
@@ -28,7 +29,7 @@ const App = () => (
         <Route exact path='/turismo' component={TurismoContainer} />
         <Route exact path='/fomentoproductivo' component={FomentoProductivoContainer} />
         <Route exact path='/juzgado' component={JuzgadoPoliciaLocal} />
-
+        <Route exact path='/retiroafp' component={RetiroAfp} />
       </Switch>
     </Layout>
   </BrowserRouter>
