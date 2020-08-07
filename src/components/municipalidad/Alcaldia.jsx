@@ -7,7 +7,7 @@ const Alcaldia = () => (
     <div>
       <h1 className='muniTitle'>ALCALDESA</h1>
     </div>
-    <img className='imgMunicipalidad alcaldesa' src={Alcaldesa} alt='Alcaldesa' />
+    <img className='alcaldesa' src={Alcaldesa} alt='Alcaldesa' />
 
     <div className='containerAlcaldesa'>
       <h2>MARGARITA OSORIO PIZARRO</h2>

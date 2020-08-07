@@ -9,17 +9,12 @@ import Informaciones from '../components/Informaciones';
 
 const Home = () => (
   <div className='main'>
-    <div className='CarouselCont'>
-      <Carrousel />
-    </div>
+    <Carrousel />
     <ContenedorYoutube />
     <News />
     <Links />
     <Highlighted />
-
     <Informaciones />
-
-
   </div>
 );
 export default Home;

@@ -7,7 +7,8 @@ grid-template-columns: repeat(4, 1fr);
   padding: 1em;
 }
 .youtubeTitle{
-  background: linear-gradient(90deg, #ff7171 50%, #fcaaaa 50%);
+  background: rgb(255,113,113);
+  background: linear-gradient(90deg, rgba(255,113,113,1) 0%, rgba(255,255,255,1) 100%);
   color: white;
   border-radius: .25rem;
   padding: 0.3em;
@@ -24,5 +25,8 @@ grid-template-columns: repeat(4, 1fr);
   .contenedorIframes{
       display: flex;
       flex-direction: column;
+  }
+  .secundario{
+    display: none;
   }
 }

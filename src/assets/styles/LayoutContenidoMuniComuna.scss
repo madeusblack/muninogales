@@ -5,7 +5,7 @@
   grid-template-columns: 40% 60%;
 }
 .imgMunicipalidad{
-  padding: 2em;
+  width: 50vw;
   grid-row: span 2;
   padding: 0;
   margin: 2em 0 0 2em;
@@ -121,8 +121,14 @@
   background-color: white;
 }
 .alcaldesa{
-  height: 25em;
-}
+  width: 20vw;
+  grid-row: span 2;
+  padding: 0;
+  margin: 2em 0 0 2em;
+  border-radius: 22px;
+  -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);}
 .escalafonContainer{
   display: flex;
   flex-direction: column;

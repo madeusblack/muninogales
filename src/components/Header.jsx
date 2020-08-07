@@ -2,23 +2,25 @@ import React from 'react';
 import '../assets/styles/Header.scss';
 import { Link } from 'react-router-dom';
 import logo from '../assets/static/logo.png';
-import mail from '../assets/static/mail.png';
-import twitter from '../assets/static/twitter.png';
+import instagram from '../assets/static/header/instagram.png';
+import mail from '../assets/static/header/mail.png';
+import twitter from '../assets/static/header/twitter.png';
 import youtube from '../assets/static/youtube.png';
 import lobby from '../assets/static/lobby.png';
 import sai from '../assets/static/sai.png';
 import tai from '../assets/static/tai.png';
 import comisaria from '../assets/static/header/comisaria.jpg';
+
 import LinksServicios from './LinksServicios';
 
 const Header = () => (
-  <>
+  <div className='headerContainer'>
     <div className='lowerHeader'>
       <div className='lowerHeaderLeft'>
         <Link to='/'>INICIO</Link>
         <LinksServicios tipo='muni' />
         <LinksServicios tipo='comuna' />
-        <LinksServicios tipo='beneficios'/>
+        <LinksServicios tipo='beneficios' />
 
         <LinksServicios />
       </div>
@@ -44,8 +46,12 @@ const Header = () => (
           <img src={twitter} alt='Twitter' />
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
+          <img src={instagram} alt='Inicio de sesion de correo de Funcionarios' />
+        </a>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
           <img src={mail} alt='Inicio de sesion de correo de Funcionarios' />
         </a>
+
       </div>
       <div className='lowerRight'>
         <a target='_blank' rel='noopener noreferrer' href='https://www.leylobby.gob.cl/instituciones/MU183'>
@@ -63,6 +69,6 @@ const Header = () => (
       </div>
     </div>
 
-  </>
+  </div>
 );
 export default Header;

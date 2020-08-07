@@ -3,8 +3,13 @@ html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    color: black;
     overflow-x:hidden;
 }
+.headerContainer{
+    background: rgb(36,161,156);
+    background: linear-gradient(90deg, rgba(36,161,156,1) 0%, rgba(78,215,109,1) 100%);}
+
 body{font-family: Arial, Helvetica, sans-serif}
 .upperHeader{
     display: grid;
@@ -36,7 +41,8 @@ img{
     justify-content: flex-end;
 }
 .upperRight p{
-    color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
+    font-size: larger;
 }
 .upperRight a{
     margin: 0 0 0 0.5em;
@@ -81,6 +87,12 @@ img{
 .lowerHeader a:hover{
     color: #5D7972;
 }
+.fondoHeader{
+    display: flex;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
 @media (max-width: 800px) {
     .upperHeader{
         display: flex;
@@ -104,5 +116,9 @@ img{
     .lowerRight img{
         width: 30vw;
         height: 8vh ;
+    }
+    .upperRight a{
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
     }
 }

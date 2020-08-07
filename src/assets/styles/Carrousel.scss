@@ -1,11 +1,16 @@
-.carouselLink{
-    padding: 0em;
-    display: flex;
-    width: 100%;
-    height: 100%;
 
-}
-.carrouselImage{
+.image{
     height: 346px;
+    width: 100vw;
     object-fit: fill;
+}
+.carrousell{
+    display: flex;
+    grid-column: span 2;
+    height: 345px;
+}
+@media (max-width: 800px) {
+    .carrousell{
+        height: 345px;
+    }
 }

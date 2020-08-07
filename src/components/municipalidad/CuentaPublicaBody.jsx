@@ -18,7 +18,7 @@ const CuentaPublicaBody = () => (
     <h1 className='muniTitle'>CUENTA PUBLICA</h1>
     <img className='imgMunicipalidad' src={Cuenta} alt='' />
 
-    <p>
+    <h3>
       Apreciados vecinas y vecinos,
       Mediante la Cuenta de Gestión de la Municipalidad de Nogales, se muestra cómo la visión de futuro del municipio se transforma en acciones específicas, en programas y proyectos que dan como resultado obras que benefician a los habitantes de la comuna. En un contexto donde está presente nuestra identidad, se reconocen las raíces y se manifiesta la diversidad en el quehacer del municipio.
       Los invito a revisar estas cuentas de gestión, que muestra en detalle las obras, programas y actividades.
@@ -26,7 +26,7 @@ const CuentaPublicaBody = () => (
       Margarita Osorio Pizarro
       Alcaldesa
       Municipalidad de Nogales
-    </p>
+    </h3>
     <div className='cuentaPublicaMainContainer'>
       <a name='2019' href={Cuenta2019}>
         <img src={pdfImg} alt='' />

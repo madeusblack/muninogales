@@ -1,20 +1,30 @@
 import React from 'react';
 import '../assets/styles/Carrousel.scss';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 import phone from '../assets/static/carousel/49.jpg';
 import mail from '../assets/static/carousel/56.jpg';
 
-const Carrousel = () => {
-  return (
-    <Carousel autoPlay showThumbs={false} infiniteLoop className='carouselLink'>
-      <a href='www.google.com'>
-        <img src={phone} alt='' className='carrouselImage' />
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+const Carrousel = () => (
+  <AutoplaySlider
+    className='carrousell'
+    play={true}
+    cancelOnInteraction={false}
+    interval={3000}
+
+  >
+    <div>
+      <a href="http://www.google.cl">
+        <img className='image' src={phone} alt='' />
       </a>
-      <div>
-        <img src={mail} alt='' className='carrouselImage' />
-      </div>
-    </Carousel>
-  );
-};
+    </div>
+    <div><img className='image' src={mail} alt=""/></div>
+    <div>3</div>
+    <div>4</div>
+  </AutoplaySlider>
+);
 export default Carrousel;
