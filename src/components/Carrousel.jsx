@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/styles/Carrousel.scss';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import phone from '../assets/static/carousel/49.jpg';
@@ -31,14 +30,10 @@ const Carrousel = () => (
 
   >
     <div>
-      <a href='#'>
-        <img className='image' src={decima} alt='' />
-      </a>
+      <img className='image' src={decima} alt='' />
     </div>
     <div>
-      <a href='#'>
-        <img className='image' src={mail} alt='' />
-      </a>
+      <img className='image' src={mail} alt='' />
     </div>
     <div>
       <a href='tel:+56989014868'>
@@ -46,14 +41,10 @@ const Carrousel = () => (
       </a>
     </div>
     <div>
-      <a href="http://www.google.cl">
-        <img className='image' src={cuarta} alt='' />
-      </a>
+      <img className='image' src={cuarta} alt='' />
     </div>
     <div>
-      <a href="paginacesfam">
-        <img className='image' src={quinta} alt='' />
-      </a>
+      <img className='image' src={quinta} alt='' />
     </div>
     <div>
       <a href={juzgado}>
@@ -76,9 +67,7 @@ const Carrousel = () => (
       </a>
     </div>
     <div>
-      <a href="http://www.google.cl">
-        <img className='image' src={phone} alt='' />
-      </a>
+      <img className='image' src={phone} alt='' />
     </div>
     <div>
       <a href='tel:+56988698591'>
