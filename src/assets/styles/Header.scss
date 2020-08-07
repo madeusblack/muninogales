@@ -93,6 +93,7 @@ img{
     width: 100%;
     position: absolute;
 }
+
 @media (max-width: 800px) {
     .upperHeader{
         display: flex;
@@ -111,11 +112,14 @@ img{
         margin: 0;
     }
     .lowerRight{
+        display: grid;
+        grid-template-columns: repeat(3, 33vw);
+        row-gap: 0.1em;
         margin: 0;
     }
     .lowerRight img{
-        width: 30vw;
-        height: 8vh ;
+        width: 33vw;
+        height: 10vh ;
     }
     .upperRight a{
         -webkit-filter: grayscale(0%);

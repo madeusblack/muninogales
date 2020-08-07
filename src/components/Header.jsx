@@ -10,6 +10,8 @@ import lobby from '../assets/static/lobby.png';
 import sai from '../assets/static/sai.png';
 import tai from '../assets/static/tai.png';
 import comisaria from '../assets/static/header/comisaria.jpg';
+import pasoapaso from '../assets/static/header/pasoapaso.png';
+
 
 import LinksServicios from './LinksServicios';
 
@@ -54,6 +56,9 @@ const Header = () => (
 
       </div>
       <div className='lowerRight'>
+        <Link to='/pasoapaso'>
+          <img className='estadoComuna' src={pasoapaso} alt='Lobby y gestion de intereses particulares' />
+        </Link>
         <a target='_blank' rel='noopener noreferrer' href='https://www.leylobby.gob.cl/instituciones/MU183'>
           <img src={lobby} alt='Lobby y gestion de intereses particulares' />
         </a>
