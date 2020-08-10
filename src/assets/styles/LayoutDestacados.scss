@@ -1,0 +1,50 @@
+.seccionDestacadaContainer{
+  display: flex;
+  flex-direction: column;
+}
+.seccionDestacadaContainer h2{
+  height: 1.3em;
+  color:rgb(1, 100, 1);
+  padding: 1em;
+  border-bottom: 1px solid lightgray;
+}
+.linkDestacados{
+  padding: 1em;
+  margin: 0.3em;
+  height: 3em;
+  text-decoration: none;
+  transition: 450ms;
+  display: flex;
+  font-weight: bolder;
+  color: black;
+  background-color:lightgray;
+  align-items: center;
+}
+.linkDestacados:hover{
+  text-decoration: underline;
+
+  background-color:rgb(187, 187, 187);
+}
+.pdfImg{
+  height: 2em;
+}
+.subTitleDestacados{
+  text-align: center;
+}
+.containerLinksDestacados{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgTable{
+  height: 2em;
+}
+.containerLinksDestacados table{
+text-align: center;
+}
+.headerTablaDestacados{
+  background-color: lightgrey;
+}
+.verficha{
+  width: 3em;
+}

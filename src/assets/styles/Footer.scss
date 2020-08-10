@@ -11,8 +11,11 @@
     column-gap: 2em;
     grid-template-rows: 3fr 1fr;
     color:white;
+    font-weight: bolder;
+
     align-items: flex-end;
-    background-color: teal;
+    background: rgb(1, 124, 30);
+    background: linear-gradient(90deg, rgb(0, 82, 19) 0%, rgb(0, 139, 33) 100%);
 }
 .phone{
     text-decoration: none;
@@ -21,8 +24,12 @@
     font-size: x-large;
 }
 .highlighted{
-    color: rgb(214, 169, 163);
+    color: rgb(1, 255, 1);
+    font-weight: bolder;
     text-decoration: none;
+}
+.highlighted:hover{
+    text-decoration: underline;
 }
 .phoneContainer{
     padding: 1em;
@@ -34,6 +41,10 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+}
+.phone:hover{
+    text-decoration: underline;
+
 }
 .phoneImage{
     height: auto;

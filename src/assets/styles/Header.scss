@@ -1,15 +1,20 @@
 
+*{
+      -webkit-font-smoothing: antialiased;
+
+}
 html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
     color: black;
     overflow-x:hidden;
 }
 .headerContainer{
-    background: rgb(36,161,156);
-    background: linear-gradient(90deg, rgba(36,161,156,1) 0%, rgba(78,215,109,1) 100%);}
-
+    background: rgb(1, 124, 30);
+    background: linear-gradient(90deg, rgb(1, 124, 30) 0%, rgba(78,215,109,1) 100%);
+}
 body{font-family: Arial, Helvetica, sans-serif}
 .upperHeader{
     display: grid;
@@ -57,11 +62,13 @@ img{
 }
 .lowerRight{
     display: flex;
+
     margin-right:1em;
     justify-content: flex-end;
 }
 .lowerRight a{
     margin: 1em 0.2em 2em 0.2em;
+
 }
 .lowerRight img{
     width: 13vw;
@@ -69,8 +76,8 @@ img{
 }
 .lowerHeader{
     box-sizing: border-box;
-    background: rgb(36,161,156);
-    background: linear-gradient(90deg, rgba(36,161,156,1) 0%, rgba(78,215,109,1) 100%);
+    background: rgb(1, 124, 30);
+    background: linear-gradient(90deg, rgb(1, 124, 30) 0%, rgba(78,215,109,1) 100%);
     color:white;
     display: flex;
     flex-wrap: wrap;
@@ -79,13 +86,15 @@ img{
 .lowerHeader a{
     text-decoration: none;
     color:white;
+
     line-height: 2.2em;
-    padding: 1em;
+    padding: 10px;
     transition: 450ms;
     font-size: larger;
 }
 .lowerHeader a:hover{
-    color: #5D7972;
+    background-color:#bbfdb3 ;
+    color: black;
 }
 .fondoHeader{
     display: flex;

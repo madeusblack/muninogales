@@ -5,7 +5,7 @@ import logo from '../assets/static/logo.png';
 import instagram from '../assets/static/header/instagram.png';
 import mail from '../assets/static/header/mail.png';
 import twitter from '../assets/static/header/twitter.png';
-import youtube from '../assets/static/youtube.png';
+import youtube from '../assets/static/header/youtube.png';
 import lobby from '../assets/static/lobby.png';
 import sai from '../assets/static/sai.png';
 import tai from '../assets/static/tai.png';
@@ -20,7 +20,7 @@ const Header = () => (
     <div className='lowerHeader'>
       <div className='lowerHeaderLeft'>
         <Link to='/'>INICIO</Link>
-        <LinksServicios tipo='muni' />
+        <LinksServicios tipo='muni' className='mobileMenuLink'/>
         <LinksServicios tipo='comuna' />
         <LinksServicios tipo='beneficios' />
 

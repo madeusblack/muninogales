@@ -14,6 +14,11 @@ import TurismoContainer from '../containers/TurismoContainer';
 import FomentoProductivoContainer from '../containers/FomentoProductivoContainer';
 import RetiroAfp from '../containers/RetiroAfp';
 import PasoAPasoContainer from '../containers/PasoAPasoContainer';
+import SiiContainer from '../containers/SiiContainer';
+import OrganizacionesSociales from '../containers/OrganizacionesSociales';
+import ConcursosPublicos from '../containers/ConcursosPublicos';
+import LicitacionesPublicas from '../containers/LicitacionesPublicas';
+import ContenedorProgramaMujer from '../containers/ContenedorProgramaMujer';
 
 const App = () => (
   <BrowserRouter>
@@ -32,6 +37,11 @@ const App = () => (
         <Route exact path='/juzgado' component={JuzgadoPoliciaLocal} />
         <Route exact path='/retiroafp' component={RetiroAfp} />
         <Route exact path='/pasoapaso' component={PasoAPasoContainer} />
+        <Route exact path='/sii' component={SiiContainer} />
+        <Route exact path='/organizaciones' component={OrganizacionesSociales} />
+        <Route exact path='/concursospublicos' component={ConcursosPublicos} />
+        <Route exact path='/licitaciones' component={LicitacionesPublicas} />
+        <Route exact path='/pmujer' component={ContenedorProgramaMujer} />
 
       </Switch>
     </Layout>

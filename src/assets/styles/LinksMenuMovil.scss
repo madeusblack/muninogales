@@ -5,34 +5,17 @@
     transition: 450ms;
     color:white;
 }
-
-.services{
-  font-size: larger;
-  padding: 10px;
-
-}
-.services:hover{
-  background-color:#bbfdb3 ;
-  color: black;
-}
 .dropdown-content 
 {
     display: none;
     position: absolute;
-    background: rgb(1, 124, 30) ;
     opacity: 0.9;
     color:white;
-    border-radius: 0.235rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 3;
-    top: 2em;
 }
-
-.dropdown-content a:hover {
+.dropdown-content a {
   color: white;
-  border-radius: 0.235rem;
-
-  font-weight: bolder;
+  padding: 0.5em;
   background-color: rgba(78,215,109,1);
 
 }
@@ -40,6 +23,5 @@
 {
     display: flex;
     transition: 450ms;
-    width: 35em;
     flex-direction: column;
 }

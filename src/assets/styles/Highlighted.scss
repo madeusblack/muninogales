@@ -1,7 +1,8 @@
 .highlightedTitle{
-  background: linear-gradient(90deg, #70bbbb 50%, cyan 50%);
+  background: rgb(112,187,187);
+  background: linear-gradient(90deg, rgb(54, 114, 114) 0%, rgba(186,255,250,1) 100%);
   color: white;
-  font-weight: lighter;
+  font-weight: bolder;
   border-radius: 5px;
   padding: 0.3em;
 }
@@ -12,8 +13,8 @@
 .highlightedImage{
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%);
-  height: 60%;
-  border-radius: .25rem;
+  width: 100%;
+  border-radius: 0.5rem;
   margin: 2px;
   transition: 450ms;
 }

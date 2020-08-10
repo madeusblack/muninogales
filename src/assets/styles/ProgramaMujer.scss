@@ -1,0 +1,27 @@
+.ContenedorProgramasMujer{
+  padding: 0em 1em;
+  display: flex;
+  flex-direction: column;
+}
+.ContenedorProgramasMujer a{
+  padding: 1em;
+  margin: 0.3em;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+
+  transition: 450ms;
+  background-color: grey;
+}
+.ContenedorProgramasMujer a:hover{
+  text-decoration: underline;
+  background-color: rgb(112, 112, 112);
+
+}
+.parrafoMujer{
+  padding: 0em 2em;
+  line-height: 1.5em;
+}
+.MainMujerContainer h2 {
+  padding: 1em;
+}
