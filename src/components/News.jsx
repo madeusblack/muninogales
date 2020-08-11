@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/News.scss';
+import { connect } from 'react-redux';
 import first from '../assets/static/news/20_censo_comunal.jpg';
 import second from '../assets/static/news/20_aportepropio_covid-19.jpg';
 import third from '../assets/static/news/20_sopraval_645cajas.jpg';
@@ -54,4 +55,12 @@ const News = () => (
     </div>
   </div>
 );
-export default News;
+const mapStateToProps = (state) => {
+  return {
+    myList: state.myList,
+    trends: state.trends,
+    originals: state.originals,
+  };
+};
+
+export default connect(mapStateToProps, null)(News);

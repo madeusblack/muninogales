@@ -1,0 +1,21 @@
+.containerNoticia{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 0.2em;
+  line-height: 1.5;
+}
+.containerNoticia img {
+  height: 50vh;
+  width: 50vw;
+  border-radius: .5rem;
+}
+@media (max-width: 800px) {
+  .containerNoticia img {
+    width: 99%;
+    height: 40vh;
+
+
+  }
+}

@@ -9,10 +9,11 @@
 .services{
   font-size: larger;
   padding: 10px;
+  border: none;
 
 }
 .services:hover{
-  background-color:#bbfdb3 ;
+  background-color:#bbfdb3;
   color: black;
 }
 .dropdown-content 
@@ -24,8 +25,8 @@
     color:white;
     border-radius: 0.235rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 3;
-    top: 2em;
+    z-index: 15;
+    top: 31px;
 }
 
 .dropdown-content a:hover {

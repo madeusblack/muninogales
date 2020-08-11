@@ -19,6 +19,7 @@ import OrganizacionesSociales from '../containers/OrganizacionesSociales';
 import ConcursosPublicos from '../containers/ConcursosPublicos';
 import LicitacionesPublicas from '../containers/LicitacionesPublicas';
 import ContenedorProgramaMujer from '../containers/ContenedorProgramaMujer';
+import ContainerNoticias from '../containers/ContainerNoticias';
 
 const App = () => (
   <BrowserRouter>
@@ -42,6 +43,8 @@ const App = () => (
         <Route exact path='/concursospublicos' component={ConcursosPublicos} />
         <Route exact path='/licitaciones' component={LicitacionesPublicas} />
         <Route exact path='/pmujer' component={ContenedorProgramaMujer} />
+        <Route exact path='/noticia' component={ContainerNoticias} />
+
 
       </Switch>
     </Layout>
