@@ -8,9 +8,11 @@ const NewsItem = (props) => {
   const src = require(`../assets/static/noticias/imagenes/${miniatura}`);
   return (
     <div className='newsItemContainer'>
-      <img src={src} alt='' className='newsImage' />
-      <Link className='newsText' to={`/noticia/${id}`}>{title}</Link>
       <p className='date'>{date}</p>
+      <Link className='newsText' to={`/noticia/${id}`}>
+        <img src={src} alt='' className='newsImage' />
+        {title}
+      </Link>
     </div>
   );
 };
