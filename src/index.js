@@ -88,7 +88,7 @@ const initialState = {
       'title': 'Municipio realiza “Censo Comunal” para detectar casos que no han recibido ayuda social',
       'subTitle': '',
       'date': 'Julio 11, 2020',
-      'Contenido': ``,
+      'Contenido': '',
       'miniatura': 'aljibes.jpg',
       'imagenesPost': ['aljibes.jpg'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],

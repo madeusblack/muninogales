@@ -3,20 +3,18 @@
 /* eslint-disable global-require */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import { connect, useDispatch } from 'react-redux';
 import { getVideoSource } from '../actions';
-
 import '../assets/styles/ContainerNoticias.scss';
 
 const ContainerNoticias = (props) => {
+  const dispatch = useDispatch();
   const { id } = props.match.params;
-
   const hasPlaying = Object.keys(props.reading).length > 0;
-
   useEffect(() => {
-    props.getVideoSource(id);
-  }, []);
-
+    dispatch(getVideoSource(id));
+  }, [dispatch, id]);
+  
   return hasPlaying ? (
     <div className='containerNoticia'>
       <h1>
