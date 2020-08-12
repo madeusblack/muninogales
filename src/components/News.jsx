@@ -4,7 +4,12 @@ import { connect } from 'react-redux';
 import NewsItem from './NewsItem';
 
 const News = ({ news }) => {
-  const noticias = news.reverse()
+  let noticias;
+  if (news[0].id === 1) {
+    noticias = news.reverse();
+  } else {
+    noticias = news;
+  }
   return (
     <div className='newsContainer'>
       <h3 className='news'>Noticias</h3>
