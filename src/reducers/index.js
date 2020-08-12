@@ -1,16 +1,11 @@
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'SET_FAVORITE':
+    case 'GET_VIDEO_SOURCE':
       return {
         ...state,
-        myList: [...state.myList, action.payload],
+        reading: state.news.find((item) => item.id === Number(action.payload)) ||
+        [],
       };
-    case 'DELETE_FAVORITE':
-      return {
-        ...state,
-        myList: state.myList.filter((items) => items.id !== action.payload),
-      };
-
     default:
       return state;
   }

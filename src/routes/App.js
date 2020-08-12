@@ -43,9 +43,7 @@ const App = () => (
         <Route exact path='/concursospublicos' component={ConcursosPublicos} />
         <Route exact path='/licitaciones' component={LicitacionesPublicas} />
         <Route exact path='/pmujer' component={ContenedorProgramaMujer} />
-        <Route exact path='/noticia' component={ContainerNoticias} />
-
-
+        <Route exact path='/noticia/:id' component={ContainerNoticias} />
       </Switch>
     </Layout>
   </BrowserRouter>
