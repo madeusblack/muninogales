@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';
 import reducer from './reducers/index';
@@ -137,7 +137,7 @@ const initialState = {
 };
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducer, initialState, composeEnhancers());
-ReactDOM.render(
+render(
   <Provider store={store}>
     <App />
   </Provider>,
