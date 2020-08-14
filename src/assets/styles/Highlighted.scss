@@ -19,8 +19,9 @@
   transition: 450ms;
 }
 .highlightedImage:hover{
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  -webkit-filter: contrast(90%) brightness(110%) saturate(150%) hue-rotate(-10deg);
+  filter: contrast(90%) brightness(120%) saturate(150%) hue-rotate(-10deg);
+  background-color: rgb(130, 195, 206);
 }
 .informacionesContainer{
   grid-column: span 1;

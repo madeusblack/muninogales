@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/styles/Highlighted.scss';
 import { Link } from 'react-router-dom';
-
 import youtube from '../assets/static/highlighted/youtube.png';
 import sii from '../assets/static/highlighted/sii.png';
 import concursos from '../assets/static/highlighted/concurso.png';

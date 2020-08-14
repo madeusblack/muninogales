@@ -1,5 +1,5 @@
 import React from 'react';
-import Alcaldesa from '../../assets/static/mosorio.jpg';
+import Alcaldesa from '../../assets/static/municipalidad/mosorio.jpg';
 import '../../assets/styles/LayoutContenidoMuniComuna.scss';
 
 const Alcaldia = () => (

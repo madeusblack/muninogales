@@ -1,18 +1,16 @@
 import React from 'react';
 import '../assets/styles/Header.scss';
 import { Link } from 'react-router-dom';
-import logo from '../assets/static/logo.png';
+import logo from '../assets/static/header/logo.png';
 import instagram from '../assets/static/header/instagram.png';
 import mail from '../assets/static/header/mail.png';
 import twitter from '../assets/static/header/twitter.png';
 import youtube from '../assets/static/header/youtube.png';
-import lobby from '../assets/static/lobby.png';
-import sai from '../assets/static/sai.png';
-import tai from '../assets/static/tai.png';
+import lobby from '../assets/static/header/lobby.png';
+import sai from '../assets/static/header/sai.png';
+import tai from '../assets/static/header/tai.png';
 import comisaria from '../assets/static/header/comisaria.jpg';
 import pasoapaso from '../assets/static/header/pasoapaso.png';
-
-
 import LinksServicios from './LinksServicios';
 
 const Header = () => (
@@ -20,7 +18,7 @@ const Header = () => (
     <div className='lowerHeader'>
       <div className='lowerHeaderLeft'>
         <Link to='/'>INICIO</Link>
-        <LinksServicios tipo='muni' className='mobileMenuLink'/>
+        <LinksServicios tipo='muni' className='mobileMenuLink' />
         <LinksServicios tipo='comuna' />
         <LinksServicios tipo='beneficios' />
 
@@ -42,7 +40,7 @@ const Header = () => (
       <div className='upperRight'>
         <p>Siguenos en:</p>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.youtube.com/channel/UCpURFVn_rEYNePMMhw_-fWw'>
-          <img src={youtube} alt='Canal de Youtube' />
+          <img src={youtube} alt='Youtube' />
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://twitter.com/muninogales'>
           <img src={twitter} alt='Twitter' />

@@ -18,6 +18,11 @@
 .linkImage{
   margin: 2px;
   width: 97%;
+  transition: 450ms;
+}
+.linkImage:hover{
+  -webkit-filter: contrast(90%) brightness(110%) saturate(150%) hue-rotate(-10deg);
+  filter: contrast(90%) brightness(120%) saturate(150%) hue-rotate(-10deg);
 }
 @media (max-width: 800px) {
   .linksContainer{

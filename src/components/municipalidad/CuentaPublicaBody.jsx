@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import pdfImg from '../../assets/static/PDF.svg';
-import Cuenta from '../../assets/static/cuenta1.jpg';
+import Cuenta from '../../assets/static/municipalidad/cuenta1.jpg';
 import Cuenta2019 from '../../assets/static/pdf/cuenta publica/cp19.pdf';
 import Cuenta2018 from '../../assets/static/pdf/cuenta publica/cp18.pdf';
 import Cuenta2017 from '../../assets/static/pdf/cuenta publica/cp17.pdf';

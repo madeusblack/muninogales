@@ -27,7 +27,6 @@ const Carrousel = () => (
     play={true}
     cancelOnInteraction={false}
     interval={9000}
-
   >
     <div>
       <img className='image' src={decima} alt='' />

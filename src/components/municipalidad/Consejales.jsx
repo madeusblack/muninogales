@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Consejales.scss';
 import '../../assets/styles/LayoutContenidoMuniComuna.scss';
-
 import Jflores from '../../assets/static/consejales/jflores.jpg';
 import Ebueno from '../../assets/static/consejales/ebueno.jpg';
 import Jmarchant from '../../assets/static/consejales/jmarchant.jpg';
@@ -10,7 +9,6 @@ import Gachon from '../../assets/static/consejales/gachon.jpg';
 import Lineros from '../../assets/static/consejales/lineros.jpg';
 
 const Consejales = () => {
-
   return (
     <div className='ConsejalesContainer'>
       <h1 className='muniTitle'>CONSEJALES</h1>

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/styles/Links.scss';
 import { Link } from 'react-router-dom';
-
 import permisos from '../assets/static/links/permisos.png';
 import sinpapeleo from '../assets/static/links/sinpapeleo.png';
 import valida from '../assets/static/links/valida.png';

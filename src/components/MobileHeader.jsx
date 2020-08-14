@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import '../assets/styles/MobileMenu.scss';
 import '../assets/styles/HamburgerMenu.scss';
 import { slide as Menu } from 'react-burger-menu';
-import logo from '../assets/static/logo.png';
+import logo from '../assets/static/header/logo.png';
 import LinksMenuMovil from './LinksMenuMovil';
-
 
 const MobileHeader = () => {
 
@@ -13,9 +12,9 @@ const MobileHeader = () => {
     <Menu className='HamburgerButton'>
       <img className='logoMuni' src={logo} alt='Logo munnicipalidad de Nogales' />
       <Link className='mobileMenuLink' to='/'>INICIO</Link>
-      <LinksMenuMovil tipo='muni'/>
+      <LinksMenuMovil tipo='muni' />
       <LinksMenuMovil tipo='comuna' />
-      <LinksMenuMovil tipo='beneficios'/>
+      <LinksMenuMovil tipo='beneficios' />
       <LinksMenuMovil className='mobileMenuLink bm-item' />
       <Link className='mobileMenuLink' to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
       <a className='mobileMenuLink' target='blank_' href='http://www.indap.gob.cl/'>PRODESAL</a>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import '../assets/styles/LayoutContenidoMuniComuna.scss';
-import poblacion from '../assets/static/pobl2.jpg';
+import poblacion from '../assets/static/comuna/pobl2.jpg';
 
 const Poblacion = () => {
   const contenidoA = `

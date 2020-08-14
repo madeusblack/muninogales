@@ -22,8 +22,8 @@ const initialState = {
         Para el presidente del Consejo Regional, Manuel Murillo, la entrega de estos camiones es un hecho histórico, ya que para la región se han comprado sesenta camiones con una inversión de más de 6 mil millones de pesos.
         Percy Marín, Presidente de la Comisión de Inversiones del Gobierno Regional agradeció el trabajo que ha realizado la alcaldesa y en ese sentido se han entregado a Nogales 3 camiones aljibe, lo que la convierte en una de las comunas más beneficiadas de la región.
         Tras la ceremonia en la Capital Regional, la Alcaldesa Margarita Osorio se dirigió al distrito de El Melón para mostrar los tres nuevos camiones a la comunidad, la que es beneficiada con la entrega de agua por los funcionarios municipales todos los días de la semana.`,
-      'miniatura': 'aljibes.jpg',
-      'imagenesPost': ['aljibes.jpg'],
+      'miniatura': 'aljibes',
+      'imagenesPost': ['aljibes'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -35,8 +35,8 @@ const initialState = {
         Casa por casa la Jefa comunal ha desarrollado esta donación y ya han sido beneficiados sectores como la población La Unión, Juanita Fernández, Los Cáñamos y Nuevo Amanecer en el distrito de El Melón; mientras que en Nogales ya se ha repartido el kit en El Polígono, La Peña, Población El Cristo y Los Almendros.
         Para la Alcaldesa Margarita Osorio esta entrega es un gran esfuerzo que hace el municipio para prevenir el corona virus, ya que se hace con recursos municipales por un monto de 17 millones 500 mil pesos, sumado a las medidas de sanitización de calles y visitas domiciliarias por parte de personal médico a los adultos mayores y pacientes postrados.
         La Jefa Comunal llamó a la comunidad que aún no recibe el kit a estar tranquilos ya que se entregará por todos los sectores, con el apoyo de los funcionarios municipales, quienes además están en el proceso de entrega de las mil cajas de mercadería que adquirió el municipio con recursos propios; y ahora las donadas por Sopraval y las del Gobierno que llegaron el sábado al gimnasio municipal de Nogales.`,
-      'miniatura': 'kitaseocovid.jpg',
-      'imagenesPost': ['kitaseocovid.jpg'],
+      'miniatura': 'kitaseocovid',
+      'imagenesPost': ['kitaseocovid'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -50,8 +50,8 @@ const initialState = {
       Importante es mencionar que el terreno se encuentra emplazado a un costado de la Ruta Nogales – Puchuncaví y que desde que asumió la Alcaldesa Margarita Osorio, la autoridad realizó un trabajo codo a codo con los dirigentes y así conseguir las aprobaciones correspondientes para iniciar el anhelado proyecto de casas de 47,5 metros cuadrados en dos niveles.
       Johnny Piraino, Jefe Provincial de Serviu precisó que los vecinos llevaban más de diez años esperando su vivienda y que por motivos de la pandemia solo se invitó a los dirigentes a conocer las casas.
       La Alcaldesa Margarita Osorio dijo que seguirá apoyando a todos los comités de vivienda de la comuna de Nogales y El Melón, con el objeto que todos los vecinos puedan optar a una casa propia y así disminuir la situación de pago de arriendo o de allegados.`,
-      'miniatura': 'viviendas.jpg',
-      'imagenesPost': ['viviendas.jpg', 'viviendas2.jpg'],
+      'miniatura': 'viviendas',
+      'imagenesPost': ['viviendas', 'viviendas2'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -64,8 +64,8 @@ const initialState = {
       Por su parte la Alcaldesa de la comuna de Nogales, Margarita Osorio, agradeció el aporte que beneficiará a las familias que más lo necesitan, “Contenta en especial por el apoyo que siempre nos ha dado la empresa Sopraval, no solamente en esta pandemia. Son momentos difíciles que estamos viviendo, pero nos hemos esforzado para estar cien por ciento con los vecinos de la comuna de Nogales y El Melón”.
       Las cajas de mercadería están orientadas a familias vulnerables de la comuna, en especial a adultos mayores y la entrega se desarrollará de manera gradual por parte del municipio.
       La distribución de las cajas de mercadería continuará este viernes en la comuna de Hijuelas y posteriormente en las otras comunas donde Sopraval ha comprometido el aporte.`,
-      'miniatura': 'sopraval.jpg',
-      'imagenesPost': ['sopraval.jpg'],
+      'miniatura': 'sopraval',
+      'imagenesPost': ['sopraval'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -79,8 +79,8 @@ const initialState = {
       Benito Espinoza Castillo Presidente de la Junta de Vecinos Ramón Freire de El Melón, precisó que ha sido una buena medida de la Alcaldesa ya que cuando comenzó la pandemia ella les pidió que identificaran a las familias que se podrían ver afectadas por la crisis sanitaria.
       La Alcaldesa Margarita Osorio indicó que esta es la primera ayuda que entrega el municipio y que después vendrán las cajas que entregará el gobierno y las que aportará la empresa privada de la zona, con el objeto que la mayor cantidad de personas pueda acceder a estos alimentos.
       Finalmente cabe precisar que debido a la pandemia el Municipio de Nogales sigue sanizando la comuna y que recientemente recibió la donación de dos pulverizadoras de Anglo American; y que un médico del Departamento de Salud sigue desarrollando visitas domiciliarias a los adultos mayores y pacientes postrados de Nogales y El Melón.`,
-      'miniatura': 'aportepropio.jpg',
-      'imagenesPost': ['aportepropio.jpg'],
+      'miniatura': 'aportepropio',
+      'imagenesPost': ['aportepropio'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -89,8 +89,8 @@ const initialState = {
       'subTitle': '',
       'date': 'Julio 11, 2020',
       'Contenido': '',
-      'miniatura': 'censocomunal.jpg',
-      'imagenesPost': ['censocomunal.jpg'],
+      'miniatura': 'censocomunal',
+      'imagenesPost': ['censocomunal'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -105,8 +105,8 @@ const initialState = {
       Los contribuyentes interesados en acceder a esta flexibilidad de pago deben retirar el formulario en la oficina de partes del municipio ubicada en el edificio municipal y de ahí serán derivados a la Unidad de Rentas.
       El Asesor Jurídico Municipal, Abogado Alejandro Borbarán precisó que la opción elegida dependerá de las necesidades o situación en la que se encuentre cada uno de los comerciantes pero que es importante dejar en claro que es sin multas e intereses.
       Importante es mencionar que de este beneficio queda excluida el pago de las patentes profesionales, pero sin lugar a dudas es un gran alivio para el comercio establecido de la comuna de Nogales y El Melón.`,
-      'miniatura': 'facilidad.jpg',
-      'imagenesPost': ['facilidad.jpg'],
+      'miniatura': 'facilidad',
+      'imagenesPost': ['facilidad'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
     {
@@ -129,8 +129,8 @@ const initialState = {
       " Yo como alcaldesa nunca me he olvidado de los niños y adultos mayores, por eso celebramos de manera diferente y fue una maratónica jornada dónde caminamos muchos kilómetros para ir puerta a puerta, casa por casa entregando alegría a los niños y niñas, especialmente a los más pequeños".
       
       La jornada finalizó ayer en la población Juanita Fernández de El Melón y en total se entregaron más de 8 mil bolsas de dulces y dos mil mascarillas, y se utilizaron nos de veinte litros de alcohol.`,
-      'miniatura': 'intervencion1.jpeg',
-      'imagenesPost': ['intervencion1.jpeg', 'intervencion2.jpeg', 'intervencion3.jpeg', 'intervencion4.jpeg'],
+      'miniatura': 'intervencion1',
+      'imagenesPost': ['intervencion1', 'intervencion2', 'intervencion3', 'intervencion4'],
       'audios': ['https://mdstrm.com/video/58333e214ad055d208427db5.mp4'],
     },
   ],
