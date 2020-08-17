@@ -44,7 +44,7 @@ const Header = () => (
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://twitter.com/muninogales'>
           <img src={twitter} alt='Twitter' />
         </a>
-        <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.instagram.com/muninogales5/'>
           <img src={instagram} alt='Inicio de sesion de correo de Funcionarios' />
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
