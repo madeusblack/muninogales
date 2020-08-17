@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/styles/LayoutContenidoMuniComuna.scss';
-import historia from '../assets/static/comuna/hist3.jpg';
+import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import historia from '../../assets/static/comuna/hist3.jpg';
 
 const Historia = () => {
   const contenidoA = `

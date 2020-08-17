@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const NewsItem = (props) => {
   const { id, miniatura, title, date } = props;
-  const src = require(`../assets/static/noticias/imagenes/${miniatura}.jpg`);
+  const src = require(`../../assets/static/noticias/imagenes/${miniatura}.jpg`);
   return (
     <div className='newsItemContainer'>
       <p className='date'>{date}</p>

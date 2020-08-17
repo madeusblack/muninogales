@@ -2,7 +2,7 @@ import React from 'react';
 import escalafon from '../../assets/static/pdf/municipalidad/escalafon.pdf';
 import pdfImg from '../../assets/static/PDF.svg';
 import '../../assets/styles/LayoutContenidoMuniComuna.scss';
-import Organigrama from '../Organigrama';
+import Organigrama from './Organigrama';
 
 const EscalafonBody = () => (
   <div className='escalafonContainer'>

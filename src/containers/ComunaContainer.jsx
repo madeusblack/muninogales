@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/MunicipioLayout.scss';
-import Historia from './Historia';
+import Historia from '../components/comuna/Historia';
 
 const ComunaContainer = () => {
 

@@ -12,7 +12,7 @@ const MisionVision = () => {
     <div className='muniContainer'>
       <h1 className='muniTitle'>VISIÓN Y MISIÓN</h1>
       <img className='imgMunicipalidad' src={muni} alt='frontis de municipalidad' />
-      <p>{contenido}</p>
+      <h3>{contenido}</h3>
 
     </div>
   );

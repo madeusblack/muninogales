@@ -1,14 +1,14 @@
 import React from 'react';
-import '../assets/styles/Links.scss';
+import '../../assets/styles/Links.scss';
 import { Link } from 'react-router-dom';
-import permisos from '../assets/static/links/permisos.png';
-import sinpapeleo from '../assets/static/links/sinpapeleo.png';
-import valida from '../assets/static/links/valida.png';
-import omil from '../assets/static/links/omil.png';
-import jefasdehogar from '../assets/static/links/jefasdehogar.png';
-import chileatiende from '../assets/static/links/chileatiende.png';
-import concursos from '../assets/static/links/concursos.png';
-import cuentapublica from '../assets/static/links/cuentapublica.jpg';
+import permisos from '../../assets/static/links/permisos.png';
+import sinpapeleo from '../../assets/static/links/sinpapeleo.png';
+import valida from '../../assets/static/links/valida.png';
+import omil from '../../assets/static/links/omil.png';
+import jefasdehogar from '../../assets/static/links/jefasdehogar.png';
+import chileatiende from '../../assets/static/links/chileatiende.png';
+import concursos from '../../assets/static/links/concursos.png';
+import cuentapublica from '../../assets/static/links/cuentapublica.jpg';
 
 const Links = () => (
   <div className='linksContainer'>

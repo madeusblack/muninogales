@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/News.scss';
+import '../../assets/styles/News.scss';
 import { connect } from 'react-redux';
 import NewsItem from './NewsItem';
 

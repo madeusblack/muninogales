@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/MunicipioLayout.scss';
-import Turismo from '../components/Turismo';
+import Turismo from '../components/comuna/Turismo';
 
 const TurismoContainer = () => (
   <div className='MainMunicipio'>

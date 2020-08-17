@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/JuzgadoSide.scss';
+import '../../assets/styles/JuzgadoSide.scss';
 
 const JuzgadoSide = () => (
   <div className='juzgadoSideContainer'>

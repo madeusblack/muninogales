@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/Organigrama.scss';
+import '../../assets/styles/Organigrama.scss';
 import Tree from 'react-d3-tree';
 
 const Organigrama = () => {

@@ -1,3 +1,5 @@
+/* eslint-disable no-else-return */
+/* eslint-disable no-useless-return */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable global-require */
@@ -11,54 +13,73 @@ const ContainerNoticias = (props) => {
   const dispatch = useDispatch();
   const { id } = props.match.params;
   const hasPlaying = Object.keys(props.reading).length > 0;
+
   useEffect(() => {
     dispatch(getVideoSource(id));
   }, [dispatch, id]);
-  
   return hasPlaying ? (
     <div className='containerNoticia'>
-      <h1>
-        {props.reading.title}
-      </h1>
-      <h4>
-        {props.reading.subTitle}
-      </h4>
-      <h5>
-        {props.reading.date}
-      </h5>
-
+      <div>
+        <h1>
+          {props.reading.title}
+        </h1>
+        <h4>
+          {props.reading.subTitle}
+        </h4>
+        <h5>
+          {props.reading.date}
+        </h5>
+        <div className='contenidoNoticia'>
+          {
+            props.reading.contenido.map((parrafo) => {
+              return (
+                <p key={parrafo} className='parrafo'>
+                  {parrafo}
+                </p>
+              );
+            })
+          }
+        </div>
+      </div>
       <div>
         {
           props.reading.imagenesPost.map((image) => {
             return (
               <img
                 key={image}
-                src={require(`../assets/static/noticias/imagenes/${image}`)}
+                src={require(`../assets/static/noticias/imagenes/${image}.jpg`)}
                 className='img-responsive'
                 alt=''
               />
             );
           })
         }
+
+        <div className='audioNoticias'>
+          {
+            props.reading.audios.map((audio) => {
+              const idEtiquetas = (element) => element === audio;
+              const posicionEtiqueta = props.reading.audios.findIndex(idEtiquetas);
+              if (audio !== '') {
+                return (
+                  <div className='audioEtiquetaContainer'>
+                    <label htmlFor={audio}>
+                      {props.reading.etiquetas[posicionEtiqueta]}
+                    </label>
+                    <audio
+                      key={audio}
+                      src={require(`../assets/static/noticias/audios/${audio}.mp3`)}
+                      className='img-responsive'
+                      controls
+                    />
+                  </div>
+                );
+              };
+              return '';
+            })
+          }
+        </div>
       </div>
-      <label htmlFor='imagen'>Asesor Jurídico, Alejandro Borbarán Ferández</label>
-      <div>
-        {
-          props.reading.audios.map((audio) => {
-            return (
-              <audio
-                key={audio}
-                //src={require(`../assets/static/noticias/imagenes/${audio}`)}
-                className='img-responsive'
-                controls
-              />
-            );
-          })
-        }
-      </div>
-      <p>
-        {props.reading.Contenido}
-      </p>
     </div>
   ) : <h1>no encontrado</h1>;
 };

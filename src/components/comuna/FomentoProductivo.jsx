@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/styles/LayoutContenidoMuniComuna.scss';
-import fomento from '../assets/static/comuna/fomento1.jpg';
+import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import fomento from '../../assets/static/comuna/fomento1.jpg';
 
 const FomentoProductivo = () => {
   const contenidoA = `

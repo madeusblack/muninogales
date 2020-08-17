@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from './header/Header';
 import Footer from './Footer';
-import MobileHeader from './MobileHeader';
+import MobileHeader from './header/MobileHeader';
 
 const Layout = ({ children }) => (
   <>

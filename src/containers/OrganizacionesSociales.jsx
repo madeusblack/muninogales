@@ -13,15 +13,15 @@ const OrganizacionesSociales = () => {
 
       <div className='containerLinksDestacados'>
         <a className='linkDestacados' href={comunicacion}>
-          <img className='pdfImg' src={pdfImg} alt=""/>
+          <img className='pdfImg' src={pdfImg} alt='' />
           COMUNICACIÓN FECHA DE LA ELECCIÓN DEL DIRECTORIO
         </a>
         <a className='linkDestacados' href={antecedentes}>
-          <img className='pdfImg' src={pdfImg} alt=""/>
+          <img className='pdfImg' src={pdfImg} alt='' />
           ANTECEDENTES PARA RENOVACIÓN DE DIRECTORIO
         </a>
         <a className='linkDestacados' href={comprobante}>
-          <img className='pdfImg' src={pdfImg} alt=""/>
+          <img className='pdfImg' src={pdfImg} alt='' />
           COMPROBANTE DE DEPÓSITO DE LOS DOCUMENTOS DE LA ELECCIÓN
         </a>
       </div>

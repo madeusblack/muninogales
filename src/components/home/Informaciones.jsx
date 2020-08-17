@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/styles/Highlighted.scss';
-import residuos from '../assets/static/informaciones/residuos.jpg';
+import '../../assets/styles/Highlighted.scss';
+import residuos from '../../assets/static/informaciones/residuos.jpg';
 
 const Informaciones = () => (
   <div className='informacionesContainer'>

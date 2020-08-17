@@ -21,8 +21,8 @@ const ConcursosPublicos = () => {
           <tbody>
             <tr>
               <td>
-                <a href={jefeuap} >
-                  <img className='imgTable' src={pdfImg} alt="" />
+                <a href={jefeuap}>
+                  <img className='imgTable' src={pdfImg} alt='' />
                 </a>
               </td>
               <td>2° CONCURSO PÚBLICO, Jefatura Unidad de Agua Potable, Planta Grado 11</td>

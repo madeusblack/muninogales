@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/styles/LinksMenuMovil.scss';
+import '../../assets/styles/LinksServicios.scss';
 
-const LinksMenuMovil = ({ tipo }) => {
+const LinksServicios = ({ tipo }) => {
   switch (tipo) {
     case 'muni':
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='mobileMenuLink'>MUNICIPIO</span>
+          <span className='services'>MUNICIPIO</span>
           <div className='dropdown-content'>
             <Link to='/vision'>VISIÓN Y MISIÓN</Link>
             <Link to='/alcaldia'>ALCALDESA</Link>
@@ -21,7 +21,7 @@ const LinksMenuMovil = ({ tipo }) => {
     case 'comuna':
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='mobileMenuLink'>COMUNA</span>
+          <span className='services'>COMUNA</span>
           <div className='dropdown-content'>
             <Link to='/historia'>HISTORIA</Link>
             <Link to='/poblacion'>POBLACIÓN</Link>
@@ -32,21 +32,20 @@ const LinksMenuMovil = ({ tipo }) => {
       );
     case 'beneficios':
       return (
-        
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='mobileMenuLink'>BENEFICIOS</span>
+          <span className='services'>BENEFICIOS</span>
           <div className='dropdown-content'>
-            <Link to='/retiroafp'>Retiro 10% AFP</Link>
-            <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>Bono Clase Media</a>
-            <Link to='/turismo'>Beneficios Municipales</Link>
-            <a href='http://www.registrosocial.gob.cl/beneficios-sociales' target='_blank' rel='noopener noreferrer'>Beneficios Sociales Estatales</a>
+            <Link to='/retiroafp'>RETIRO 10% AFP</Link>
+            <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>BONO CLASE MEDIA</a>
+            <Link to='/turismo'>BENEFICIOS SOCIALES MUNICIPALES</Link>
+            <a href='http://www.registrosocial.gob.cl/beneficios-sociales' target='_blank' rel='noopener noreferrer'>BENEFICIOS SOCIALES ESTATALES</a>
           </div>
         </div>
       );
     default:
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='mobileMenuLink'>SERVICIOS</span>
+          <span className='services'>SERVICIOS</span>
           <div className='dropdown-content'>
             <Link to='/'>EMPLEO Y EMPRENDIMIENTO</Link>
             <Link to='/'>LIBRETA DE CONTACTOS</Link>
@@ -57,4 +56,4 @@ const LinksMenuMovil = ({ tipo }) => {
       );
   }
 };
-export default LinksMenuMovil;
+export default LinksServicios;

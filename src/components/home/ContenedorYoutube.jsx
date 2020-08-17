@@ -1,6 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import '../assets/styles/ContenedorYoutube.scss';
+import '../../assets/styles/ContenedorYoutube.scss';
 
 const ContenedorYoutube = () => {
   const optsToSet = {

@@ -1,16 +1,16 @@
 import React from 'react';
-import '../assets/styles/Header.scss';
+import '../../assets/styles/Header.scss';
 import { Link } from 'react-router-dom';
-import logo from '../assets/static/header/logo.png';
-import instagram from '../assets/static/header/instagram.png';
-import mail from '../assets/static/header/mail.png';
-import twitter from '../assets/static/header/twitter.png';
-import youtube from '../assets/static/header/youtube.png';
-import lobby from '../assets/static/header/lobby.png';
-import sai from '../assets/static/header/sai.png';
-import tai from '../assets/static/header/tai.png';
-import comisaria from '../assets/static/header/comisaria.jpg';
-import pasoapaso from '../assets/static/header/pasoapaso.png';
+import logo from '../../assets/static/header/logo.png';
+import instagram from '../../assets/static/header/instagram.png';
+import mail from '../../assets/static/header/mail.png';
+import twitter from '../../assets/static/header/twitter.png';
+import youtube from '../../assets/static/header/youtube.png';
+import lobby from '../../assets/static/header/lobby.png';
+import sai from '../../assets/static/header/sai.png';
+import tai from '../../assets/static/header/tai.png';
+import comisaria from '../../assets/static/header/comisaria.jpg';
+import pasoapaso from '../../assets/static/header/pasoapaso.png';
 import LinksServicios from './LinksServicios';
 
 const Header = () => (
@@ -22,7 +22,6 @@ const Header = () => (
         <LinksServicios tipo='comuna' />
         <LinksServicios tipo='beneficios' />
 
-        <LinksServicios />
       </div>
       <div className='lowerHeadeRight'>
         <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/styles/LayoutContenidoMuniComuna.scss';
-import turismo from '../assets/static/comuna/turi1.jpg';
+import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import turismo from '../../assets/static/comuna/turi1.jpg';
 
 const Turismo = () => {
   const contenidoA = `

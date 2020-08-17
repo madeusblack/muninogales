@@ -43,5 +43,5 @@ const RetiroAfp = () => (
       <a href='https://www.spensiones.cl/apps/certificados/formConsultaAfiliacion.php' target='_blank' rel='noopener noreferrer'> click aqui</a>
     </h3>
   </div>
-)
+);
 export default RetiroAfp;

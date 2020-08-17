@@ -20,6 +20,7 @@ import ConcursosPublicos from '../containers/ConcursosPublicos';
 import LicitacionesPublicas from '../containers/LicitacionesPublicas';
 import ContenedorProgramaMujer from '../containers/ContenedorProgramaMujer';
 import ContainerNoticias from '../containers/ContainerNoticias';
+import SaludContainer from '../containers/SaludContainer';
 
 const App = () => (
   <BrowserRouter>
@@ -44,6 +45,7 @@ const App = () => (
         <Route exact path='/licitaciones' component={LicitacionesPublicas} />
         <Route exact path='/pmujer' component={ContenedorProgramaMujer} />
         <Route exact path='/noticia/:id' component={ContainerNoticias} />
+        <Route exact path='/saludCarousel' component={SaludContainer} />
       </Switch>
     </Layout>
   </BrowserRouter>

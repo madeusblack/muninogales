@@ -1,5 +1,5 @@
 import React from 'react';
-import jpl from '../assets/static/juzgado/jplcovid19.jpg';
+import jpl from '../../assets/static/juzgado/jplcovid19.jpg';
 
 const JuzgadoCuerpo = () => (
   <div>

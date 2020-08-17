@@ -18,9 +18,9 @@ const LicitacionesPublicas = () => {
           <tbody>
             <tr>
               <td>
-                  <img className='verficha' src={ficha} alt="" />
+                <img className='verficha' src={ficha} alt='ver Ficha' />
               </td>
-              <td></td>
+              <td />
             </tr>
           </tbody>
         </table>

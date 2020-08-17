@@ -12,11 +12,11 @@ const SiiContainer = () => {
 
       <div className='containerLinksDestacados'>
         <a className='linkDestacados' href={agricolas}>
-          <img className='pdfImg' src={pdfImg} alt=""/>
+          <img className='pdfImg' src={pdfImg} alt='' />
           Reavalúo Bienes Raíces Agrícolas
         </a>
         <a className='linkDestacados' href={noagricolas}>
-          <img className='pdfImg' src={pdfImg} alt=""/>
+          <img className='pdfImg' src={pdfImg} alt='' />
           Reavalúo de Sitios no Edificados, Propiedades Abandonadas o Pozos Lastreros
         </a>
       </div>

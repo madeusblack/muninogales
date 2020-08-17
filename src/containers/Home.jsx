@@ -1,11 +1,11 @@
 import React from 'react';
 import '../assets/styles/Home.scss';
-import Carrousel from '../components/Carrousel';
-import Highlighted from '../components/Highlighted';
-import Links from '../components/Links';
-import News from '../components/News';
-import ContenedorYoutube from '../components/ContenedorYoutube';
-import Informaciones from '../components/Informaciones';
+import Carrousel from '../components/home/Carrousel';
+import Highlighted from '../components/home/Highlighted';
+import Links from '../components/home/Links';
+import News from '../components/home/News';
+import ContenedorYoutube from '../components/home/ContenedorYoutube';
+import Informaciones from '../components/home/Informaciones';
 
 const Home = () => (
   <div className='main'>

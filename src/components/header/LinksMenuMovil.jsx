@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/styles/LinksServicios.scss';
+import '../../assets/styles/LinksMenuMovil.scss';
 
-const LinksServicios = ({ tipo }) => {
+const LinksMenuMovil = ({ tipo }) => {
   switch (tipo) {
     case 'muni':
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='services'>MUNICIPIO</span>
+          <span className='mobileMenuLink'>MUNICIPIO</span>
           <div className='dropdown-content'>
             <Link to='/vision'>VISIÓN Y MISIÓN</Link>
             <Link to='/alcaldia'>ALCALDESA</Link>
@@ -21,7 +21,7 @@ const LinksServicios = ({ tipo }) => {
     case 'comuna':
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='services'>COMUNA</span>
+          <span className='mobileMenuLink'>COMUNA</span>
           <div className='dropdown-content'>
             <Link to='/historia'>HISTORIA</Link>
             <Link to='/poblacion'>POBLACIÓN</Link>
@@ -32,9 +32,8 @@ const LinksServicios = ({ tipo }) => {
       );
     case 'beneficios':
       return (
-        
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='services'>BENEFICIOS</span>
+          <span className='mobileMenuLink'>BENEFICIOS</span>
           <div className='dropdown-content'>
             <Link to='/retiroafp'>Retiro 10% AFP</Link>
             <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>Bono Clase Media</a>
@@ -46,7 +45,7 @@ const LinksServicios = ({ tipo }) => {
     default:
       return (
         <div rel='noopener' target='_blank' id='dropdown' className='header__link dropdown'>
-          <span className='services'>SERVICIOS</span>
+          <span className='mobileMenuLink'>SERVICIOS</span>
           <div className='dropdown-content'>
             <Link to='/'>EMPLEO Y EMPRENDIMIENTO</Link>
             <Link to='/'>LIBRETA DE CONTACTOS</Link>
@@ -57,4 +56,4 @@ const LinksServicios = ({ tipo }) => {
       );
   }
 };
-export default LinksServicios;
+export default LinksMenuMovil;
