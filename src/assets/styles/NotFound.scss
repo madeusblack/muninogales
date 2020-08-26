@@ -1,0 +1,20 @@
+.ContainerNotFound{
+  display: flex;
+  padding: 2em 15em 25em 2em;
+  align-items: flex-start;
+  background: url('../static/404.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;}
+.ContainerNotFound a{
+  padding: 1em;
+  border:1px solid green;
+  color: blue;
+  margin: 0.3em;
+  transition: 450ms;
+  border-radius: 0.235rem;
+}
+.ContainerNotFound a:hover{
+  background-color: darkgrey;
+  color: black;
+}
