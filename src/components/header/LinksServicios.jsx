@@ -37,7 +37,6 @@ const LinksServicios = ({ tipo }) => {
           <div className='dropdown-content'>
             <Link to='/retiroafp'>RETIRO 10% AFP</Link>
             <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>BONO CLASE MEDIA</a>
-            <Link to='/turismo'>BENEFICIOS SOCIALES MUNICIPALES</Link>
             <a href='http://www.registrosocial.gob.cl/beneficios-sociales' target='_blank' rel='noopener noreferrer'>BENEFICIOS SOCIALES ESTATALES</a>
           </div>
         </div>

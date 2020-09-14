@@ -11,10 +11,10 @@ import uno from '../assets/static/afps/uno.png';
 const RetiroAfp = () => (
   <div className='mainAfpContainer'>
     <h2>
-      Si ya realizó su solicitud y ademas esta es su cuenta rut, puede consultar el estado haciendo
+      Si ya realizó su solicitud y ademas esta es a través de su cuenta rut, puede consultar el estado haciendo
       <a href='https://consultami10.cl/' target='_blank' rel='noreferrer noopener'> click aquí</a>
     </h2>
-    <h1>Seleccione Su Afp:</h1>
+    <h1>Seleccione su AFP:</h1>
     <div className='containerAfp'>
       <a href='https://retiro.afpcapital.cl/login' target='_blank' rel='noopener noreferrer'>
         <img src={capital} alt='' />

@@ -11,10 +11,10 @@ const ContenedorYoutube = () => {
     <div className='mainContainerYoutube'>
       <h3 className='youtubeTitle'>Ultimos Videos</h3>
       <div className='contenedorIframes'>
-        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe' videoId='hKVNq_v5pJM' />
+        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe' videoId='W-LZybrJd6g' />
+        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe secundario' videoId='2kYu_EEVxcU' />
+        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe secundario' videoId='hKVNq_v5pJM' />
         <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe secundario' videoId='-F8_Q2UKtdU' />
-        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe secundario' videoId='BAAIEZHJfF0' />
-        <YouTube opts={optsToSet} containerClassName='containerYoutube' className='miniIframe secundario' videoId='2ncnQDXyleM' />
       </div>
     </div>
   );

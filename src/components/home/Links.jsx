@@ -12,7 +12,7 @@ import cuentapublica from '../../assets/static/links/cuentapublica.jpg';
 
 const Links = () => (
   <div className='linksContainer'>
-    <h3 className='links'>Enlaces</h3>
+    <h3 className='linksTitle'>Enlaces</h3>
     <a target='_blank' rel='noopener noreferrer' href='https://www.sem.gob.cl/pago/buscar.php?pago_id=32&inst_id=13462850&setiframe=0'>
       <img src={permisos} className='linkImage' alt='' />
     </a>

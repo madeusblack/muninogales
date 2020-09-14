@@ -6,12 +6,12 @@ import Organigrama from './Organigrama';
 
 const EscalafonBody = () => (
   <div className='escalafonContainer'>
-    <h1 className='muniTitle'>ESCALAFÓN MUNICIPAL</h1>
+    <h1 className='muniTitle'>ORGANIGRAMA MUNICIPAL</h1>
     <div />
 
     <a className='escalafonPdf' href={escalafon}>
       <img className='pdfImg' src={pdfImg} alt='' />
-      Escalafon Municipal
+      Escalafón Municipal
     </a>
     <Organigrama />
   </div>

@@ -6,6 +6,7 @@ import instagram from '../../assets/static/header/instagram.png';
 import mail from '../../assets/static/header/mail.png';
 import twitter from '../../assets/static/header/twitter.png';
 import youtube from '../../assets/static/header/youtube.png';
+import facebook from '../../assets/static/header/facebook.png';
 import lobby from '../../assets/static/header/lobby.png';
 import sai from '../../assets/static/header/sai.png';
 import tai from '../../assets/static/header/tai.png';
@@ -21,7 +22,6 @@ const Header = () => (
         <LinksServicios tipo='muni' className='mobileMenuLink' />
         <LinksServicios tipo='comuna' />
         <LinksServicios tipo='beneficios' />
-
       </div>
       <div className='lowerHeadeRight'>
         <Link to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
@@ -45,12 +45,14 @@ const Header = () => (
           <img src={twitter} alt='Twitter' />
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.instagram.com/muninogales5/'>
-          <img src={instagram} alt='Inicio de sesion de correo de Funcionarios' />
+          <img src={instagram} alt='Instragram' />
+        </a>
+        <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.facebook.com/profile.php?id=100009448302865'>
+          <img src={facebook} alt='Facebook' />
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
           <img src={mail} alt='Inicio de sesion de correo de Funcionarios' />
         </a>
-
       </div>
       <div className='lowerRight'>
         <Link to='/pasoapaso'>
@@ -70,7 +72,6 @@ const Header = () => (
         </a>
       </div>
     </div>
-
   </div>
 );
 export default Header;

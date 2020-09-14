@@ -37,7 +37,6 @@ const LinksMenuMovil = ({ tipo }) => {
           <div className='dropdown-content'>
             <Link to='/retiroafp'>Retiro 10% AFP</Link>
             <a href='http://www.sii.cl/destacados/medidas_clasemedia/index.html' target='_blank' rel='noopener noreferrer'>Bono Clase Media</a>
-            <Link to='/turismo'>Beneficios Municipales</Link>
             <a href='http://www.registrosocial.gob.cl/beneficios-sociales' target='_blank' rel='noopener noreferrer'>Beneficios Sociales Estatales</a>
           </div>
         </div>

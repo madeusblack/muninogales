@@ -1,3 +1,5 @@
+$base-color:rgb(43,192,22);
+$hover-color:#08bdbd;
 .dropdown 
 {
     position: relative;
@@ -20,7 +22,7 @@
 {
     display: none;
     position: absolute;
-    background: rgb(1, 124, 30) ;
+    background: $base-color ;
     opacity: 0.9;
     color:white;
     border-radius: 0.235rem;
@@ -34,11 +36,10 @@
   border-radius: 0.235rem;
 
   font-weight: bolder;
-  background-color: rgba(78,215,109,1);
+  background-color:$hover-color;
 
 }
-.dropdown:hover .dropdown-content 
-{
+.dropdown:hover .dropdown-content{
     display: flex;
     transition: 450ms;
     width: 35em;

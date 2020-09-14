@@ -1,4 +1,6 @@
 /* Position and sizing of burger button */
+$bars-color:#017c1e;
+$base-color:rgb(40,223,153);
 .bm-burger-button {
   position: fixed;
   display: none;
@@ -10,12 +12,12 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: rgba(78,215,109,1);
+  background:$bars-color;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: rgba(78,215,109,1);
+  background: $bars-color;
 }
 
 /* Position and sizing of clickable cross button */
@@ -39,7 +41,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 /* General sidebar styles */
 .bm-menu {
-  background: #4ed76d;
+  background: $base-color;
   font-size: 1.25em;
 }
 /* Wrapper for item list */

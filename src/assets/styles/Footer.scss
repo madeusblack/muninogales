@@ -1,61 +1,61 @@
+$base-color:rgb(43,192,22);
+$linear-color:linear-gradient(90deg, rgba(43,192,22,1) 0%, rgba(8,189,189,1) 100%);
+
 .footerMunicipalidad{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     border-bottom: 1px solid white;
 }
+
 .footer{
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 2em;
-    column-gap: 2em;
+    padding: 1em;
+    column-gap: 1em;
+    text-align: center;
     grid-template-rows: 3fr 1fr;
     color:white;
     font-weight: bolder;
-
     align-items: flex-end;
-    background: rgb(1, 124, 30);
-    background: linear-gradient(90deg, rgb(0, 82, 19) 0%, rgb(0, 139, 33) 100%);
+    background: $base-color;
+    background: $linear-color;
 }
 .phone{
     text-decoration: none;
     color: white;
-    font-weight: bolder;
     font-size: x-large;
 }
+.phone:hover{
+    text-decoration: underline;
+}
 .highlighted{
-    color: rgb(1, 255, 1);
-    font-weight: bolder;
+    color: #424874;
     text-decoration: none;
 }
 .highlighted:hover{
     text-decoration: underline;
 }
 .phoneContainer{
-    padding: 1em;
     display: grid;
-    align-content: flex-end;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 20% 1fr;
 }
 .phoneNumbers{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
 }
-.phone:hover{
-    text-decoration: underline;
 
-}
 .phoneImage{
-    height: auto;
+    height: 18vh;
+    width: 100%;
     min-height: 1em;
     -webkit-filter: invert(100%);
     filter: invert(100%);
   }
-  .phoneImageContainer{
-      display: flex;
-      align-items: flex-end;
-  }
+
   @media (max-width: 800px) {
     .footer {
         display: flex;

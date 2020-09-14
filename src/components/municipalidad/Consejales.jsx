@@ -11,7 +11,7 @@ import Lineros from '../../assets/static/consejales/lineros.jpg';
 const Consejales = () => {
   return (
     <div className='ConsejalesContainer'>
-      <h1 className='muniTitle'>CONSEJALES</h1>
+      <h1 className='muniTitle'>CONCEJALES</h1>
       <div className='grupoConsejales'>
         <div className='contenedorConcejal'>
           <img className='imgConcejal' src={Jflores} alt='' />

@@ -1,8 +1,7 @@
 .highlightedTitle{
-  background: rgb(112,187,187);
+  background: rgb(119, 190, 190);
   background: linear-gradient(90deg, rgb(54, 114, 114) 0%, rgba(186,255,250,1) 100%);
   color: white;
-  font-weight: bolder;
   border-radius: 5px;
   padding: 0.3em;
 }
@@ -21,10 +20,7 @@
 .highlightedImage:hover{
   -webkit-filter: contrast(90%) brightness(110%) saturate(150%) hue-rotate(-10deg);
   filter: contrast(90%) brightness(120%) saturate(150%) hue-rotate(-10deg);
-  background-color: rgb(130, 195, 206);
-}
-.informacionesContainer{
-  grid-column: span 1;
+  background-color: rgb(180, 180, 180);
 }
 @media (max-width: 800px) {
   .highlightedContainer{

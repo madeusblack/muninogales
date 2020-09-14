@@ -11,22 +11,6 @@ const initialState = {
   'news': [
     {
       'id': 1,
-      'title': 'Municipio entrega kit de aseo personal a las mamás como medida preventiva de Covid-19',
-      'subTitle': '- Se repartirán cinco mil kit con inversión municipal superior a los 17 millones de pesos',
-      'date': 'Junio 08, 2020',
-      'contenido': [
-        'En manos de la Alcaldesa Margarita Osorio y con el apoyo de los funcionarios municipales comenzó la entrega de los kit de aseo personal para las mamás de la comuna, labor que se inició la semana pasada y que tiene como objetivo facilitar elementos de aseo personal como jabón, shampoo y cremas, como una medida más para prevenir el contagio de covid-19 en la comuna.',
-        'Casa por casa la Jefa comunal ha desarrollado esta donación y ya han sido beneficiados sectores como la población La Unión, Juanita Fernández, Los Cáñamos y Nuevo Amanecer en el distrito de El Melón; mientras que en Nogales ya se ha repartido el kit en El Polígono, La Peña, Población El Cristo y Los Almendros.',
-        'Para la Alcaldesa Margarita Osorio esta entrega es un gran esfuerzo que hace el municipio para prevenir el corona virus, ya que se hace con recursos municipales por un monto de 17 millones 500 mil pesos, sumado a las medidas de sanitización de calles y visitas domiciliarias por parte de personal médico a los adultos mayores y pacientes postrados.',
-        'La Jefa Comunal llamó a la comunidad que aún no recibe el kit a estar tranquilos ya que se entregará por todos los sectores, con el apoyo de los funcionarios municipales, quienes además están en el proceso de entrega de las mil cajas de mercadería que adquirió el municipio con recursos propios; y ahora las donadas por Sopraval y las del Gobierno que llegaron el sábado al gimnasio municipal de Nogales.',
-      ],
-      'miniatura': 'kitaseocovid',
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro'],
-      'imagenesPost': ['kitaseocovid'],
-      'audios': ['KitaseoCovidAlcaldesa'],
-    },
-    {
-      'id': 2,
       'title': 'En el primer semestre del próximo año entregarán 189 viviendas sociales en Nogales',
       'subTitle': '',
       'date': 'Junio 10, 2020',
@@ -44,7 +28,7 @@ const initialState = {
       'audios': ['ViviendasAlcaldesa', 'viviendasPiraino'],
     },
     {
-      'id': 3,
+      'id': 2,
       'title': 'Sopraval entrega 645 cajas de alimentos a la comuna de Nogales',
       'subTitle': '',
       'date': 'Junio 06, 2020',
@@ -61,7 +45,7 @@ const initialState = {
       'audios': ['SopravalCajasAlcaldesa', 'SopravalCajasLucas'],
     },
     {
-      'id': 4,
+      'id': 3,
       'title': 'Con aportes propios municipio entrega mercadería a familias afectadas por el Covid-19',
       'subTitle': '',
       'date': 'Junio 08, 2020',
@@ -71,7 +55,7 @@ const initialState = {
         'Lo singular de esta ayuda es que las personas beneficiadas fueron seleccionadas con la participación de los dirigentes de las Juntas de Vecinos, los que pesquisaron los casos en cada unidad vecinal y entregaron el listado a la Municipalidad.',
         'Benito Espinoza Castillo Presidente de la Junta de Vecinos Ramón Freire de El Melón, precisó que ha sido una buena medida de la Alcaldesa ya que cuando comenzó la pandemia ella les pidió que identificaran a las familias que se podrían ver afectadas por la crisis sanitaria.',
         'La Alcaldesa Margarita Osorio indicó que esta es la primera ayuda que entrega el municipio y que después vendrán las cajas que entregará el gobierno y las que aportará la empresa privada de la zona, con el objeto que la mayor cantidad de personas pueda acceder a estos alimentos.',
-        'Finalmente cabe precisar que debido a la pandemia el Municipio de Nogales sigue sanizando la comuna y que recientemente recibió la donación de dos pulverizadoras de Anglo American; y que un médico del Departamento de Salud sigue desarrollando visitas domiciliarias a los adultos mayores y pacientes postrados de Nogales y El Melón.'
+        'Finalmente cabe precisar que debido a la pandemia el Municipio de Nogales sigue sanizando la comuna y que recientemente recibió la donación de dos pulverizadoras de Anglo American; y que un médico del Departamento de Salud sigue desarrollando visitas domiciliarias a los adultos mayores y pacientes postrados de Nogales y El Melón.',
       ],
       'miniatura': 'aportepropio',
       'imagenesPost': ['aportepropio'],
@@ -79,7 +63,7 @@ const initialState = {
       'audios': ['aportesPropiosAlcaldesa', 'aportesPropiosBenito'],
     },
     {
-      'id': 5,
+      'id': 4,
       'title': 'Municipio realiza “Censo Comunal” para detectar casos que no han recibido ayuda social',
       'subTitle': '- Iniciativa beneficiará directamente a la clase media y personas que no reciben ayuda social por alto puntaje en Ficha de protección Social',
       'date': 'Julio 11, 2020',
@@ -98,7 +82,7 @@ const initialState = {
       'audios': ['censoComunalAlcaldesa'],
     },
     {
-      'id': 6,
+      'id': 5,
       'title': 'Municipio otorga facilidades de pago de patentes a los comerciantes producto de la pandemia',
       'subTitle': '',
       'date': 'Julio 23, 2020',
@@ -117,7 +101,7 @@ const initialState = {
       'audios': ['patentesBorbaran'],
     },
     {
-      'id': 7,
+      'id': 6,
       'title': 'Primera Intervención Urbana Prevención covid 19 y derechos de las niñas y niños',
       'subTitle': 'Más de ocho mil menores disfrutaron del día del niño y niña en la comuna de Nogales',
       'date': 'Agosto 10, 2020',
@@ -135,7 +119,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 8,
+      'id': 7,
       'title': 'Municipalidad realiza intervención cultural y entrega de cinco mil kit de alimentos no perecibles para adultos mayores',
       'date': 'Septiembre 1, 2020',
       'contenido': [
@@ -150,6 +134,25 @@ const initialState = {
       ],
       'miniatura': 'pasamosagostomini',
       'imagenesPost': ['pasamosagosto1', 'pasamosagosto2', 'pasamosagosto3', 'pasamosagosto4', 'pasamosagosto5'],
+      'etiquetas': [''],
+      'audios': [''],
+    },
+    {
+      'id': 8,
+      'title': 'Municipio entrega 1194 chip con internet para todos los estudiantes y tablets en comodato a estudiantes de cuarto medio de Liceo Juan Rusque y Colegio El Melón',
+      'date': 'Septiembre 9, 2020',
+      'contenido': [
+        'La Alcaldesa Margarita Osorio junto al Director del Departamento de Educación municipal de Nogales Hernán Alarcón Fernández, realizaron la entrega de 62 Tablet para los estudiantes que están cursando cuarto año medio en el Liceo Juan Rusque Portal y en el Colegio El Melón.',
+        'De esta manera, este miércoles 09 de septiembre, se inició la entrega de las Tablet con todos protocolos y medidas de seguridad para los apoderados y estudiantes que asistieron a sus respectivos establecimientos.',
+        'Cabe destacar que esta iniciativa fue gestionada por la administración central del Daem junto a la Alcaldesa y los Directores de los establecimientos municipales de la comuna, para asegurar la continuidad en la entrega del material educativo y acortar la brecha digital entre los estudiantes municipales.',
+        'Es importante mencionar que dentro de los próximos días todos los estudiantes de las cuatro escuelas (Escuela La Peña, Escuela Ulda Aracena, Colegio El Melón y Liceo Juan Rusque Portal), se les hará la entrega de internet inalámbrico (chip), que consiste en 60 gigas por cuatro meses, en el marco de la emergencia por el Covid-19.',
+        'La Alcaldesa Margarita Osorio, indicó que “me parece muy bueno, a pesar que ya estamos en los primeros días del mes de septiembre y uno quisiera que los niños hubieran regresado a clases, pero ahora yo no estoy de acuerdo con su regreso. Espero que el próximo año lleguemos con más fuerza y que se encuentre realmente la vacuna para este virus.',
+        'Así mismo, Hernán Alarcón Director del Daem, nos comentó qué, “esta iniciativa tiene origen en la falta de conectividad y acceso a internet que presentan los estudiantes de la educación municipalizada, en especial los alumnos que se preparan para la prueba de transición y acceso a la Educación Superior”.',
+        '“Sabemos de las necesidades de las familias de nuestros estudiantes, los cuales no cuentan con loes elementos tecnológicos para acceder al material educativo preparado por cada establecimiento; es por esta razón que se ha accedido invertir en chip con conexión a internet el 100% de nuestros estudiantes”, precisó Alarcón.”',
+        'Cabe destacar que la inversión en la compra de Tablet ITAB asciende a $7.688.526 millones y los 1.194 Chip de internet móvil de Entel que vienen con 60 gigas de navegación mensual y que se compraron para todos los estudiantes desde primero básico a cuarto medio, asciende 11.000 pesos el plan mensual.',
+      ],
+      'miniatura': 'entregachips',
+      'imagenesPost': ['entregachips', 'entregachips2'],
       'etiquetas': [''],
       'audios': [''],
     },

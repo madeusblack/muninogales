@@ -1,14 +1,14 @@
 .contenedorIframes{
 display: grid; 
-grid-template-columns: repeat(4, 1fr); 
+grid-template-columns: repeat(4, 25%); 
 }
 .containerYoutube{
   display: flex;
-  padding: 1em;
+  padding: 0.3em;
 }
 .youtubeTitle{
   background: rgb(255,113,113);
-  background: linear-gradient(90deg, rgba(255,113,113,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgb(248, 38, 38) 0%, rgba(255,255,255,1) 100%);
   color: white;
   border-radius: .25rem;
   padding: 0.3em;
@@ -18,7 +18,7 @@ grid-template-columns: repeat(4, 1fr);
 
 }
 .mainContainerYoutube{
-  padding-top: 1.5em;
+  margin-top: 1.5em;
   grid-column: span 2;
 
 }

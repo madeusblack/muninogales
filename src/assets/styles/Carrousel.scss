@@ -1,16 +1,20 @@
 
 .image{
-    height: 346px;
+    margin-top:5px;
+    height: 75vh;
     width: 100vw;
-    object-fit: fill;
 }
 .carrousell{
     display: flex;
     grid-column: span 2;
-    height: 345px;
+    height: 75vh;
+    margin-bottom:0.8em ;
 }
 @media (max-width: 800px) {
     .carrousell{
-        height: 345px;
+        height: 60vh;
+    }
+    .image{
+        height: 60vh;
     }
 }

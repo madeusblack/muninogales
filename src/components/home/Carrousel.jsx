@@ -26,7 +26,7 @@ const Carrousel = () => (
   <AutoplaySlider
     className='carrousell'
     play={true}
-    cancelOnInteraction={false}
+    cancelOnInteraction={true}
     interval={9000}
   >
     <div>

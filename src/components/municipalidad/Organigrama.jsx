@@ -188,14 +188,14 @@ const Organigrama = () => {
           ],
         },
         {
-          name: 'Consejo Municipal',
+          name: 'Concejo Municipal',
           attributes: {
-            Consejal1: 'JUAN FLORES OLIVARES',
-            Consejal2: 'JUAN RIVERA ROJAS',
-            Consejal3: 'EDUARDO BUENO NAVARRO',
-            Consejal4: 'JOHAO MARCHANT VALENZUELA',
-            Consejal5: 'FERDINAND GACHÓN JEREZ',
-            Consejal6: 'JAIME LINEROS DÍAZ',
+            Concejal1: 'JUAN FLORES OLIVARES',
+            Concejal2: 'JUAN RIVERA ROJAS',
+            Concejal3: 'EDUARDO BUENO NAVARRO',
+            Concejal4: 'JOHAO MARCHANT VALENZUELA',
+            Concejal5: 'FERDINAND GACHÓN JEREZ',
+            Concejal6: 'JAIME LINEROS DÍAZ',
 
           },
         },

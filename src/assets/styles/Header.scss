@@ -1,21 +1,23 @@
+$base-color:rgb(43,192,22);
+$linear-color:linear-gradient(90deg, rgba(43,192,22,1) 0%, rgba(8,189,189,1) 100%);
+
 
 *{
       -webkit-font-smoothing: antialiased;
-
 }
+
 html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     color: black;
     overflow-x:hidden;
 }
 .headerContainer{
-    background: rgb(1, 124, 30);
-    background: linear-gradient(90deg, rgb(1, 124, 30) 0%, rgba(78,215,109,1) 100%);
+    background:$base-color;
+    background: $linear-color;
 }
-body{font-family: Arial, Helvetica, sans-serif}
 .upperHeader{
     display: grid;
     grid-template-columns:50% 50% ;
@@ -32,7 +34,6 @@ img{
     max-width: 100%;
     height: auto;
     width: auto; 
-    
 }
 .icon{
     max-width: 33px;
@@ -76,8 +77,8 @@ img{
 }
 .lowerHeader{
     box-sizing: border-box;
-    background: rgb(1, 124, 30);
-    background: linear-gradient(90deg, rgb(1, 124, 30) 0%, rgba(78,215,109,1) 100%);
+    background:$base-color;
+    background: $linear-color;
     color:white;
     display: flex;
     flex-wrap: wrap;
@@ -93,8 +94,7 @@ img{
     font-size: larger;
 }
 .lowerHeader a:hover{
-    background-color:#bbfdb3 ;
-    color: black;
+    background-color:$base-color ;
 }
 .fondoHeader{
     display: flex;

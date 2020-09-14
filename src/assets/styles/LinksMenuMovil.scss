@@ -1,3 +1,5 @@
+$base-color:rgb(43,192,22);
+
 .dropdown 
 {
     position: relative;
@@ -16,7 +18,7 @@
 .dropdown-content a {
   color: white;
   padding: 0.5em;
-  background-color: rgba(78,215,109,1);
+  background-color: $base-color;
 
 }
 .dropdown:hover .dropdown-content 
