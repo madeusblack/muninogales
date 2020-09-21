@@ -182,7 +182,7 @@ const Organigrama = () => {
             {
               name: 'Departamento Educación',
               attributes: {
-                Director: 'Carlos Sanchez T.',
+                Director: 'Hernán Alarcón Fernández',
               },
             },
           ],

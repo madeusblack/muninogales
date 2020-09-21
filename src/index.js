@@ -9,61 +9,9 @@ const initialState = {
   'user': {},
   'reading': {},
   'news': [
+
     {
       'id': 1,
-      'title': 'En el primer semestre del próximo año entregarán 189 viviendas sociales en Nogales',
-      'subTitle': '',
-      'date': 'Junio 10, 2020',
-      'contenido': [
-        'Un 20 % de avance en su construcción lleva el conjunto habitacional que beneficiará a los socios y socias de los comités de allegados Los Jardines y San Juan de Dios de la comuna de Nogales, obra ejecutada por el Ministerio de Vivienda y que permitirá a 189 familias contar con una casa propia, las que serán entregadas a mediados del próximo año.',
-        'La obra fue visitada por la Alcaldesa Margarita Osorio, junto al Jefe provincial de Serviu Johnny Piraino y las directivas de los comités, con el objeto de mostrarles la casa piloto, proyecto que fue posible gracias al subsidio habitacional del programa Fondo Solidario de elección de vivienda, otorgado por el Ministerio de Vivienda y Urbanismo.',
-        '“Estoy muy contenta por las familias por cumplir luego el sueño de la casa propia y mi compromiso es seguir apoyando a todos los comités de allegados de nuestra”, dijo la Alcaldesa.',
-        'Importante es mencionar que el terreno se encuentra emplazado a un costado de la Ruta Nogales – Puchuncaví y que desde que asumió la Alcaldesa Margarita Osorio, la autoridad realizó un trabajo codo a codo con los dirigentes y así conseguir las aprobaciones correspondientes para iniciar el anhelado proyecto de casas de 47,5 metros cuadrados en dos niveles.',
-        'Johnny Piraino, Jefe Provincial de Serviu precisó que los vecinos llevaban más de diez años esperando su vivienda y que por motivos de la pandemia solo se invitó a los dirigentes a conocer las casas.',
-        'La Alcaldesa Margarita Osorio dijo que seguirá apoyando a todos los comités de vivienda de la comuna de Nogales y El Melón, con el objeto que todos los vecinos puedan optar a una casa propia y así disminuir la situación de pago de arriendo o de allegados.',
-      ],
-      'miniatura': 'viviendas',
-      'imagenesPost': ['viviendas', 'viviendas2'],
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro', 'Jefe Provincial de Serviu Johnny Piraino Meneses'],
-      'audios': ['ViviendasAlcaldesa', 'viviendasPiraino'],
-    },
-    {
-      'id': 2,
-      'title': 'Sopraval entrega 645 cajas de alimentos a la comuna de Nogales',
-      'subTitle': '',
-      'date': 'Junio 06, 2020',
-      'contenido': [
-        'Esta semana la empresa anunció la entrega de más de 4mil cajas de alimentos para comunas dela región de Valparaíso. La comuna de La Calera fue la primera en recibir el aporte de la empresa y este miércoles fue el turno de la comuna de Nogales.',
-        '“Sopraval siempre ha sido una empresa que ha estado presente en la comunidad sobre todo ahora que estamos viviendo una pandemia dura y difícil. Estamos muy orgullosos y con gusto y cariño estamos haciendo entrega de 645 cajas de mercadería enfocadas en los adultos mayores quienes son los más vulnerables y a quienes queremos apoyar para que se cuiden y no salgan de sus casas” Lucas Lizarralde, Gerente Producción de Sopraval.',
-        'Por su parte la Alcaldesa de la comuna de Nogales, Margarita Osorio, agradeció el aporte que beneficiará a las familias que más lo necesitan, “Contenta en especial por el apoyo que siempre nos ha dado la empresa Sopraval, no solamente en esta pandemia. Son momentos difíciles que estamos viviendo, pero nos hemos esforzado para estar cien por ciento con los vecinos de la comuna de Nogales y El Melón”.',
-        'Las cajas de mercadería están orientadas a familias vulnerables de la comuna, en especial a adultos mayores y la entrega se desarrollará de manera gradual por parte del municipio.',
-        'La distribución de las cajas de mercadería continuará este viernes en la comuna de Hijuelas y posteriormente en las otras comunas donde Sopraval ha comprometido el aporte.',
-      ],
-      'miniatura': 'sopraval',
-      'imagenesPost': ['sopraval'],
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro', 'Gerente Producción de Sopraval, Lucas Lizarralde'],
-      'audios': ['SopravalCajasAlcaldesa', 'SopravalCajasLucas'],
-    },
-    {
-      'id': 3,
-      'title': 'Con aportes propios municipio entrega mercadería a familias afectadas por el Covid-19',
-      'subTitle': '',
-      'date': 'Junio 08, 2020',
-      'contenido': [
-        'Un total de mil cajas de mercadería están siendo entregadas por la Alcaldesa Margarita Osorio y los funcionarios Municipales a las familias que se han visto afectadas debido a la pandemia de Covid 19, aporte que es financiado con recursos municipales y que serán distribuidas a los vecinos de Nogales, El Melón y zonas rurales, en sus respetivas unidades vecinales.',
-        'El objetivo es ayudar a las personas que atraviesan por un mal momento económico producto por los efectos de la corona virus, especialmente los adultos mayores, personas que han perdido sus empleos o simplemente aquellos que tienen trabajos ocasionales y que han visto limitados sus ingresos.',
-        'Lo singular de esta ayuda es que las personas beneficiadas fueron seleccionadas con la participación de los dirigentes de las Juntas de Vecinos, los que pesquisaron los casos en cada unidad vecinal y entregaron el listado a la Municipalidad.',
-        'Benito Espinoza Castillo Presidente de la Junta de Vecinos Ramón Freire de El Melón, precisó que ha sido una buena medida de la Alcaldesa ya que cuando comenzó la pandemia ella les pidió que identificaran a las familias que se podrían ver afectadas por la crisis sanitaria.',
-        'La Alcaldesa Margarita Osorio indicó que esta es la primera ayuda que entrega el municipio y que después vendrán las cajas que entregará el gobierno y las que aportará la empresa privada de la zona, con el objeto que la mayor cantidad de personas pueda acceder a estos alimentos.',
-        'Finalmente cabe precisar que debido a la pandemia el Municipio de Nogales sigue sanizando la comuna y que recientemente recibió la donación de dos pulverizadoras de Anglo American; y que un médico del Departamento de Salud sigue desarrollando visitas domiciliarias a los adultos mayores y pacientes postrados de Nogales y El Melón.',
-      ],
-      'miniatura': 'aportepropio',
-      'imagenesPost': ['aportepropio'],
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro', 'Pdte. JJ.VV. Ramón Freire, Benito Espinoza Castillo'],
-      'audios': ['aportesPropiosAlcaldesa', 'aportesPropiosBenito'],
-    },
-    {
-      'id': 4,
       'title': 'Municipio realiza “Censo Comunal” para detectar casos que no han recibido ayuda social',
       'subTitle': '- Iniciativa beneficiará directamente a la clase media y personas que no reciben ayuda social por alto puntaje en Ficha de protección Social',
       'date': 'Julio 11, 2020',
@@ -82,7 +30,7 @@ const initialState = {
       'audios': ['censoComunalAlcaldesa'],
     },
     {
-      'id': 5,
+      'id': 2,
       'title': 'Municipio otorga facilidades de pago de patentes a los comerciantes producto de la pandemia',
       'subTitle': '',
       'date': 'Julio 23, 2020',
@@ -101,7 +49,7 @@ const initialState = {
       'audios': ['patentesBorbaran'],
     },
     {
-      'id': 6,
+      'id': 3,
       'title': 'Primera Intervención Urbana Prevención covid 19 y derechos de las niñas y niños',
       'subTitle': 'Más de ocho mil menores disfrutaron del día del niño y niña en la comuna de Nogales',
       'date': 'Agosto 10, 2020',
@@ -119,7 +67,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 7,
+      'id': 4,
       'title': 'Municipalidad realiza intervención cultural y entrega de cinco mil kit de alimentos no perecibles para adultos mayores',
       'date': 'Septiembre 1, 2020',
       'contenido': [
@@ -138,7 +86,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 8,
+      'id': 5,
       'title': 'Municipio entrega 1194 chip con internet para todos los estudiantes y tablets en comodato a estudiantes de cuarto medio de Liceo Juan Rusque y Colegio El Melón',
       'date': 'Septiembre 9, 2020',
       'contenido': [
@@ -156,6 +104,49 @@ const initialState = {
       'etiquetas': [''],
       'audios': [''],
     },
+    {
+      'id': 6,
+      'title': 'Municipio comenzó entrega de cajas de mercadería y sacos de papas para los vecinos de la comuna',
+      'date': 'Septiembre 14, 2020',
+      'contenido': [
+        'Desde el pasado sábado y durante esta semana, la Alcaldesa Margarita Osorio junto a los funcionarios Municipales, Salud y Educación comenzaron con la entrega de cajas de mercadería y un saco de papas para todas las familias de la comuna de Nogales y El Melón, que se han visto afectadas por la pandemia del Covid 19.',
+        'Las cajas de mercadería y los siete mil sacos de papas fueron adquiridos por el municipio con recursos del gobierno, y antes de la entrega los funcionarios realizaron la inscripción y posteriormente el equipo operativo procede a la entrega de estos productos alimenticios.',
+        'Para la Alcaldesa Margarita Osorio, la entrega de este tipo de ayuda social viene a responder a las necesidades que ha planteado la comunidad, la que se ha visto muy afectada por la pandemia, principalmente por la disminución de ingresos.',
+        'De esta manera, y durante estos días los funcionarios municipales y la Jefa comunal siguen con la entrega de estos productos de primera necesidad, con el objeto que los vecinos puedan contar con estos alimentos antes de las fiestas patrias.',
+        'Importante es mencionar que la decisión de realizar la entrega casa por casa, tiene como objetivo evitar aglomeraciones en los sectores vecinales, evitando los contagios de Covid 19. ',
+      ],
+      'miniatura': 'entregapapasmini',
+      'imagenesPost': ['entregapapas'],
+      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro'],
+      'audios': ['entregapapasalcaldesa'],
+    },
+    {
+      'id': 7,
+      'title': 'Municipalidad entregó subvención a Comité de Vivienda Los Jardines de Nogales',
+      'date': 'Septiembre 14, 2020',
+      'contenido': [
+        'La Alcaldesa Margarita Osorio, la Directora de Adm. y Finanzas, hicieron efectiva la entrega de un cheque por la suma de 5 millones de pesos a la directiva del  comité de Vivienda Los Jardines de Nogales. Con ese monto y el ahorro de los socios y socias de esa agrupación, los vecinos podrán habilitar panderetas en sus futuras casas, proyecto habitacional que beneficiará a 140 familias de la comuna. ',
+        'La Jefa Comunal se mostró muy contenta con este aporte que permitirá a los vecinos construir este cierre perimetral a cada vivienda, lo que fue posible gracias a una subvención municipal.',
+        'Las dirigentes agradecieron el aporte de la administración municipal, lo que les permitirá tener una mejor calidad de vida y privacidad.',
+      ],
+      'miniatura': 'entregasubsidiocierre',
+      'imagenesPost': ['entregasubsidiocierre'],
+      'etiquetas': [],
+      'audios': [],
+    },
+    {
+      'id': 8,
+      'title': 'Vecinos de la Población La Unión contarán con flamante sede social',
+      'date': 'Septiembre 14, 2020',
+      'contenido': [
+        'Con la presencia de la Alcaldesa Margartita Osorio y las dirigentes de la JJVV La Unión se desarrolló este lunes la colocación de la primera piedra del proyecto de construcción de la sede social del sector, que no contaba con ese equipamiento comunitario. Se trata de un proyecto postulado por el municipio y financiado por el fondo FRIL del Gobierno Regional de Valparaíso, el que asciende a 77 millones de pesos y que permitirá a los vecinos contar con un espacio de 120 metros cuadrados, que contempla un amplio salón, cocina y servicios higiénicos para damas y varones y personas con capacidades diferentes. Se espera que la obra esté entregada a los vecinos a fines de este 2020.',
+      ],
+      'miniatura': 'sedeunion',
+      'imagenesPost': ['sedeunion'],
+      'etiquetas': [],
+      'audios': [],
+    },
+
   ],
 };
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
