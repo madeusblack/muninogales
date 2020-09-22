@@ -6,7 +6,7 @@ import phone from '../assets/static/footer/phone.png';
 const Footer = () => (
   <div className='footer'>
     <div className='footerMunicipalidad'>
-      <h4>MUNICIPALIDAD DE NOGALLES</h4>
+      <h4>MUNICIPALIDAD DE NOGALES</h4>
       <p>DIRECCIÓN:
         <a className='highlighted' href='https://www.google.com/maps/place/Pedro+Felix+Vicu%C3%B1a+199,+Nogales,+Valpara%C3%ADso/data=!4m2!3m1!1s0x9689cac8fdefdc5b:0xdd83d807f7488275?sa=X&ved=2ahUKEwj30sHSr8HqAhVJErkGHehGDl4Q8gEwAHoECAsQAQ'> PEDRO FELIX VICUÑA 199</a>
       </p>

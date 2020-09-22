@@ -4,6 +4,7 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import { Link } from 'react-router-dom';
+import servel from '../../assets/static/carousel/125.jpg';
 import phone from '../../assets/static/carousel/49.jpg';
 import mail from '../../assets/static/carousel/56.jpg';
 import tercera from '../../assets/static/carousel/114.jpg';
@@ -29,6 +30,11 @@ const Carrousel = () => (
     cancelOnInteraction={true}
     interval={9000}
   >
+    <div>
+      <a href='https://www.plebiscitonacional2020.cl/' target='_blank' rel='noopener noreferrer'>
+        <img className='image' src={servel} alt='' />
+      </a>
+    </div>
     <div>
       <img className='image' src={decima} alt='' />
     </div>
