@@ -6,11 +6,17 @@ import { Link } from 'react-router-dom';
 const NewsItem = (props) => {
   const { id, miniatura, title, date } = props;
   const src = require(`../../assets/static/noticias/imagenes/${miniatura}.jpg`);
+  const srcwebp = require(`../../assets/static/noticias/imagenes/${miniatura}.webp`);
+
   return (
     <div className='newsItemContainer'>
       <p className='date'>{date}</p>
       <Link className='newsText' to={`/noticia/${id}`}>
-        <img src={src} alt='' className='newsImage' />
+        <picture>
+          <source srcSet={srcwebp} type='image/webp' />
+          <source srcSet={src} type='image/jpeg' />
+          <img className='newsImage' loading='lazy' csr={src} alt='' />
+        </picture>
         {title}
       </Link>
     </div>

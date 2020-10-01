@@ -1,11 +1,8 @@
 $base-color:rgb(43,192,22);
 $linear-color:linear-gradient(90deg, rgba(43,192,22,1) 0%, rgba(8,189,189,1) 100%);
-
-
 *{
       -webkit-font-smoothing: antialiased;
 }
-
 html,body{
     height: 100%;
     margin: 0px;
@@ -43,7 +40,7 @@ img{
 .upperRight{
     display: flex;
     align-items: center;
-    margin-right:1em ;
+    margin-right: 1em;
     justify-content: flex-end;
 }
 .upperRight p{
@@ -71,9 +68,17 @@ img{
     margin: 1em 0.2em 2em 0.2em;
 
 }
+.headerLink{
+    border-radius: 0.32rem;
+    transition: 360ms;
+}
+.headerLink:hover{
+    -webkit-filter: brightness(110%) saturate(150%);
+    filter: brightness(120%) saturate(150%);
+}
 .lowerRight img{
     width: 13vw;
-    height: 8vh ;
+    height: 8vh;
 }
 .lowerHeader{
     box-sizing: border-box;
@@ -87,7 +92,6 @@ img{
 .lowerHeader a{
     text-decoration: none;
     color:white;
-
     line-height: 2.2em;
     padding: 10px;
     transition: 450ms;
@@ -128,7 +132,7 @@ img{
     }
     .lowerRight img{
         width: 33vw;
-        height: 10vh ;
+        height: 10vh;
     }
     .upperRight a{
         -webkit-filter: grayscale(0%);

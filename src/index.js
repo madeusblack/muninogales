@@ -12,44 +12,6 @@ const initialState = {
 
     {
       'id': 1,
-      'title': 'Municipio realiza “Censo Comunal” para detectar casos que no han recibido ayuda social',
-      'subTitle': '- Iniciativa beneficiará directamente a la clase media y personas que no reciben ayuda social por alto puntaje en Ficha de protección Social',
-      'date': 'Julio 11, 2020',
-      'contenido': [
-        'En este periodo de pandemia han sido muchas las familias que han recibido ayuda social de parte del municipio, gobierno y donaciones de la empresa privada. En el caso de Nogales, la Alcaldesa Margarita Osorio ha entregado con recursos municipales cajas de mercadería y kit de aseo personal para enfrentar de mejor manera esta crisis.',
-        'Sin embargo, han sido muchas las personas que se han quejado que “siempre son las mismas personas las que se benefician con este tipo de aportes”, razón por la cual la Alcaldesa Margarita Osorio comenzó a ejecutar un “Censo Comunal” con el objetivo de encuestar a los vecinos de toda la comuna y obtener información acerca de la situación que atraviesan producto de esta pandemia',
-        'Este jueves un equipo liderado por personal del Departamento de Educación y funcionarios del Municipio comenzó a recopilar antecedentes de los sectores de Villa Disputada, Cemento Melón y Macal en el distrito de El Melón y en los próximos días se abordará el resto de los sectores.',
-        'Los más de veinte funcionarios tienen como misión consultar acerca de la situación que atraviesan las familias, con el objeto de pesquisar aquellos casos en que las personas requieren con urgencia ayuda, y -sin embargo- son las que pocas veces o nunca piden ayuda a la municipalidad.',
-        'La Alcaldesa Margarita Osorio, indicó que la idea es que la mayor cantidad de personas puedan recibir la ayuda que entrega el gobierno y la municipalidad, y de este modo tener una estadística real y beneficiar también a las personas que tienen puntajes altos en la ficha protección social, pero que –por ahora-atraviesan por un mal momento económico.',
-        'Durante los próximos días los encuestadores tendrán como misión entregar esta información a la Alcaldía y así comenzar el proceso de distribución de ayuda de manera más equitativa posible; aunque ya en la primera jornada quedó reflejada la situación de abandono en que viven muchos adultos mayores.',
-        'Junto con ello el municipio también indicó que con recursos del Gobierno se hará entrega de vales de recarga de gas de 15 kilos para las familias más vulnerables de la comuna, proceso que se desarrollará a través de la Dirección de Desarrollo Comunitario.',
-      ],
-      'miniatura': 'censocomunal',
-      'imagenesPost': ['censocomunal'],
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro'],
-      'audios': ['censoComunalAlcaldesa'],
-    },
-    {
-      'id': 2,
-      'title': 'Municipio otorga facilidades de pago de patentes a los comerciantes producto de la pandemia',
-      'subTitle': '',
-      'date': 'Julio 23, 2020',
-      'contenido': [
-        'El periodo de pandemia ha significado una gran baja en las ventas de los comerciantes locales de la comuna de Nogales y El Melón. La disminución de los ingresos de los vecinos y la pérdida del empleo han gatillado un gran problema para los propietarios de los almacenes y comercio en general, los que legalmente tienen hasta el 31 de Julio para pagar su patente.',
-        'Es por esta razón que la Alcaldesa Margarita Osorio –con las facultades que le otorga la ley- quiso dar una ayuda a este rubro que también es una importante fuente de empleo en la comuna y presentó una modificación que fue aprobada por el Concejo Municipal, consistente en tres alternativas de pago de las patentes comerciales, industriales y de alcohol destinada a las micro, pequeñas y medianas empresas.',
-        'De este modo, los comerciantes podrán tener las siguientes opciones: Primero, pago de forma normal hasta 31 julio; segundo, postergación en 3 meses del pago de la patente del mes de julio 2020, sin intereses ni multas y pago con vencimiento el 31 de octubre 2020.',
-        'Y finalmente el pago de la patente en 6 cuotas iguales, sin intereses ni multas a diciembre de 2020.',
-        'Los contribuyentes interesados en acceder a esta flexibilidad de pago deben retirar el formulario en la oficina de partes del municipio ubicada en el edificio municipal y de ahí serán derivados a la Unidad de Rentas.',
-        'El Asesor Jurídico Municipal, Abogado Alejandro Borbarán precisó que la opción elegida dependerá de las necesidades o situación en la que se encuentre cada uno de los comerciantes pero que es importante dejar en claro que es sin multas e intereses.',
-        'Importante es mencionar que de este beneficio queda excluida el pago de las patentes profesionales, pero sin lugar a dudas es un gran alivio para el comercio establecido de la comuna de Nogales y El Melón.',
-      ],
-      'miniatura': 'facilidad',
-      'imagenesPost': ['facilidad'],
-      'etiquetas': ['Asesor Jurídico, Alejandro Borbarán Ferández'],
-      'audios': ['patentesBorbaran'],
-    },
-    {
-      'id': 3,
       'title': 'Primera Intervención Urbana Prevención covid 19 y derechos de las niñas y niños',
       'subTitle': 'Más de ocho mil menores disfrutaron del día del niño y niña en la comuna de Nogales',
       'date': 'Agosto 10, 2020',
@@ -67,7 +29,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 4,
+      'id': 2,
       'title': 'Municipalidad realiza intervención cultural y entrega de cinco mil kit de alimentos no perecibles para adultos mayores',
       'date': 'Septiembre 1, 2020',
       'contenido': [
@@ -86,7 +48,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 5,
+      'id': 3,
       'title': 'Municipio entrega 1194 chip con internet para todos los estudiantes y tablets en comodato a estudiantes de cuarto medio de Liceo Juan Rusque y Colegio El Melón',
       'date': 'Septiembre 9, 2020',
       'contenido': [
@@ -105,7 +67,7 @@ const initialState = {
       'audios': [''],
     },
     {
-      'id': 6,
+      'id': 4,
       'title': 'Municipio comenzó entrega de cajas de mercadería y sacos de papas para los vecinos de la comuna',
       'date': 'Septiembre 14, 2020',
       'contenido': [
@@ -121,7 +83,7 @@ const initialState = {
       'audios': ['entregapapasalcaldesa'],
     },
     {
-      'id': 7,
+      'id': 5,
       'title': 'Municipalidad entregó subvención a Comité de Vivienda Los Jardines de Nogales',
       'date': 'Septiembre 14, 2020',
       'contenido': [
@@ -135,7 +97,7 @@ const initialState = {
       'audios': [],
     },
     {
-      'id': 8,
+      'id': 6,
       'title': 'Vecinos de la Población La Unión contarán con flamante sede social',
       'date': 'Septiembre 14, 2020',
       'contenido': [
@@ -143,6 +105,41 @@ const initialState = {
       ],
       'miniatura': 'sedeunion',
       'imagenesPost': ['sedeunion'],
+      'etiquetas': [],
+      'audios': [],
+    },
+    {
+      'id': 7,
+      'title': 'Estudiantes de Pre Kínder Municipales reciben set RINJU de equipamiento infantil, para el juego y la estimulación en sus casas',
+      'date': 'Septiembre 22, 2020',
+      'contenido': [
+        'El martes 22 de septiembre se realizó la entrega del SET RINJU para los 92 niños y niñas de los niveles de transición 1 (NT1) de los establecimientos educacionales municipalizados de la comuna de Nogales. La actividad comenzó a eso de las 11:00 en las dependencias de la Sala Cuna La Peña.',
+        'Respetando los protocolos internos de higiene y seguridad para prevenir contagios por COVID-19 a la actividad asistieron la Alcaldesa Margarita Osorio, el Seremi de Desarrollo Social Ricardo Figueroa, el Gobernador de Quillota Iván Cisternas, el Director del Departamento de Educación de Nogales Hernán Alarcón, los Directores de los cuatro escuelas municipales, docentes y apoderados, etc.',
+        'La Municipalidad de Nogales a través de su Departamento de Educación en conjunto con el Ministerio de Desarrollo Social y en unión con el Programa Chile Crece Contigo, realizaron la entrega formal de la Caja RINJU, que consiste en un equipamiento infantil para el juego y la estimulación de los pequeños estudiantes de Nivel de transición NT1.',
+        'El RINJU es un espacio especialmente diseñado que permite a los niños y niñas jugar, desarrollar su imaginación y mostrar su forma de ver el mundo a sus padres de manera entretenida y lúdica.  El RINJU busca mejorar las condiciones de equipamiento infantil para el juego y la estimulación en hogares de los niños y niñas que forman parte de nuestros establecimientos (Escuela La Peña, Escuela Ulda Aracena, Colegio El Melón y Liceo Juan Rusque Portal).',
+        'La Alcaldesa Margarita Osorio nos comentó qué, “estoy muy contenta que hayan elegido a nuestra comuna, para haber inaugurado este Rincón del Juego, que digo yo, que es para nuestros niños que lo han pasado mal. Nuestros niños son los más importante de esta Alcaldesa en nuestra comuna y con estos elementos que traen las cajas, ya van a tener con qué entretenerse”.',
+        'El Seremi de Desarrollo Social mencionó que, hemos realizado la entrega de estos Rincón del Juego, que además es un elemento lúdico que nuestro Gobierno está entregando en toda la Región de Valparaíso, acá en la provincia de Quillota estamos entregando 1083 Rincones del juego, en la comuna de Nogales son 92 y acá en la Escuela La Peña 12 y eso permite que nosotros demos una enorme relevancia a la Educación Parvularia”.',
+        'Así mismo el Gobernador de la Provincia Iván Cisternas nos señaló que es una muy buena noticia para los niños principalmente, este proyecto importante; son 1083 set de juegos de aprendizaje que se reparten a esa misma cantidad de familias en la Provincia de Quillota y en particular quisimos hacerlo acá con el Seremi de Desarrollo Social, la Alcaldesa Margarita Osorio y en la comuna de nogales, en el sector de la Peña, en una muy linda escuela y estoy feliz de compartir momentos con algunos niños con la distancia y con todos los resguardos necesarios.',
+      ],
+      'miniatura': 'entregarinju',
+      'imagenesPost': ['entregarinju', 'entregarinju2', 'entregarinju3', 'entregarinju4', 'entregarinju5', 'entregarinju6', 'entregarinju7', 'entregarinju8', 'entregarinju9'],
+      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro', 'Seremi V región, Ricardo Figueroa Ayala'],
+      'audios': ['entregarinjualcaldesa', 'entregarinjuseremi'],
+    },
+    {
+      'id': 8,
+      'title': 'En Octubre se Inician trabajos de recambio de luminarias a tecnología LED para Nogales y El Melón.',
+      'date': 'Septiembre 30, 2020',
+      'contenido': [
+        'En sesión de Concejo Municipal de este miércoles 30 de septiembre se aprobó la adjudicación del proyecto REPOSICIÓN DE LUMINARIAS PÚBLICAS DE LA COMUNA DE NOGALES, proyecto que fue postulado por el municipio y aprobado por el Gobierno Regional de Valparaíso por la suma de Mil millones de pesos, obras que se comenzarán a ejecutar en el mes de octubre.',
+        'La Alcaldesa Margarita Osorio se mostró  muy contenta con la aprobación de este proyecto, ya que las nuevas luminarias permitirán brindar una mayor percepción de seguridad a los vecinos y vecinas del sector urbano de Nogales y El Melón, y de este modo hacer frente a la delincuencia.',
+        'En total son 1693 luminarias que se habilitarán en la comuna, proyecto que era muy necesario para la comunidad, debido a los reclamos permanentes de los vecinos por las constantes fallas de los actuales focos en la zona urbana.',
+        'La empresa que se adjudicó los trabajos es Representaciones Offersuite Chile Limitada la que tiene un plazo de 90 días para la ejecución del proyecto.',
+        'La Jefa comunal precisó que la Secplac del municipio ya se encuentra trabajando en un nuevo proyecto para recambio de las luminarias LED para todo el sector rural de la comuna.',
+        'Finalmente la Alcaldesa agradeció al concejo municipal por aprobar la licitación y especialmente a los dirigentes de las organizaciones funcionales y territoriales de la comuna, los que siempre la apoyaron en este proyecto desde que fueron a defenderlo a la sesión del pleno del Gobierno Regional el año pasado.',
+      ],
+      'miniatura': 'luminaria',
+      'imagenesPost': ['luminaria'],
       'etiquetas': [],
       'audios': [],
     },

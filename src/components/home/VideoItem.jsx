@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import '../../assets/styles/ContenedorYoutube.scss';
 import SD1 from '../../assets/static/videos/1SD.mp4';
@@ -12,7 +13,8 @@ import IMG3 from '../../assets/static/videos/IMG3.jpg';
 import SD4 from '../../assets/static/videos/4SD.mp4';
 import HD4 from '../../assets/static/videos/4HD.mp4';
 import IMG4 from '../../assets/static/videos/IMG4.jpg';
-const VideoItem = ({ videoName }) => {
+
+const VideoItem = ({ videoName, title }) => {
   let videoSD;
   let videoHD;
   let videoMiniature;
@@ -45,10 +47,14 @@ const VideoItem = ({ videoName }) => {
   };
   return (
     <div className='videoContainer'>
-      <select className='qualitypick' autoComplete='off'>
-        <option defaultValue>HD</option>
-        <option>SD</option>
-      </select>
+      <h3 className='videoTitle'>{title}</h3>
+      <div className='qualityContainer'>
+        <label htmlFor='qualitypick'>Calidad:</label>
+        <select name='qualitypick' autoComplete='off'>
+          <option defaultValue>HD</option>
+          <option>SD</option>
+        </select>
+      </div>
       <video controls preload='none' className='videoItem' poster={videoMiniature}>
         <source label='SD' src={videoSD} type='video/mp4' />
         <source label='HD' src={videoHD} type='video/mp4' />

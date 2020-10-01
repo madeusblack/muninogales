@@ -3,14 +3,23 @@ import '../../assets/styles/Header.scss';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/static/header/logo.png';
 import instagram from '../../assets/static/header/instagram.png';
+import instagramwebp from '../../assets/static/header/instagram.webp';
 import mail from '../../assets/static/header/mail.png';
+import mailwebp from '../../assets/static/header/mail.webp';
 import twitter from '../../assets/static/header/twitter.png';
+import twitterwebp from '../../assets/static/header/twitter.webp';
 import youtube from '../../assets/static/header/youtube.png';
+import youtubewebp from '../../assets/static/header/youtube.webp';
 import lobby from '../../assets/static/header/lobby.png';
+import lobbywebp from '../../assets/static/header/lobby.webp';
 import sai from '../../assets/static/header/sai.png';
+import saiwebp from '../../assets/static/header/sai.webp';
 import tai from '../../assets/static/header/tai.png';
+import taiwebp from '../../assets/static/header/tai.webp';
 import comisaria from '../../assets/static/header/comisaria.jpg';
+import comisariawebp from '../../assets/static/header/comisaria.webp';
 import pasoapaso from '../../assets/static/header/pasoapaso.png';
+import pasoapasowebp from '../../assets/static/header/pasoapaso.webp';
 import LinksServicios from './LinksServicios';
 
 const Header = () => (
@@ -38,33 +47,69 @@ const Header = () => (
       <div className='upperRight'>
         <p>Siguenos en:</p>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.youtube.com/channel/UCpURFVn_rEYNePMMhw_-fWw'>
-          <img src={youtube} alt='Youtube' />
+          <picture>
+            <source srcSet={youtubewebp} type='image/webp' />
+            <source srcSet={youtube} type='image/png' />
+            <img csr={youtube} alt='canal youtube' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://twitter.com/muninogales'>
-          <img src={twitter} alt='Twitter' />
+          <picture>
+            <source srcSet={twitterwebp} type='image/webp' />
+            <source srcSet={twitter} type='image/png' />
+            <img csr={twitter} alt='Twitter' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='https://www.instagram.com/muninogales5/'>
-          <img src={instagram} alt='Instragram' />
+          <picture>
+            <source srcSet={instagramwebp} type='image/webp' />
+            <source srcSet={instagram} type='image/png' />
+            <img csr={instagram} alt='Instagram' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' className='icon' href='http://mail.google.com/a/muninogales.cl'>
-          <img src={mail} alt='Inicio de sesion de correo de Funcionarios' />
+          <picture>
+            <source srcSet={mailwebp} type='image/webp' />
+            <source srcSet={mail} type='image/png' />
+            <img csr={mail} alt='Inicio de sesion de correo de Funcionarios' />
+          </picture>
         </a>
       </div>
       <div className='lowerRight'>
         <Link to='/pasoapaso'>
-          <img className='estadoComuna' src={pasoapaso} alt='Lobby y gestion de intereses particulares' />
+          <picture>
+            <source srcSet={pasoapasowebp} type='image/webp' />
+            <source srcSet={pasoapaso} type='image/png' />
+            <img className='headerLink' csr={pasoapaso} alt='Estado comuna paso a paso' />
+          </picture>
         </Link>
         <a target='_blank' rel='noopener noreferrer' href='https://www.leylobby.gob.cl/instituciones/MU183'>
-          <img src={lobby} alt='Lobby y gestion de intereses particulares' />
+          <picture>
+            <source srcSet={lobbywebp} type='image/webp' />
+            <source srcSet={lobby} type='image/png' />
+            <img className='headerLink' csr={lobby} alt='Lobby y gestion de intereses particulares' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' href='http://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0078b82e8b3606aa549688114c54effe'>
-          <img src={sai} alt='Solicitar informacion ley de transparencia' />
+          <picture>
+            <source srcSet={saiwebp} type='image/webp' />
+            <source srcSet={sai} type='image/png' />
+            <img className='headerLink' csr={sai} alt='Solicitar informacion ley de transparencia' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' href='http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU183'>
-          <img src={tai} alt='transparencia activa ley de transparencia' />
+          <picture>
+            <source srcSet={taiwebp} type='image/webp' />
+            <source srcSet={tai} type='image/png' />
+            <img className='headerLink' csr={tai} alt='transparencia activa ley de transparencia' />
+          </picture>
         </a>
         <a target='_blank' rel='noopener noreferrer' href='https://comisariavirtual.cl/'>
-          <img src={comisaria} alt='transparencia activa ley de transparencia' />
+          <picture>
+            <source srcSet={comisariawebp} type='image/webp' />
+            <source srcSet={comisaria} type='image/jpeg' />
+            <img className='headerLink' csr={comisaria} alt='comisaria virtual' />
+          </picture>
         </a>
       </div>
     </div>
