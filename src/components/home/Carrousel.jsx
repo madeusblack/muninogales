@@ -41,7 +41,7 @@ const Carrousel = () => (
     interval={9000}
   >
     <div>
-      <a href='https://www.plebiscitonacional2020.cl/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://www.plebiscitonacional2020.cl/' aria-label='plebiscito nacional 2020 elige el pais que quieres' target='_blank' rel='noopener noreferrer'>
         <picture>
           <source srcSet={servelwebp} type='image/webp' />
           <source srcSet={servel} type='image/jpeg' />

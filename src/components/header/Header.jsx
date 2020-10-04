@@ -21,6 +21,8 @@ import comisariawebp from '../../assets/static/header/comisaria.webp';
 import pasoapaso from '../../assets/static/header/pasoapaso.png';
 import pasoapasowebp from '../../assets/static/header/pasoapaso.webp';
 import LinksServicios from './LinksServicios';
+import emergencia from '../../assets/static/header/emergencia.png';
+import emergenciawebp from '../../assets/static/header/emergencia.webp';
 
 const Header = () => (
   <div className='headerContainer'>
@@ -76,13 +78,6 @@ const Header = () => (
         </a>
       </div>
       <div className='lowerRight'>
-        <Link to='/pasoapaso'>
-          <picture>
-            <source srcSet={pasoapasowebp} type='image/webp' />
-            <source srcSet={pasoapaso} type='image/png' />
-            <img className='headerLink' csr={pasoapaso} alt='Estado comuna paso a paso' />
-          </picture>
-        </Link>
         <a target='_blank' rel='noopener noreferrer' href='https://www.leylobby.gob.cl/instituciones/MU183'>
           <picture>
             <source srcSet={lobbywebp} type='image/webp' />
@@ -97,6 +92,7 @@ const Header = () => (
             <img className='headerLink' csr={sai} alt='Solicitar informacion ley de transparencia' />
           </picture>
         </a>
+
         <a target='_blank' rel='noopener noreferrer' href='http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU183'>
           <picture>
             <source srcSet={taiwebp} type='image/webp' />
@@ -104,6 +100,13 @@ const Header = () => (
             <img className='headerLink' csr={tai} alt='transparencia activa ley de transparencia' />
           </picture>
         </a>
+        <Link to='/pasoapaso'>
+          <picture>
+            <source srcSet={pasoapasowebp} type='image/webp' />
+            <source srcSet={pasoapaso} type='image/png' />
+            <img className='headerLink' csr={pasoapaso} alt='Estado comuna paso a paso' />
+          </picture>
+        </Link>
         <a target='_blank' rel='noopener noreferrer' href='https://comisariavirtual.cl/'>
           <picture>
             <source srcSet={comisariawebp} type='image/webp' />
@@ -111,6 +114,13 @@ const Header = () => (
             <img className='headerLink' csr={comisaria} alt='comisaria virtual' />
           </picture>
         </a>
+        <Link to='/emergencias'>
+          <picture>
+            <source srcSet={emergenciawebp} type='image/webp' />
+            <source srcSet={emergencia} type='image/png' />
+            <img className='headerLink' csr={emergencia} alt='Estado comuna paso a paso' />
+          </picture>
+        </Link>
       </div>
     </div>
   </div>

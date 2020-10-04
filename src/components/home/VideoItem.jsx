@@ -18,39 +18,40 @@ const VideoItem = ({ videoName, title }) => {
   let videoSD;
   let videoHD;
   let videoMiniature;
+  let name;
   switch (videoName) {
     case '1':
       videoSD = SD1;
       videoHD = HD1;
       videoMiniature = IMG1;
+      name = '1';
       break;
     case '2':
       videoSD = SD2;
       videoHD = HD2;
       videoMiniature = IMG2;
+      name = '2';
       break;
     case '3':
       videoSD = SD3;
       videoHD = HD3;
       videoMiniature = IMG3;
+      name = '3';
       break;
     default:
       videoSD = SD4;
       videoHD = HD4;
       videoMiniature = IMG4;
+      name = '4';
       break;
   }
-  if (videoName === '1') {
-    videoSD = SD1;
-    videoHD = HD1;
-    videoMiniature = IMG1;
-  };
+
   return (
     <div className='videoContainer'>
       <h3 className='videoTitle'>{title}</h3>
       <div className='qualityContainer'>
-        <label htmlFor='qualitypick'>Calidad:</label>
-        <select name='qualitypick' autoComplete='off'>
+        <label htmlFor={name}>Calidad:</label>
+        <select name={name} id={name} autoComplete='off'>
           <option defaultValue>HD</option>
           <option>SD</option>
         </select>

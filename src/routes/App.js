@@ -22,6 +22,7 @@ import ContenedorProgramaMujer from '../containers/ContenedorProgramaMujer';
 import ContainerNoticias from '../containers/ContainerNoticias';
 import SaludContainer from '../containers/SaludContainer';
 import NotFound from '../containers/NotFound';
+import Emergency from '../components/header/Emergency';
 
 const App = () => (
   <BrowserRouter>
@@ -47,7 +48,8 @@ const App = () => (
         <Route exact path='/pmujer' component={ContenedorProgramaMujer} />
         <Route exact path='/noticia/:id' component={ContainerNoticias} />
         <Route exact path='/saludCarousel' component={SaludContainer} />
-        <Route exact path='/noencontrado' component={NotFound} />
+        <Route exact path='/emergencias' component={Emergency} />
+        <Route path='/noencontrado' component={NotFound} />
       </Switch>
     </Layout>
   </BrowserRouter>
