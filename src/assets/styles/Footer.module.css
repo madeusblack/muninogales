@@ -1,0 +1,77 @@
+:root {
+    --base-color:#28abb9 ;
+    --font-color:#ffffff;
+    --hover-color:#137b86;
+  }
+
+.footerMunicipalidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid var(--font-color);
+}
+
+.footer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    column-gap: 1em;
+    text-align: center;
+    grid-template-rows: 3fr 1fr;
+    color:var(--font-color);
+    font-weight: bolder;
+    align-items: flex-end;
+    background: var(--base-color);
+}
+.phone{
+    text-decoration: none;
+    color:var(--font-color);
+    font-size: x-large;
+}
+.phone:hover{
+    text-decoration: underline;
+}
+.highlighted{
+    color: var(--hover-color);;
+    text-decoration: none;
+}
+.highlighted:hover{
+    text-decoration: underline;
+}
+.phoneContainer{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+.phoneNumbers{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.phoneImage{
+    height: 18vh;
+    width: 100%;
+    min-height: 1em;
+  }
+
+  @media (max-width: 800px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+        }
+    .footerMunicipalidad{
+
+        margin: 0.5em 0;
+        border-bottom: 0px solid var(--font-color);;
+    }
+    .secondary{
+        border-top: 1px solid var(--font-color);;
+
+    }
+
+  }

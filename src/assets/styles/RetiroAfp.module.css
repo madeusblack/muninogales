@@ -1,0 +1,38 @@
+.containerAfp{
+  display: grid;
+  padding: 2em;
+  color: black;
+  row-gap: 3em;
+  grid-template-columns: 33vw 33vw 33vw;
+}
+.containerAfp img{
+  width: 30vh;
+  height: 15vh;
+  -webkit-filter: grayscale(95%);
+  filter: grayscale(95%);
+  transition: 450ms;
+}
+.containerAfp img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.mainAfpContainer{
+  display: flex;
+  color: black;
+
+  padding: 3em;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .mainAfpContainer{
+      padding: 0.5em;
+  }
+  .containerAfp{
+    display: flex;
+    flex-direction: column;
+  }
+  .containerAfp img{
+    width: 60vh;
+    height: 25vh;
+  }
+}

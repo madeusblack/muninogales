@@ -2,9 +2,19 @@
   display: grid;
   grid-template-columns: 55% 40%;
   column-gap: 5%;
+  color: black;
+
   text-align: center;
   padding: 0.2em;
   line-height: 1.5;
+}
+.galeria{
+ grid-column: span 2;
+}
+.galeria .img-responsive{
+  width: 80vw;
+  height: 80vh;
+
 }
 .containerNoticia img {
   margin-top: 1em;

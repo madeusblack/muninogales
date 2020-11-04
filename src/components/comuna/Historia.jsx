@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import styles from '../../assets/styles/LayoutContenidoMuniComuna.module.css';
 import historia from '../../assets/static/comuna/hist3.jpg';
 
 const Historia = () => {
@@ -40,11 +40,11 @@ const Historia = () => {
     Parroquia Santa Isabel de Hungría (Declarada Monumento Histórico Nacional” y su escuelita
     hoy Liceo “Felipe Cortes”`;
   return (
-    <div className='muniContainer'>
-      <h1 className='muniTitle'>HISTORIA</h1>
-      <img className='imgMunicipalidad' src={historia} alt='frontis de municipalidad' />
+    <div className={styles.muniContainer}>
+      <h1 className={styles.muniTitle}>HISTORIA</h1>
+      <img className={styles.imgMunicipalidad} src={historia} alt='frontis de municipalidad' />
       <p>{contenidoA}</p>
-      <p className='bottomParraph'>{contenidoB}</p>
+      <p className={styles.bottomParraph}>{contenidoB}</p>
 
     </div>
   );

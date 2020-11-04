@@ -1,6 +1,10 @@
 /* Position and sizing of burger button */
-$bars-color:#017c1e;
-$base-color:rgb(40,223,153);
+:root {
+  --base-color:#28abb9 ;
+  --font-color:#ffffff;
+  --hover-color:#137b86;
+}
+
 .bm-burger-button {
   position: fixed;
   display: none;
@@ -12,12 +16,12 @@ $base-color:rgb(40,223,153);
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background:$bars-color;
+  background:var(--hover-color);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: $bars-color;
+  background: var(--hover-color);
 }
 
 /* Position and sizing of clickable cross button */
@@ -28,25 +32,21 @@ $base-color:rgb(40,223,153);
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: var(--font-color);
 }
 
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
 .bm-menu-wrap {
   position: fixed;
   height: 80%;
 }
 /* General sidebar styles */
 .bm-menu {
-  background: $base-color;
+  background: var(--base-color);
   font-size: 1.25em;
 }
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b9b1b1;
+  color: var(--font-color);
   display: flex;
   flex-direction: column;
   padding: 0.3em;

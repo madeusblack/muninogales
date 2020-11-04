@@ -12,6 +12,10 @@ import '../assets/styles/ContainerNoticias.scss';
 const ContainerNoticias = (props) => {
   const dispatch = useDispatch();
   const { id } = props.match.params;
+  let classImagesDiv;
+  if (props.reading.type === 'galery') {
+    classImagesDiv = 'galeria';
+  }
   const hasPlaying = Object.keys(props.reading).length > 0;
 
   useEffect(() => {
@@ -41,7 +45,7 @@ const ContainerNoticias = (props) => {
           }
         </div>
       </div>
-      <div>
+      <div className={classImagesDiv}>
         {
           props.reading.imagenesPost.map((image) => {
             return (

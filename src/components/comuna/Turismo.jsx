@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import styles from '../../assets/styles/LayoutContenidoMuniComuna.module.css';
 import turismo from '../../assets/static/comuna/turi1.jpg';
 
 const Turismo = () => {
@@ -17,11 +17,11 @@ const Turismo = () => {
   const contenidoB = `
 `;
   return (
-    <div className='muniContainer'>
-      <h1 className='muniTitle'>TURISMO</h1>
-      <img className='imgMunicipalidad' src={turismo} alt='frontis de municipalidad' />
-      <p>{contenidoA}</p>
-      <p className='bottomParraph'>{contenidoB}</p>
+    <div className={styles.muniContainer}>
+      <h1 className={styles.muniTitle}>TURISMO</h1>
+      <img className={styles.imgMunicipalidad} src={turismo} alt='frontis de municipalidad' />
+      <p className={styles.contenido}>{contenidoA}</p>
+      <p className={styles.bottomParraph}>{contenidoB}</p>
 
     </div>
   );

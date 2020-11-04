@@ -10,14 +10,14 @@ const NewsItem = (props) => {
 
   return (
     <div className='newsItemContainer'>
-      <p className='date'>{date}</p>
       <Link className='newsText' to={`/noticia/${id}`}>
         <picture>
           <source srcSet={srcwebp} type='image/webp' />
           <source srcSet={src} type='image/jpeg' />
           <img className='newsImage' loading='lazy' csr={src} alt='' />
         </picture>
-        {title}
+        <p className='date'>{date}</p>
+        <h3>{title}</h3>
       </Link>
     </div>
   );

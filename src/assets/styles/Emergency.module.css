@@ -1,0 +1,21 @@
+.tablaEmergencias th{
+  background-color: #72A276;
+}
+.tablaEmergencias td{
+  background-color: #A0EEC0;
+}
+
+.tablaEmergencias{
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  border: 1px solid black;
+  font-size: larger;
+}
+
+@media (max-width: 800px) {
+  .tablaEmergencias{
+    width: 100%;
+    height: 200vh;
+  }
+}

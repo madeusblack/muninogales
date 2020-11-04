@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import '../../assets/styles/Emergency.scss';
+import styles from '../../assets/styles/Emergency.module.css';
 
 const Emergency = () => (
-  <table className='tablaEmergencias'>
+  <table className={styles.tablaEmergencias}>
     <tr>
       <th>Institución</th>
       <th>Dirección</th>
@@ -25,9 +25,9 @@ const Emergency = () => (
       <td><a href='tel:133'>133</a></td>
     </tr>
     <tr>
-      <td>Municipalidad de Nogales (emergencias municipales)</td>
+      <td>Emergencias Municipales (Alcaldesa)</td>
       <td><a href='https://goo.gl/maps/KnjfYVuZQmoSG29k6'>PEDRO FÉLIX VICUÑA N° 199</a></td>
-      <td><a href='tel:+56988698591'>9 8869 8591</a></td>
+      <td><a href='tel:+56954179346'>9 54179346</a></td>
     </tr>
     <tr>
       <td>Tenencia Nogales</td>
@@ -83,6 +83,31 @@ const Emergency = () => (
       <td>Fono Adulto Mayor</td>
       <td />
       <td><a href='tel:800 400 035'>800 400 035</a></td>
+    </tr>
+    <tr>
+      <td>Agua Potable El Melón</td>
+      <td><a href='https://goo.gl/maps/CEyL6ewqRSP59djw5'>Calle Ramón Freire 43</a></td>
+      <td><a href='tel:+56332280006'>33 2 280006</a></td>
+    </tr>
+    <tr>
+      <td>Juzgado de Policía Local</td>
+      <td><a href='https://goo.gl/maps/vqQcV5LTkhc1wCWw6'>Pedro Felix Vicuña 199, Nogales</a></td>
+      <td><a href='tel:+56992329434'>9 9232 9434</a></td>
+    </tr>
+    <tr>
+      <td>Esval</td>
+      <td />
+      <td><a href='tel:600 600 60 60'>600 600 60 60</a></td>
+    </tr>
+    <tr>
+      <td>Chilquinta (Desde Telefonos Fijos)</td>
+      <td />
+      <td><a href='tel:600 600 50 00'>600 600 50 00</a></td>
+    </tr>
+    <tr>
+      <td>Chilquinta (Desde Celulares)</td>
+      <td />
+      <td><a href='tel:+56 32 2 265300'>32 2 265300</a></td>
     </tr>
   </table>
 );

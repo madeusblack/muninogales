@@ -10,11 +10,17 @@
     height: 75vh;
     margin-bottom:0.8em ;
 }
+#sercotec{
+    width: 60vw;    
+}
 @media (max-width: 800px) {
     .carrousell{
         height: 60vh;
     }
     .image{
         height: 60vh;
+    }
+    #sercotec{
+        width: 100vw;    
     }
 }

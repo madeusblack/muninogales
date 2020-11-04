@@ -1,0 +1,125 @@
+:root {
+    --base-color:#28abb9 ;
+    --font-color:#ffffff;
+    --hover-color:#137b86;
+  }
+*{
+      -webkit-font-smoothing: antialiased;
+}
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color:black;
+    font-family: sans-serif;
+    color:var(--font-color);
+    overflow-x:hidden;
+}
+.headerContainer{
+    background:var(--base-color);
+}
+.upperHeader{
+    display: grid;
+    grid-template-columns:20vw 60vw ;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+}
+.Left{
+    grid-row: span 2;
+    align-self: start;
+}
+.icon{
+    max-width: 33px;
+    min-width: 10px;
+}
+.upperRight{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    justify-content: flex-end;
+}
+.upperRight p{
+    color: var(--font-color);
+    font-size: larger;
+}
+.upperRight a{
+    margin: 0 0 0 0.5em;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 450ms;
+}
+.upperRight a:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.lowerRight{
+    display: flex;
+    margin-right:1em;
+    justify-content: flex-end;
+}
+.lowerRight a{
+    margin: 1em 0.2em 2em 0.2em;
+
+}
+.headerLink{
+    width: 100%;
+    border-radius: .32rem;
+}
+.headerLink:hover{
+    -webkit-filter: brightness(110%) saturate(150%);
+    filter: brightness(120%) saturate(150%);
+}
+
+.lowerHeader{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lowerHeader a{
+    text-decoration: none;
+    color:var(--font-color);
+    line-height: 2.2em;
+    padding: 10px;
+    transition: 450ms;
+    font-size: larger;
+}
+.lowerHeader a:hover{
+    background-color:var(--hover-color) ;
+}
+
+
+@media (max-width: 800px) {
+    .upperHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lowerHeader{
+        display: none;
+    }
+    .Left{
+        grid-row: span 2;
+        align-self: center;
+    }
+    .upperRight{
+        margin: 0;
+    }
+    .lowerRight{
+        display: grid;
+        grid-template-columns: repeat(3, 31vw);
+        row-gap: 0.1em;
+        column-gap: 0.2rem;
+        margin: 0;
+    }
+    .lowerRight img{
+        width: 31vw;
+        height: 10vh;
+    }
+    .upperRight a{
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}

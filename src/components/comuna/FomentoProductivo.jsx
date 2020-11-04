@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import styles from '../../assets/styles/LayoutContenidoMuniComuna.module.css';
 import fomento from '../../assets/static/comuna/fomento1.jpg';
 
 const FomentoProductivo = () => {
@@ -16,11 +16,11 @@ const FomentoProductivo = () => {
   const contenidoB = 'Direcciones de atención e inscripciones:';
 
   return (
-    <div className='muniContainer'>
-      <h1 className='muniTitle'>FOMENTO PRODUCTIVO</h1>
-      <img className='imgMunicipalidad' src={fomento} alt='frontis de municipalidad' />
+    <div className={styles.muniContainer}>
+      <h1 className={styles.muniTitle}>FOMENTO PRODUCTIVO</h1>
+      <img className={styles.imgMunicipalidad} src={fomento} alt='frontis de municipalidad' />
       <p>{contenidoA}</p>
-      <p className='bottomParraph'>
+      <p className={styles.bottomParraph}>
         {contenidoB}
         <br />
         <b>MUNICIPALIDAD DE NOGALES</b>
@@ -42,7 +42,7 @@ const FomentoProductivo = () => {
         Teléfono :
         <a href='tel:+56332262770'> 33 2 262 770</a>
       </p>
-      <p className='bottomParraph'>
+      <p className={styles.bottomParraph}>
         <b>Email:</b>
         <br />
         <a href='mailto:fomentoproductivo@muninogales.cl'>fomentoproductivo@muninogales.cl</a>
@@ -50,7 +50,7 @@ const FomentoProductivo = () => {
         <a href='mailto:fomentoproductivonogales@gmail.com'>fomentoproductivonogales@gmail.com</a>
       </p>
 
-      <p className='bottomParraph'>
+      <p className={styles.bottomParraph}>
         Quienes pueden inscribirse:
         <br />
         <b>Pre-emprendedor: </b>

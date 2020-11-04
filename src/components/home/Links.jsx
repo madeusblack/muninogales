@@ -18,6 +18,8 @@ import cuentapublica from '../../assets/static/links/cuentapublica.jpg';
 import cuentapublicawebp from '../../assets/static/links/cuentapublica.webp';
 import participacion from '../../assets/static/links/ine.png';
 import participacionwebp from '../../assets/static/links/ine.webp';
+import plebiscito from '../../assets/static/links/plebiscito.jpg';
+import plebiscitowebp from '../../assets/static/links/plebiscito.webp';
 
 const Links = () => (
   <div className='linksContainer'>
@@ -75,7 +77,14 @@ const Links = () => (
         <img className='linkImage' csr={chileatiende} loading='lazy' alt='' />
       </picture>
     </a>
-    <a target='_blank' rel='noopener noreferrer' id='ine' aria-label='censo de participacion intercultural instituto nacional de estadisticas' href='https://www.ine.cl/participacionintercultural'>
+    <a target='_blank' rel='noopener noreferrer' id='ine' aria-label='plebiscito nacional 2020' href='https://www.plebiscitonacional2020.cl/'>
+      <picture>
+        <source srcSet={plebiscitowebp} type='image/webp' />
+        <source srcSet={plebiscito} type='image/png' />
+        <img className='linkImage' csr={plebiscito} loading='lazy' alt='' />
+      </picture>
+    </a>
+    <a target='_blank' rel='noopener noreferrer' id='plebiscito' aria-label='censo de participacion intercultural instituto nacional de estadisticas' href='https://www.ine.cl/participacionintercultural'>
       <picture>
         <source srcSet={participacionwebp} type='image/webp' />
         <source srcSet={participacion} type='image/png' />

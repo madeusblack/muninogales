@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import styles from '../../assets/styles/LayoutContenidoMuniComuna.module.css';
 import poblacion from '../../assets/static/comuna/pobl2.jpg';
 
 const Poblacion = () => {
@@ -19,33 +19,34 @@ const Poblacion = () => {
     La Calera, donde es procesada y comercializada, por medio de un tren de carga.
     Dicho tren recibe tradicionalmente el nombre de "Calero". Otro recurso es la
     agricultura, la comuna tiene fértiles tierras donde se cosechan muchos productos.`;
+  const classTable = `${styles.bottomParraph} ${styles.tablaCenso}`;
 
   return (
-    <div className='muniContainer'>
-      <h1 className='muniTitle'>POBLACIÓN</h1>
-      <img className='imgMunicipalidad' src={poblacion} alt='frontis de municipalidad' />
+    <div className={styles.muniContainer}>
+      <h1 className={styles.muniTitle}>POBLACIÓN</h1>
+      <img className={styles.imgMunicipalidad} src={poblacion} alt='frontis de municipalidad' />
       <p>{contenidoA}</p>
-      <table className='bottomParraph tablaCenso'>
+      <table className={classTable}>
         <tr>
-          <th id='enBlanco' />
+          <th id={styles.enBlanco} />
           <th>CENSO 1992</th>
           <th>CENSO 2002</th>
           <th>CENSO 2012 (PROYECTADA)</th>
         </tr>
         <tr>
-          <td className='inicial'>TOTAL COMUNA NOGALES</td>
+          <td className={styles.inicial}>TOTAL COMUNA NOGALES</td>
           <td>18.669</td>
           <td>21.633</td>
           <td>26.385</td>
         </tr>
         <tr>
-          <td className='inicial'>MUJERES</td>
+          <td className={styles.inicial}>MUJERES</td>
           <td>9.341</td>
           <td>10.847</td>
           <td>13.291</td>
         </tr>
         <tr>
-          <td className='inicial'>HOMBRES</td>
+          <td className={styles.inicial}>HOMBRES</td>
           <td>9.328</td>
           <td>10.786</td>
           <td>13.094</td>

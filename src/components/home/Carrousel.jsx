@@ -4,8 +4,6 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import { Link } from 'react-router-dom';
-import servel from '../../assets/static/carousel/125.png';
-import servelwebp from '../../assets/static/carousel/125.webp';
 import phone from '../../assets/static/carousel/49.jpg';
 import phonewebp from '../../assets/static/carousel/49.webp';
 import mail from '../../assets/static/carousel/56.jpg';
@@ -30,6 +28,13 @@ import juzgado from '../../assets/static/pdf/carousel/jpl.pdf';
 import pdfMuni from '../../assets/static/pdf/carousel/covidmunicipal.pdf';
 import calendariobasura from '../../assets/static/pdf/carousel/basura.jpg';
 import cuenta2019 from '../../assets/static/pdf/cuenta publica/cp19.pdf';
+import calendariocachureos from '../../assets/static/carousel/calendariocachureos.jpg';
+import cachureos from '../../assets/static/carousel/cachureos.jpg';
+import cachureoswebp from '../../assets/static/carousel/cachureos.webp';
+import veterinaria from '../../assets/static/carousel/veterinaria.jpg';
+import veterinariawebp from '../../assets/static/carousel/veterinaria.webp';
+import deportes from '../../assets/static/carousel/deportes.jpg';
+import deporteswebp from '../../assets/static/carousel/deportes.webp';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -41,11 +46,27 @@ const Carrousel = () => (
     interval={9000}
   >
     <div>
-      <a href='https://www.plebiscitonacional2020.cl/' aria-label='plebiscito nacional 2020 elige el pais que quieres' target='_blank' rel='noopener noreferrer'>
+      <a href='tel:+56981608396'>
         <picture>
-          <source srcSet={servelwebp} type='image/webp' />
-          <source srcSet={servel} type='image/jpeg' />
-          <img className='image' csr={servel} alt='' />
+          <source srcSet={deporteswebp} type='image/webp' />
+          <source srcSet={deportes} type='image/jpeg' />
+          <img className='image' csr={deportes} alt='' />
+        </picture>
+      </a>
+    </div>
+    <div>
+      <picture>
+        <source srcSet={veterinariawebp} type='image/webp' />
+        <source srcSet={veterinaria} type='image/jpeg' />
+        <img className='image' csr={veterinaria} alt='' />
+      </picture>
+    </div>
+    <div>
+      <a href={calendariocachureos}>
+        <picture>
+          <source srcSet={cachureoswebp} type='image/webp' />
+          <source srcSet={cachureos} type='image/jpeg' />
+          <img className='image' csr={cachureos} alt='' />
         </picture>
       </a>
     </div>

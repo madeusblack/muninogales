@@ -14,7 +14,7 @@ const MobileHeader = () => {
       <Link className='mobileMenuLink' to='/'>INICIO</Link>
       <LinksMenuMovil tipo='muni' />
       <LinksMenuMovil tipo='comuna' />
-      <LinksMenuMovil className='mobileMenuLink bm-item' />
+      <LinksMenuMovil tipo='beneficios' />
       <Link className='mobileMenuLink' to='/juzgado'>JUZGADO POLICÍA LOCAL</Link>
       <a className='mobileMenuLink' target='blank_' href='http://www.indap.gob.cl/'>PRODESAL</a>
       <a className='mobileMenuLink' target='blank_' href='http://www.nogaleschile.cl/'>EDUCACIÓN</a>

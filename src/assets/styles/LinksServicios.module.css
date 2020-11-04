@@ -1,0 +1,45 @@
+:root {
+  --base-color:#28abb9 ;
+  --font-color:#ffffff;
+  --hover-color:#137b86;
+}
+.dropdown 
+{
+    display: inline-block;
+    transition: 450ms;
+    color: var(--font-color);
+}
+
+.services{
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  color: var(--font-color);
+}
+.services:hover{
+  background-color: var(--hover-color);
+}
+.dropdownContent 
+{
+    display: none;
+    position: absolute;
+    background-color: var(--base-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 15;
+    top: 40px;
+}
+.dropdownLink{
+  color:  var(--font-color);
+}
+
+.dropdownLink:hover {
+  background-color: var(--hover-color);
+
+}
+.dropdown:hover .dropdownContent{
+    display: flex;
+    color: var(--font-color);
+    transition: 450ms;
+    width: 35em;
+    flex-direction: column;
+}

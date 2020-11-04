@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/styles/SaludContainer.scss';
+import styles from '../assets/styles/SaludContainer.module.css';
 
 const SaludContainer = () => {
   return (
-    <div className='contenedorSalud'>
+    <div className={styles.contenedorSalud}>
       <h1>Departamento de Salud insta a usuarios a que llamen por teléfono a consultorios en casos de sospecha de COVID-19</h1>
       <h3>Con el objetivo de evitar la programación de corona virus entre los vecinos de la comuna, ante la sospecha de contagio de esta enfermedad, el Departamento de Salud de Nogales instó a los vecinos a que se contacten por teléfono en los Cesfam y Cecosf que posee la comuna con el fin de recibir atención médica a domicilio por parte de personal que ha sido preparado para esta emergencia.</h3>
       <p>

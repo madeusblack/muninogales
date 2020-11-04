@@ -1,11 +1,10 @@
-import React from 'react';
-import '../../assets/styles/Organigrama.scss';
-import Tree from 'react-d3-tree';
+import React, { Suspense } from 'react';
+import stylesFile from '../../assets/styles/Organigrama.module.css';
+
+const Tree = React.lazy(() => import('react-d3-tree'));
 
 const Organigrama = () => {
-/*
 
-  */
   const myTreeData = [
     {
       name: 'Alcaldesa',
@@ -221,19 +220,23 @@ const Organigrama = () => {
     nonSiblings: 1,
   };
   return (
-    <div id='treeWrapper'>
-      <Tree
-        className='tree'
-        data={myTreeData}
-        useCollapseData={true}
-        orientation='vertical'
-        translate={translation}
-        styles={styles}
-        pathFunc='step'
-        separation={separation}
-        textLayout={textalign}
+    <div id={stylesFile.treeWrapper}>
+      <Suspense fallback={<div>Cargando...</div>}>
 
-      />
+        <Tree
+          className={stylesFile.tree}
+          data={myTreeData}
+          useCollapseData={true}
+          orientation='vertical'
+          translate={translation}
+          styles={styles}
+          pathFunc='step'
+          separation={separation}
+          textLayout={textalign}
+
+        />
+      </Suspense>
+
     </div>
   );
 };

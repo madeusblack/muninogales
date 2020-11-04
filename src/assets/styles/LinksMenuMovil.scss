@@ -1,26 +1,40 @@
-$base-color:rgb(43,192,22);
-
+/* Position and sizing of burger button */
+:root {
+    --base-color:#28abb9 ;
+    --font-color:#ffffff;
+    --hover-color:#137b86;
+  }
+  
 .dropdown 
 {
     position: relative;
     display: inline-block;
     transition: 450ms;
-    color:white;
+
+    color:var(--font-color);
 }
 .dropdown-content 
 {
     display: none;
     position: absolute;
-    opacity: 0.9;
-    color:white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown-content a {
-  color: white;
-  padding: 0.5em;
-  background-color: $base-color;
+
+    color:var(--font-color);
+    background-color:var(--hover-color);
 
 }
+.dropdown-content a {
+  color: var(--font-color);;
+  padding: 0.5em;
+  z-index: 1;
+  text-decoration: none;
+  background-color:var(--base-color);
+
+}
+.dropdown-content a:hover{
+
+    background-color:var(--hover-color);
+  
+  }
 .dropdown:hover .dropdown-content 
 {
     display: flex;

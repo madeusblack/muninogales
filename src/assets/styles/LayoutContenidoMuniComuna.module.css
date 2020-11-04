@@ -1,0 +1,163 @@
+.muniContainer{
+  display: grid;
+  justify-content: center;
+  padding: 0 0 4em 1em;
+  color: black;
+  grid-template-columns: 40% 60%;
+}
+.muniContainer p{
+  line-height: 2;
+}
+.muniContainer h3{
+  line-height: 2;
+}
+
+.imgMunicipalidad{
+  width: 50vw;
+  height: 60vh;
+  grid-row: span 2;
+  padding: 0;
+  margin: 2em 0 0 2em;
+  border-radius: 22px;
+  -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+}
+.muniTitle{
+  height: 1.3em;
+  color:#F60;
+  border-bottom: 1px solid lightgray;
+}
+.bottomParraph{
+  grid-column: span 2;
+  padding-right: 10em;
+}
+.grupoConsejales{
+  display: grid;
+  color: black;
+  grid-template-columns: 33% 33% 33%;
+  row-gap: 1em;
+}
+.contenedorConcejal{
+  display: flex;
+  font-weight: bolder;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorConcejal img{
+  border-radius: 22px;
+  -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+}
+.containerAlcaldesa{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cuentaPublicaSubCont{
+  grid-column: span 2;
+  display: flex;
+  width: 100%;
+
+  padding: 1em;
+  justify-content: space-evenly ;
+}
+.cuentaPublicaSubCont img,.pdfImg{
+  width: 2.5em;
+  padding: 0.5em;
+}
+.cuentaPublicaSubCont a,.escalafonPdf{
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  color: black;
+  border-radius: .235rem;
+  margin:0.5em;
+  transition: 300ms;
+  text-decoration: none;
+  border: 1px solid black;
+  align-items: center;
+}
+.cuentaPublicaSubCont a:hover, .escalafonPdf:hover{
+  background-color: darkgray;
+  text-decoration: underline;
+}
+.escalafonPdf{
+  width: 10em;
+}
+.cuentaPublicaMainContainer{
+  grid-column: span 2;
+  display: grid;
+  justify-content: space-evenly;
+  padding: 2em;
+  row-gap: 1em;
+  grid-template-columns: repeat(3,5vw);
+}
+.cuentaPublicaMainContainer img{
+  height: 7vh;
+
+}
+.cuentaPublicaMainContainer a{
+  border: 1px solid black;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: 450ms;
+  border-radius: 1.335rem;  
+}
+.cuentaPublicaMainContainer a:hover{
+  background-color: darkgray; 
+  text-decoration: underline;
+
+}
+.tablaCenso{
+  font-weight: bolder;
+  text-align: center;
+}
+.tablaCenso td{
+  background-color: lightpink;
+  border-radius: .235rem;
+}
+.tablaCenso th{
+  background-color: rgb(69, 252, 115);
+
+}
+.inicial{
+  text-align: start;
+}
+#enBlanco{
+  background-color: white;
+}
+.alcaldesa{
+  width: 20vw;
+  grid-row: span 2;
+  padding: 0;
+  margin: 2em 0 0 2em;
+  border-radius: 22px;
+  -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);}
+.escalafonContainer{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .grupoConsejales{
+  display: flex;
+  flex-direction: column;
+  }
+  .cuentaPublicaMainContainer{
+    display: grid;
+    grid-template-columns: 32vw 32vw;
+    column-gap: 4vw;
+  }
+  .muniContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .imgMunicipalidad{
+    width: 98%;
+  }
+}

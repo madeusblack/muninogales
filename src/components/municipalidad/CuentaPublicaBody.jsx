@@ -11,12 +11,12 @@ import Cuenta2015 from '../../assets/static/pdf/cuenta publica/cp15.pdf';
 import Cuenta2014 from '../../assets/static/pdf/cuenta publica/cp14.pdf';
 import Cuenta2013 from '../../assets/static/pdf/cuenta publica/cp13.pdf';
 
-import '../../assets/styles/LayoutContenidoMuniComuna.scss';
+import styles from '../../assets/styles/LayoutContenidoMuniComuna.module.css';
 
 const CuentaPublicaBody = () => (
-  <div className='muniContainer'>
-    <h1 className='muniTitle'>CUENTA PUBLICA</h1>
-    <img className='imgMunicipalidad' src={Cuenta} alt='' />
+  <div className={styles.muniContainer}>
+    <h1 className={styles.muniTitle}>CUENTA PUBLICA</h1>
+    <img className={styles.imgMunicipalidad} src={Cuenta} alt='' />
 
     <h3>
       Apreciados vecinas y vecinos,
@@ -27,7 +27,7 @@ const CuentaPublicaBody = () => (
       Alcaldesa
       Municipalidad de Nogales
     </h3>
-    <div className='cuentaPublicaMainContainer'>
+    <div className={styles.cuentaPublicaMainContainer}>
       <a name='2019' href={Cuenta2019}>
         <img src={pdfImg} alt='' />
         2019
