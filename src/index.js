@@ -129,6 +129,27 @@ const initialState = {
       'etiquetas': [],
       'audios': [],
     },
+    {
+      'id': 8,
+      'title': 'Escuela Ulda Aracena celebrará centenario, en medio de una pandemia',
+      'date': 'Noviembre 6, 2020',
+      'type': 'galery',
+      'contenido': [
+        'En este mes de noviembre la Escuela municipal Ulda Aracena González cumple 100 años de trayectoria, educando a estudiantes de la comuna de Nogales.',
+        'A través de diversas actividades y de manera online la Escuela celebrará este Centenario con bastante alegría y entusiasmo por parte de toda la comunidad educativa de la Escuela. Para ello, la Dirección y el equipo de gestión del establecimiento han querido realizar alianzas virtuales, se utiliza el Programa online “Together at home” transmitido a través de Facebook live, los martes y jueves a las 17:30,  para mantener un vínculo con las familias, los estudiantes y todos quienes quieran conectarse desde sus casas. Todas las semanas tendrán invitados especiales que recordarán el vínculo que tienen con la Escuela.',
+        'Además, se preparó una producción audiovisual para festejar el cumpleaños junto a la comunidad, mientras los docentes continúan trabajando para mantener viva la tradición de la Escuela que es Educar con cariño, tal como lo dice su himno institucional.',
+        'A través de la recolección de información sobre la Escuela, se ha podido reconstituir algo de su historia, como por ejemplo el primer nombre de la institución; escuela N° 25, luego Escuela N° 34 República del Ecuador, posteriormente fue llamada Escuela FN – 203 y en la actualidad se llama Escuela Ulda Aracena González.',
+        'La Dirección y el equipo de gestión convocaron a las familias a participar del programa together at home, en dónde se realizarán entrevistas con anécdotas, con la historia de la Srta. Ulda Aracena González y por qué la escuela lleva su nombre.',
+        'La Directora Karen Sepúlveda Córdova nos comentó que se siente muy emocionada, porque creo que es una experiencia no creo que se vuelva a repetir y es una experiencia muy positiva, con desafíos personales y profesionales por abordar y metas pedagógicas que cumplir y metas institucionales, por lo tanto, asumir este cargo y en esta instancia que se me da la posibilidad, encuentro que es un regalo de la vida.',
+        'Queremos dar a conocer a la comunidad de Nogales quienes somos como Escuela y estos 100 años transfiriendo en un mes de aniversario, tenemos actividades programadas para todo el mes y semanalmente, instancias online y no online, desde acá de la Escuela, incorporando actividades que recorren lo que es la historia  y la tradición de lo que ha sido la Escuela Ulda Aracena.',
+        'Del mismo modo, el Director del Daem Hernán Alarcón “quiso saludar afectuosamente a la Escuela Ulda Aracena González en su Centenario, a toda la comunidad educativa, a los que fueron creando este colegio desde sus inicios y a los que hoy día lo han ido consolidando. A todos y cada uno de ellos, un abrazo y en especial a los estudiantes que le dan vida y la forma  y que es la razón de ser de nuestro trabajo cotidiano.',
+        'Un feliz Aniversario y que estos 100 años nos sirvan para seguir avanzando y consolidando  la educación municipal de Nogales”.',
+      ],
+      'miniatura': 'uldaCentenario',
+      'imagenesPost': ['uldaCentenario'],
+      'etiquetas': [],
+      'audios': [],
+    },
 
   ],
 };
