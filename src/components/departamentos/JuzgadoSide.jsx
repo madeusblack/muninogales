@@ -4,7 +4,7 @@ import styles from '../../assets/styles/JuzgadoSide.module.css';
 const JuzgadoSide = () => (
   <div className={styles.juzgadoSideContainer}>
     <h3 className={styles.juzgadoTitle}>Informaciones</h3>
-    <h4 className={styles.juzgadoInfoa}>Horario: Lunes a Viernes de 8:30 a 12:00 horas.</h4>
+    <h4 className={styles.juzgadoInfoa}>Horario: Lunes a Viernes de 8:30 a 14:00 horas.</h4>
     <h4 className={styles.juzgadoInfob}>
       Contacto:
       <a className={styles.linkJuzgado} href='mailto:juzgado@nogales.cl'> juzgado@muninogales.cl</a>

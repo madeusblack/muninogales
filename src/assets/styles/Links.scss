@@ -1,10 +1,8 @@
 .linksTitle{
-  background: rgb(94,91,255);
-  background: linear-gradient(90deg, rgba(94,91,255,1) 0%, rgba(186,255,250,1) 100%);  color: white;
-  font-weight: lighter;
+  background: linear-gradient(90deg, rgb(39, 35, 255) 0%, rgba(186,255,250,0) 70%);  
+  color: white;
   padding: 0.3em;
-  height: 1.2em;
-  border-radius: .25rem;
+  height: 1.3em;
   grid-column: span 3;
 }
 .linksContainer{

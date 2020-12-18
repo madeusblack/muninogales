@@ -12,67 +12,6 @@ const initialState = {
 
     {
       'id': 1,
-      'title': 'Municipalidad entregó subvención a Comité de Vivienda Los Jardines de Nogales',
-      'date': 'Septiembre 14, 2020',
-      'contenido': [
-        'La Alcaldesa Margarita Osorio, la Directora de Adm. y Finanzas, hicieron efectiva la entrega de un cheque por la suma de 5 millones de pesos a la directiva del  comité de Vivienda Los Jardines de Nogales. Con ese monto y el ahorro de los socios y socias de esa agrupación, los vecinos podrán habilitar panderetas en sus futuras casas, proyecto habitacional que beneficiará a 140 familias de la comuna. ',
-        'La Jefa Comunal se mostró muy contenta con este aporte que permitirá a los vecinos construir este cierre perimetral a cada vivienda, lo que fue posible gracias a una subvención municipal.',
-        'Las dirigentes agradecieron el aporte de la administración municipal, lo que les permitirá tener una mejor calidad de vida y privacidad.',
-      ],
-      'miniatura': 'entregasubsidiocierre',
-      'imagenesPost': ['entregasubsidiocierre'],
-      'etiquetas': [],
-      'audios': [],
-    },
-    {
-      'id': 2,
-      'title': 'Vecinos de la Población La Unión contarán con flamante sede social',
-      'date': 'Septiembre 14, 2020',
-      'contenido': [
-        'Con la presencia de la Alcaldesa Margartita Osorio y las dirigentes de la JJVV La Unión se desarrolló este lunes la colocación de la primera piedra del proyecto de construcción de la sede social del sector, que no contaba con ese equipamiento comunitario. Se trata de un proyecto postulado por el municipio y financiado por el fondo FRIL del Gobierno Regional de Valparaíso, el que asciende a 77 millones de pesos y que permitirá a los vecinos contar con un espacio de 120 metros cuadrados, que contempla un amplio salón, cocina y servicios higiénicos para damas y varones y personas con capacidades diferentes. Se espera que la obra esté entregada a los vecinos a fines de este 2020.',
-      ],
-      'miniatura': 'sedeunion',
-      'imagenesPost': ['sedeunion'],
-      'etiquetas': [],
-      'audios': [],
-    },
-    {
-      'id': 3,
-      'title': 'Estudiantes de Pre Kínder Municipales reciben set RINJU de equipamiento infantil, para el juego y la estimulación en sus casas',
-      'date': 'Septiembre 22, 2020',
-      'contenido': [
-        'El martes 22 de septiembre se realizó la entrega del SET RINJU para los 92 niños y niñas de los niveles de transición 1 (NT1) de los establecimientos educacionales municipalizados de la comuna de Nogales. La actividad comenzó a eso de las 11:00 en las dependencias de la Sala Cuna La Peña.',
-        'Respetando los protocolos internos de higiene y seguridad para prevenir contagios por COVID-19 a la actividad asistieron la Alcaldesa Margarita Osorio, el Seremi de Desarrollo Social Ricardo Figueroa, el Gobernador de Quillota Iván Cisternas, el Director del Departamento de Educación de Nogales Hernán Alarcón, los Directores de los cuatro escuelas municipales, docentes y apoderados, etc.',
-        'La Municipalidad de Nogales a través de su Departamento de Educación en conjunto con el Ministerio de Desarrollo Social y en unión con el Programa Chile Crece Contigo, realizaron la entrega formal de la Caja RINJU, que consiste en un equipamiento infantil para el juego y la estimulación de los pequeños estudiantes de Nivel de transición NT1.',
-        'El RINJU es un espacio especialmente diseñado que permite a los niños y niñas jugar, desarrollar su imaginación y mostrar su forma de ver el mundo a sus padres de manera entretenida y lúdica.  El RINJU busca mejorar las condiciones de equipamiento infantil para el juego y la estimulación en hogares de los niños y niñas que forman parte de nuestros establecimientos (Escuela La Peña, Escuela Ulda Aracena, Colegio El Melón y Liceo Juan Rusque Portal).',
-        'La Alcaldesa Margarita Osorio nos comentó qué, “estoy muy contenta que hayan elegido a nuestra comuna, para haber inaugurado este Rincón del Juego, que digo yo, que es para nuestros niños que lo han pasado mal. Nuestros niños son los más importante de esta Alcaldesa en nuestra comuna y con estos elementos que traen las cajas, ya van a tener con qué entretenerse”.',
-        'El Seremi de Desarrollo Social mencionó que, hemos realizado la entrega de estos Rincón del Juego, que además es un elemento lúdico que nuestro Gobierno está entregando en toda la Región de Valparaíso, acá en la provincia de Quillota estamos entregando 1083 Rincones del juego, en la comuna de Nogales son 92 y acá en la Escuela La Peña 12 y eso permite que nosotros demos una enorme relevancia a la Educación Parvularia”.',
-        'Así mismo el Gobernador de la Provincia Iván Cisternas nos señaló que es una muy buena noticia para los niños principalmente, este proyecto importante; son 1083 set de juegos de aprendizaje que se reparten a esa misma cantidad de familias en la Provincia de Quillota y en particular quisimos hacerlo acá con el Seremi de Desarrollo Social, la Alcaldesa Margarita Osorio y en la comuna de nogales, en el sector de la Peña, en una muy linda escuela y estoy feliz de compartir momentos con algunos niños con la distancia y con todos los resguardos necesarios.',
-      ],
-      'miniatura': 'entregarinju',
-      'imagenesPost': ['entregarinju', 'entregarinju2', 'entregarinju3', 'entregarinju4', 'entregarinju5', 'entregarinju6', 'entregarinju7', 'entregarinju8', 'entregarinju9'],
-      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro', 'Seremi V región, Ricardo Figueroa Ayala'],
-      'audios': ['entregarinjualcaldesa', 'entregarinjuseremi'],
-    },
-    {
-      'id': 4,
-      'title': 'En Octubre se Inician trabajos de recambio de luminarias a tecnología LED para Nogales y El Melón.',
-      'date': 'Septiembre 30, 2020',
-      'contenido': [
-        'En sesión de Concejo Municipal de este miércoles 30 de septiembre se aprobó la adjudicación del proyecto REPOSICIÓN DE LUMINARIAS PÚBLICAS DE LA COMUNA DE NOGALES, proyecto que fue postulado por el municipio y aprobado por el Gobierno Regional de Valparaíso por la suma de Mil millones de pesos, obras que se comenzarán a ejecutar en el mes de octubre.',
-        'La Alcaldesa Margarita Osorio se mostró  muy contenta con la aprobación de este proyecto, ya que las nuevas luminarias permitirán brindar una mayor percepción de seguridad a los vecinos y vecinas del sector urbano de Nogales y El Melón, y de este modo hacer frente a la delincuencia.',
-        'En total son 1693 luminarias que se habilitarán en la comuna, proyecto que era muy necesario para la comunidad, debido a los reclamos permanentes de los vecinos por las constantes fallas de los actuales focos en la zona urbana.',
-        'La empresa que se adjudicó los trabajos es Representaciones Offersuite Chile Limitada la que tiene un plazo de 90 días para la ejecución del proyecto.',
-        'La Jefa comunal precisó que la Secplac del municipio ya se encuentra trabajando en un nuevo proyecto para recambio de las luminarias LED para todo el sector rural de la comuna.',
-        'Finalmente la Alcaldesa agradeció al concejo municipal por aprobar la licitación y especialmente a los dirigentes de las organizaciones funcionales y territoriales de la comuna, los que siempre la apoyaron en este proyecto desde que fueron a defenderlo a la sesión del pleno del Gobierno Regional el año pasado.',
-      ],
-      'miniatura': 'luminaria',
-      'imagenesPost': ['luminaria'],
-      'etiquetas': [],
-      'audios': [],
-    },
-    {
-      'id': 5,
       'title': 'Autoridades incian ejecución del programa Quiero Mi Barrio en El Polígono',
       'date': 'Octubre 05, 2020',
       'contenido': [
@@ -88,7 +27,7 @@ const initialState = {
       'audios': [],
     },
     {
-      'id': 6,
+      'id': 2,
       'title': 'Club deportivo Estrella Roja de El Melón contará con flamante sede social',
       'date': 'Octubre 15, 2020',
       'contenido': [
@@ -101,7 +40,7 @@ const initialState = {
       'audios': [],
     },
     {
-      'id': 7,
+      'id': 3,
       'title': 'Galería de fotos hallowen 2020',
       'date': 'Noviembre 2, 2020',
       'type': 'galery',
@@ -114,7 +53,7 @@ const initialState = {
       'audios': [],
     },
     {
-      'id': 8,
+      'id': 4,
       'title': 'Ya comenzó proceso de recambio de luminarias Led en la comuna',
       'date': 'Noviembre 3, 2020',
       'contenido': [
@@ -130,7 +69,7 @@ const initialState = {
       'audios': [],
     },
     {
-      'id': 8,
+      'id': 5,
       'title': 'Escuela Ulda Aracena celebrará centenario, en medio de una pandemia',
       'date': 'Noviembre 6, 2020',
       'type': 'galery',
@@ -147,6 +86,58 @@ const initialState = {
       ],
       'miniatura': 'uldaCentenario',
       'imagenesPost': ['uldaCentenario'],
+      'etiquetas': [],
+      'audios': [],
+    },
+    {
+      'id': 6,
+      'title': 'Liceo Juan Rusque Portal celebró Semana De La Ciencia con excelentes exponentes regionales de la ciencia y la física en conversatorios comunales',
+      'date': 'Noviembre 23, 2020',
+      'type': 'galery',
+      'contenido': [
+        'Para celebrar la semana de la Ciencia, el miércoles pasado,  los docentes del área de Ciencias del Liceo municipal Juan Rusque Portal realizaron un Conversatorio llamado “Experiencias y proyecciones de iniciativas científicas escolares en la comuna de Nogales”, en el cual participaron grandes exponentes del área científica regional y comunal.',
+        'Entre los participantes, estuvieron presentes; el Dr. Mauricio Vergara Castro Investigador Laboratorio Cultivo Células Animales, perteneciente a la Escuela Ingeniería Bioquímica de la Pontificia Universidad Católica de Valparaíso, Jorge Alfredo Gonzales Moya Profesor de enseñanza Básica – Profesor de Historia, Magíster en Historia, con Doctorado en ciencias políticas públicas, además de ser el Director de Educación Futuro y Presidente Academia Diálogo, Rodrigo Huilipang Coordinador Ejecutivo Proyecto Asociativo Regional Explora y Sergio Balbontín Coordinador vinculación  con el medio de la Universidad de Valparaíso y profesor universidad de la misma Universidad.',
+        'Por nuestra parte comunal, el Liceo Juan Rusque Portal quiso invitar a los siguientes colegios con sus respectivos docentes y estudiantes que participan activamente en el área de la Ciencia. ',
+        `- Colegio El Melón:  Profesor Jaime Guerra;  Alumno: Broderick Carrasco
+        - Escuela Ulda Aracena: Profesora; María Olga Díaz Olmos, Alumno: Matías Plaza 
+        - Escuela La Peña: Profesora; Gabriela Tapia Fernández, Alumna: Melani Collao Santana
+        - Liceo Juan Rusque Portal Profesor; Patricio Vásquez Estay, Alumna: Constanza Figueroa Zapata.
+        `,
+        'La actividad estuvo enmarcada en la semana de la Ciencia y en el Conversatorio se hablaron diferentes temas, en dónde cada estudiante y docente invitado exponían sus avances y proyectos referentes a la Ciencia y lo que realizan para poder lograrla en cada establecimiento educacional, para ello y como moderadora del Conversatorio estaba presente la docente de ciencias Daniela Ibaceta, quién entregaba la palabra al momento de las preguntas por parte de los invitados regionales.',
+        'Es importante destacar que el sello del Liceo Municipal Juan Rusque Portal es Científico, por lo que este establecimiento educacional junto a sus docentes forman estudiantes con intereses en múltiples áreas pero se enfocan en la ciencia, tal es el caso que crearon la Academia comunal de Entropía a cargo del docente Patricio Vásquez Estay, en dónde cerca de 11 estudiantes han logrado competir con el proyecto investigación sobre la identificación de las propiedades antibacterianas en plantas de la localidad de Nogales en diferentes Ferias de Ciencia a nivel regional y Nacional.',
+      ],
+      'miniatura': 'semanaCiencia',
+      'imagenesPost': ['semanaCiencia'],
+      'etiquetas': [],
+      'audios': [],
+    },
+    {
+      'id': 7,
+      'title': 'Alcaldesa Margarita Osorio da el vamos a campaña para mejorar el Hospital Mario Sánchez de La Calera      ',
+      'date': 'Noviembre 27, 2020',
+      'contenido': [
+        'Problemas en el sistema eléctrico e iluminación, deterioro de la pintura exterior e interior, baños de usuarios y funcionarios en malas condiciones, falta de hormigón en el sector de estacionamiento de urgencia y en el patio interior, necesidad de recambio de ventanas, fueron algunas de las falencias que pudo constatar la Alcaldesa de Nogales Margarita Osorio, en una visita realizada ayer al Hospital Doctor Mario Sánchez de la Calera, tras una reunión sostenida con la Directora de ese recinto, Verónica Morales y funcionarios del Servicio de Salud Viña del Mar- Quillota.',
+        'La Jefa comunal había realizado un llamado al propio Ministro de Salud para mejorar el recinto asistencial, donde se atienden los vecinos y vecinas de Nogales, El Melón, La Calera e Hijuelas. Y en la reunión, la Alcaldesa explicó a la Directora del hospital que ya tiene conversado la donación de privados para realizar mejoras al centro hospitalario.',
+        'La Alcaldesa, junto a personal del servicio de salud, pudo constatar las deficiencias de infraestructura del recinto, tomando nota de cada una de ellas, entre las que también se suman la necesidad de mejoras en la cocina, camarines de los funcionarios, reja exterior y paisajismo.',
+        'Margarita Osorio explicó que “en esta visita recorrimos todo el recinto y pude apreciar lo precario del edificio en cuanto a servicios higiénicos, sistema eléctrico, pintura interior y exterior, falta de hormigón en el interior, deficiencias en los baños de los funcionarios, mejoras en la cocina, el mal estado de la morgue...en fin, una gran cantidad de falencias que como Alcaldesa tome nota, y solicitaré el apoyo de la empresa privada y la comunidad para que mejoremos el hospital que atiende a los vecinos de Nogales, El Melón, Hijuelas y La Calera”, dijo.',
+        'Además indicó que “no pueden los funcionarios del hospital trabajar en esas precarias condiciones y tampoco los usuarios que no tienen los recursos para acceder a una atención particular. El Hospital ha tenido mejoras por parte del Servicio de Salud, pero falta mucho por hacer”, precisó.',
+        'La Alcaldesa indicó que espera el apoyo de la mayor cantidad de empresas para realizar mejoras progresivamente a la infraestructura, reiterando el llamado de toda la comunidad a colaborar con el hospital Doctor Mario Sánchez.',
+      ],
+      'miniatura': 'hospital',
+      'imagenesPost': ['hospital', 'hospital2', 'hospital3', 'hospital4'],
+      'etiquetas': ['Alcaldesa Nogales, Margarita Osorio Pizarro'],
+      'audios': ['hospitalAlcaldesa'],
+    },
+    {
+      'id': 8,
+      'title': 'Celebración de Navidad Nogales - El Melón 2020',
+      'date': 'Diciembre 9, 2020',
+      'type': 'galery',
+      'contenido': [
+        '',
+      ],
+      'miniatura': 'navidad',
+      'imagenesPost': ['navidad', 'navidad2', 'navidad3', 'navidad4', 'navidad5', 'navidad6', 'navidad7', 'navidad8', 'navidad9', 'navidad10', 'navidad11', 'navidad12', 'navidad13', 'navidad14', 'navidad15', 'navidad16', 'navidad17'],
       'etiquetas': [],
       'audios': [],
     },

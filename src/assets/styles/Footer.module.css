@@ -1,7 +1,5 @@
 :root {
-    --base-color:#28abb9 ;
     --font-color:#ffffff;
-    --hover-color:#137b86;
   }
 
 .footerMunicipalidad{
@@ -23,7 +21,7 @@
     color:var(--font-color);
     font-weight: bolder;
     align-items: flex-end;
-    background: var(--base-color);
+    background: linear-gradient(180deg, rgba(72,72,95,0) 0%, #28abb9 8%);
 }
 .phone{
     text-decoration: none;
@@ -34,7 +32,7 @@
     text-decoration: underline;
 }
 .highlighted{
-    color: var(--hover-color);;
+    color: #a8ff80;
     text-decoration: none;
 }
 .highlighted:hover{

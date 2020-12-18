@@ -4,8 +4,8 @@ import styles from '../assets/styles/Footer.module.css';
 import phone from '../assets/static/footer/phone.svg';
 
 const Footer = () => {
-  const secondaryClass=`${styles.footerMunicipalidad} ${styles.secondary}`;
-  return(
+  const secondaryClass = `${styles.footerMunicipalidad} ${styles.secondary}`;
+  return (
     <div className={styles.footer}>
       <div className={styles.footerMunicipalidad}>
         <h4>MUNICIPALIDAD DE NOGALES</h4>

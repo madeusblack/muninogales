@@ -1,12 +1,7 @@
 .news{
-  background: rgb(116,113,255);
-  background: linear-gradient(90deg, rgba(116,113,255,1) 0%, rgba(186,255,250,1) 100%);  color: white;
-  border-radius: .25rem;
-  height: 1.2em;
+  background: linear-gradient(90deg, rgb(0, 99, 124) 0%, rgba(186, 255, 250, 0) 100%);  color: white;
   color: white;
-
   padding: 0.3em;
-  font-weight: lighter;
   grid-column: span 2;
 }
 .newsContainer{

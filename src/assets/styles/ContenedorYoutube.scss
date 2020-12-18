@@ -23,12 +23,10 @@ justify-content: space-evenly;
   background-color: black;
 }
 .youtubeTitle{
-  background: rgb(255,113,113);
-  background: linear-gradient(90deg, rgb(248, 38, 38) 0%, rgba(255,255,255,1) 100%);
-  color: white;
-  border-radius: .25rem;
+  background: linear-gradient(90deg, rgb(87, 255, 143) 0%, rgba(255,255,255,0) 50%);
+  color: rgb(55, 1, 109);
   padding: 0.3em;
-  margin: 3px;
+  margin-left: 5px;
   font-weight: lighter;
   grid-column: span 2;
 

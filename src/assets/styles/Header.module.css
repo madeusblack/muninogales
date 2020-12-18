@@ -4,19 +4,18 @@
     --hover-color:#137b86;
   }
 *{
-      -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    color:black;
     font-family: sans-serif;
     color:var(--font-color);
     overflow-x:hidden;
 }
 .headerContainer{
-    background:var(--base-color);
+    background: linear-gradient(180deg, rgba(40,171,185,1) 93%, rgba(72,72,95,0) 100%);
 }
 .upperHeader{
     display: grid;
@@ -64,7 +63,6 @@ html,body{
 }
 .headerLink{
     width: 100%;
-    border-radius: .32rem;
 }
 .headerLink:hover{
     -webkit-filter: brightness(110%) saturate(150%);

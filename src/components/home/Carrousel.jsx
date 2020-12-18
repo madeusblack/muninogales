@@ -4,14 +4,10 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import { Link } from 'react-router-dom';
+import laboral from '../../assets/static/carousel/afiche1920.jpg';
+import laboralwebp from '../../assets/static/carousel/afiche1920.webp';
 import phone from '../../assets/static/carousel/49.jpg';
 import phonewebp from '../../assets/static/carousel/49.webp';
-import mail from '../../assets/static/carousel/56.jpg';
-import mailwebp from '../../assets/static/carousel/56.webp';
-import tercera from '../../assets/static/carousel/114.jpg';
-import tercerawebp from '../../assets/static/carousel/114.webp';
-import cuarta from '../../assets/static/carousel/115.jpg';
-import cuartawebp from '../../assets/static/carousel/115.webp';
 import quinta from '../../assets/static/carousel/119.png';
 import sexta from '../../assets/static/carousel/120.jpg';
 import sextawebp from '../../assets/static/carousel/120.webp';
@@ -20,8 +16,6 @@ import octava from '../../assets/static/carousel/122.jpg';
 import octavawebp from '../../assets/static/carousel/122.webp';
 import novena from '../../assets/static/carousel/123.jpg';
 import novenawebp from '../../assets/static/carousel/123.webp';
-import decima from '../../assets/static/carousel/124.jpg';
-import decimawebp from '../../assets/static/carousel/124.webp';
 import decimoprimera from '../../assets/static/carousel/1.jpg';
 import decimoprimerawebp from '../../assets/static/carousel/1.webp';
 import juzgado from '../../assets/static/pdf/carousel/jpl.pdf';
@@ -33,8 +27,16 @@ import cachureos from '../../assets/static/carousel/cachureos.jpg';
 import cachureoswebp from '../../assets/static/carousel/cachureos.webp';
 import veterinaria from '../../assets/static/carousel/veterinaria.jpg';
 import veterinariawebp from '../../assets/static/carousel/veterinaria.webp';
-import deportes from '../../assets/static/carousel/deportes.jpg';
-import deporteswebp from '../../assets/static/carousel/deportes.webp';
+import atletismo from '../../assets/static/carousel/atletismo.jpg';
+import atletismowebp from '../../assets/static/carousel/atletismo.webp';
+import boxeo from '../../assets/static/carousel/boxeo.jpg';
+import boxeowebp from '../../assets/static/carousel/boxeo.webp';
+import ciclismo from '../../assets/static/carousel/ciclismo.jpg';
+import ciclismowebp from '../../assets/static/carousel/ciclismo.webp';
+import zumba from '../../assets/static/carousel/zumba.jpg';
+import zumbawebp from '../../assets/static/carousel/zumba.webp';
+import navidad from '../../assets/static/carousel/ferianavidad.jpg';
+import navidadwebp from '../../assets/static/carousel/ferianavidad.webp';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -46,14 +48,50 @@ const Carrousel = () => (
     interval={9000}
   >
     <div>
-      <a href='tel:+56981608396'>
+      <picture>
+        <source srcSet={navidadwebp} type='image/webp' />
+        <source srcSet={navidad} type='image/jpeg' />
+        <img className='image' csr={navidad} alt='' />
+      </picture>
+    </div>
+    <div>
+      <picture>
+        <source srcSet={atletismowebp} type='image/webp' />
+        <source srcSet={atletismo} type='image/jpeg' />
+        <img className='image' csr={atletismo} alt='' />
+      </picture>
+    </div>
+    <div>
+      <picture>
+        <source srcSet={ciclismowebp} type='image/webp' />
+        <source srcSet={ciclismo} type='image/jpeg' />
+        <img className='image' csr={ciclismo} alt='' />
+      </picture>
+    </div>
+    <div>
+      <picture>
+        <source srcSet={boxeowebp} type='image/webp' />
+        <source srcSet={boxeo} type='image/jpeg' />
+        <img className='image' csr={boxeo} alt='' />
+      </picture>
+    </div>
+    <div>
+      <picture>
+        <source srcSet={zumbawebp} type='image/webp' />
+        <source srcSet={zumba} type='image/jpeg' />
+        <img className='image' csr={zumba} alt='' />
+      </picture>
+    </div>
+    <div>
+      <a href='https://ferialaboralvirtualquillota.cl/' target='_blank' rel='noopener noreferrer'>
         <picture>
-          <source srcSet={deporteswebp} type='image/webp' />
-          <source srcSet={deportes} type='image/jpeg' />
-          <img className='image' csr={deportes} alt='' />
+          <source srcSet={laboralwebp} type='image/webp' />
+          <source srcSet={laboral} type='image/jpeg' />
+          <img className='image' csr={laboral} alt='' />
         </picture>
       </a>
     </div>
+
     <div>
       <picture>
         <source srcSet={veterinariawebp} type='image/webp' />
@@ -69,36 +107,6 @@ const Carrousel = () => (
           <img className='image' csr={cachureos} alt='' />
         </picture>
       </a>
-    </div>
-    <div>
-      <picture>
-        <source srcSet={decimawebp} type='image/webp' />
-        <source srcSet={decima} type='image/jpeg' />
-        <img className='image' csr={decima} alt='' />
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcSet={mailwebp} type='image/webp' />
-        <source srcSet={mail} type='image/jpeg' />
-        <img className='image' csr={mail} alt='' />
-      </picture>
-    </div>
-    <div>
-      <a href='tel:+56989014868'>
-        <picture>
-          <source srcSet={tercerawebp} type='image/webp' />
-          <source srcSet={tercera} type='image/jpeg' />
-          <img className='image' csr={tercera} alt='' />
-        </picture>
-      </a>
-    </div>
-    <div>
-      <picture>
-        <source srcSet={cuartawebp} type='image/webp' />
-        <source srcSet={cuarta} type='image/jpeg' />
-        <img className='image' csr={cuarta} alt='' />
-      </picture>
     </div>
     <div>
       <Link to='/saludCarousel'>
